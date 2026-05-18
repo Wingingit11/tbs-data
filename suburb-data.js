@@ -52,6 +52,7 @@ var SUBURB_INFO = {
 '4034': { name: 'Geebung' },
 '4035': { name: 'Albany Creek' },
 '4070': { name: 'Moggill' },
+'4074': { name: 'Bellbowrie' },
 '4101': { name: 'South Brisbane' },
 '4102': { name: 'Woolloongabba' },
 '4103': { name: 'Annerley' },
@@ -167,7 +168,8 @@ var NEIGHBOURS={
 '4064':['4059','4066','4101','4060','4068'],'4065':['4060','4061','4059','4066','4068'],
 '4066':['4064','4065','4068','4067','4101'],'4067':['4066','4068','4075','4101','4064'],
 '4068':['4066','4067','4065','4075','4069'],'4069':['4061','4068','4070','4065','4075'],
-'4070':['4069','4068','4075','4061','4077'],'4075':['4068','4067','4069','4103','4105'],
+'4070':['4069','4068','4075','4061','4074'],'4074':['4070','4069','4068','4077'],
+'4075':['4068','4067','4069','4103','4105'],
 '4076':['4077','4078','4075','4068','4069'],'4077':['4076','4078','4070','4069','4300'],
 '4078':['4077','4076','4300','4301','4070'],'4300':['4078','4077','4301','4305','4304'],
 '4301':['4300','4078','4304','4305','4306'],'4304':['4300','4301','4305','4306','4078'],
@@ -231,6 +233,8 @@ var ALL_BUSINESSES = {
 {name:"Dance Cirque n Play",category:"Children's Activities",tags:["Children's Activities","Events"],phone:"0421 210 092",website:"https://www.dancecirquenplay.com.au",rating:null,reviews:null,plan:"Premium",logo:"https://cdn.prod.website-files.com/69df2ca83d36a4a205964e4c/69f2cad10a1a7f6977e0dff7_Cirque-n-Play-logo.webp",darkLogo:false,desc:"It's not dance. It's not gymnastics. It's not just circus — it's ALL of that and more. Aerials, acrobatics, juggling and performance in a fun, safe curriculum for ages 2+. Build strength, confidence and creativity while flying through the air!",disclaimer:"Dance Cirque n Play has been nominated by locals in The Gap and verified by Trusted By Suburb as a outstanding community business."},
 {name:"Fishcreek Handyman Renovation Services",category:"Handyman",tags:["Handyman"],phone:"0403 423 419",website:"",rating:null,reviews:null,plan:"Premium",logo:"https://cdn.prod.website-files.com/69df2ca83d36a4a205964e4c/69f31d78dd3446eb84bbdf6f_361368130_111738225323554_6408417232436934384_n.jpg",darkLogo:false,desc:"Handyman, renovation and maintenance services across The Gap. Doors, furniture, light construction and general maintenance — no job too small.",disclaimer:"Fishcreek has been nominated by locals in The Gap and verified by Trusted By Suburb as a trusted community business."},
 {name:"Wyatt Automotive",category:"Mechanic",tags:["Mechanic"],phone:"07 3300 2077",website:"https://www.wyattauto.com.au/",rating:null,reviews:null,plan:"Premium",logo:"https://www.wyattauto.com.au/wp-content/uploads/2019/08/wyatt-logo.jpg",darkLogo:false,desc:"Local mechanics in The Gap since 1967. RACQ approved repairer with 52+ years experience. Log book servicing, tyres, air conditioning, roadworthy certificates and more. Pick-up and drop-off available for The Gap, Ashgrove, Bardon and Keperra."}
+],
+'4074': [
 ],
 '4060': [
 {name:"LOYLE",category:"Real Estate",tags:["Real Estate"],phone:"0417 756 280",website:"https://loyle.com.au/",rating:4.9,reviews:151,plan:"Premium",logo:"https://loyle.com.au/wp-content/uploads/2023/06/loyle-logo-svg.svg",darkLogo:false,subcategory:"Sales & Buyers Agent",desc:"Brisbane's most trusted seller's agents and property managers — putting the real back in real estate. Servicing Ashgrove, The Gap, Ferny Grove and surrounds. Offices in Ashgrove and Ferny Grove."}
