@@ -4,129 +4,121 @@
       "id": "flip-auto-20260826-001",
       "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
       "reasons": [
-        "source does not distinguish the options (correct 0.67 vs distractor 0.67) - ambiguous or unsupported"
+        "the page does not clearly state the answer (support 0.60)"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": true,
         "discriminates": false,
-        "supportCorrect": 0.67,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.72,
+        "supportCorrect": 0.6,
+        "supportDistractor": 0.17,
+        "revealSupport": 0.67,
         "notes": [
-          "source does not distinguish the options (correct 0.67 vs distractor 0.67) - ambiguous or unsupported"
+          "the page does not clearly state the answer (support 0.60)"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-002",
-      "url": "https://www.awm.gov.au/articles/encyclopedia/eternal_flame/flames_aust",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
       "reasons": [
-        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        "the page does not clearly state the answer (support 0.00)"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": true,
         "discriminates": false,
-        "supportCorrect": 1,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.79,
+        "supportCorrect": 0,
+        "supportDistractor": 0.4,
+        "revealSupport": 0.63,
         "notes": [
-          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+          "the page does not clearly state the answer (support 0.00)"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-003",
+      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
+      "reasons": [
+        "the page does not clearly state the answer (support 0.50)"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 0.5,
+        "supportDistractor": 0.4,
+        "revealSupport": 0.5,
+        "notes": [
+          "the page does not clearly state the answer (support 0.50)"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-004",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1010",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
       "reasons": [
-        "comparison page does not cover both subjects (correct 0.33, other 1.00)"
+        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": true,
         "discriminates": false,
-        "supportCorrect": 0.33,
+        "supportCorrect": 1,
         "supportDistractor": 1,
-        "revealSupport": 0.95,
+        "revealSupport": 0.82,
         "notes": [
-          "comparison page does not cover both subjects (correct 0.33, other 1.00)"
+          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-005",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2816",
+      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
       "reasons": [
-        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        "the page does not clearly state the answer (support 0.50)"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": true,
         "discriminates": false,
-        "supportCorrect": 1,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.95,
+        "supportCorrect": 0.5,
+        "supportDistractor": 0.4,
+        "revealSupport": 0.53,
         "notes": [
-          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+          "the page does not clearly state the answer (support 0.50)"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-006",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2180",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
       "reasons": [
-        "the key date 1838 never appears near \"station\" on the page"
+        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
-        "proximityOk": false,
-        "discriminates": true,
+        "proximityOk": true,
+        "discriminates": false,
         "supportCorrect": 1,
-        "supportDistractor": 0.5,
-        "revealSupport": 0.67,
+        "supportDistractor": 1,
+        "revealSupport": 0.78,
         "notes": [
-          "the key date 1838 never appears near \"station\" on the page"
+          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-007",
-      "url": "https://en.wikipedia.org/wiki/Tattersalls_Club",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
       "reasons": [
-        "host not on the authoritative allow-list: en.wikipedia.org"
-      ],
-      "detail": null
-    },
-    {
-      "id": "flip-auto-20260826-008",
-      "url": "https://www.slq.qld.gov.au/blog/james-birrell-queensland-architect",
-      "reasons": [
-        "source does not distinguish the options (correct 0.83 vs distractor 0.67) - ambiguous or unsupported"
-      ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 0.83,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.67,
-        "notes": [
-          "source does not distinguish the options (correct 0.83 vs distractor 0.67) - ambiguous or unsupported"
-        ]
-      }
-    },
-    {
-      "id": "flip-auto-20260826-010",
-      "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
-      "reasons": [
-        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
       ],
       "detail": {
         "ok": false,
@@ -134,18 +126,18 @@
         "proximityOk": true,
         "discriminates": false,
         "supportCorrect": 1,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.94,
+        "supportDistractor": 1,
+        "revealSupport": 0.78,
         "notes": [
-          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
         ]
       }
     },
     {
-      "id": "flip-auto-20260826-012",
-      "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+      "id": "flip-auto-20260826-009",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
       "reasons": [
-        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
       ],
       "detail": {
         "ok": false,
@@ -153,10 +145,31 @@
         "proximityOk": true,
         "discriminates": false,
         "supportCorrect": 1,
-        "supportDistractor": 0.67,
-        "revealSupport": 0.94,
+        "supportDistractor": 1,
+        "revealSupport": 0.83,
         "notes": [
-          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-020",
+      "url": "https://www.slq.qld.gov.au/blog/queensland-place-histories-kelvin-grove",
+      "reasons": [
+        "the key date 1864 never appears near \"scotland\" on the page",
+        "the page does not clearly state the answer (support 0.67)"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": false,
+        "supportCorrect": 0.67,
+        "supportDistractor": 0,
+        "revealSupport": 0.76,
+        "notes": [
+          "the key date 1864 never appears near \"scotland\" on the page",
+          "the page does not clearly state the answer (support 0.67)"
         ]
       }
     }

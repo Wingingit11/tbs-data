@@ -1,30 +1,30 @@
 {
   "_note": "CANDIDATES - unverified. Must pass flip-verify-sources.js then flip-ingest.js.",
-  "generatedAt": "2026-08-26T06:15:37.526Z",
+  "generatedAt": "2026-08-26T06:41:34.588Z",
   "bank": [
     {
       "id": "flip-auto-20260826-001",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "old-windmill-treadmill-punishment",
-      "prompt": "Brisbane's Old Windmill was built to grind grain using wind power — but it barely caught a breeze. What did authorities use instead to keep the millstones turning?",
+      "topicKey": "old-windmill-windless-treadmill",
+      "prompt": "Brisbane's Old Windmill was built on a hilltop in 1828 to grind grain. Why did convicts end up powering a treadmill inside it?",
       "options": [
         {
           "id": "a",
-          "label": "Convicts working a treadmill"
+          "label": "The hilltop location was too windless to turn the sails"
         },
         {
           "id": "b",
-          "label": "A horse-drawn capstan"
+          "label": "The sails were destroyed in a storm soon after opening"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Built in a windless spot, the mill never worked properly. Convicts were forced onto a treadmill — sometimes in leg irons — for up to 14 hours straight to grind the colony's grain.",
+      "reveal": "Poorly sited in a windless spot, the mill's sails couldn't turn. Convicts were forced to work a treadmill — sometimes in leg irons for 14 hours — to keep the millstones grinding.",
       "source": {
         "title": "Old Windmill Tower | State Library of Queensland",
         "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
         "publisher": "State Library of Queensland",
-        "verifierNote": "Page states 'it is located in a somewhat windless location, it quickly became a place of punishment, with convicts being put to work on a treadmill to keep the arms and heavy millstone turning' and that convicts wore 8kg leg irons for 14 hours."
+        "verifierNote": "Page states it 'is located in a somewhat windless location, it quickly became a place of punishment, with convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
@@ -32,394 +32,668 @@
       "tags": [
         "old-windmill",
         "spring-hill",
-        "convict-history",
+        "convict",
         "treadmill",
-        "landmark"
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-002",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "anzac-square-first-eternal-flame-australia",
-      "prompt": "The Eternal Flame burning inside the Shrine of Remembrance at Brisbane's Anzac Square holds a rare national distinction. What is it?",
+      "topicKey": "skyneedle-hairdresser-saved-tokyo",
+      "prompt": "After World Expo '88 closed, what was originally planned for Brisbane's iconic Skyneedle tower?",
       "options": [
         {
           "id": "a",
-          "label": "It was the first eternal flame lit in Australia"
+          "label": "Relocation to Tokyo Disneyland"
         },
         {
           "id": "b",
-          "label": "It was the first war memorial built in Queensland"
+          "label": "Permanent installation at South Bank Parklands"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Lit on Armistice Day, 11 November 1930, the flame at Anzac Square was Australia's first eternal flame — beating Melbourne's Shrine of Remembrance by 24 years.",
+      "reveal": "The 88 m Skyneedle was earmarked for Tokyo Disneyland after Expo closed. Brisbane hairdresser Stefan Ackerie bought it instead and moved it to his South Brisbane HQ, keeping it in the city.",
       "source": {
-        "title": "Eternal flames in Australia | Australian War Memorial",
-        "url": "https://www.awm.gov.au/articles/encyclopedia/eternal_flame/flames_aust",
-        "publisher": "Australian War Memorial",
-        "verifierNote": "Page states 'Australia's first eternal flame was lit in Brisbane on Armistice Day in 1930' and that Melbourne's second eternal flame was lit by the Queen in 1954."
+        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the Skyneedle was purchased by Steve Ackerie who moved it from Southbank to his Stefan corporate HQ; separate source (QSA blog) confirms it was originally planned for Tokyo Disneyland."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "anzac-square",
-        "shrine-of-remembrance",
-        "eternal-flame",
-        "brisbane-cbd",
-        "landmark"
+        "skyneedle",
+        "expo-88",
+        "south-brisbane",
+        "stefan-ackerie",
+        "sculpture"
       ]
     },
     {
       "id": "flip-auto-20260826-003",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "toohey-forest-park-settlement-vs-soldiers-settlement",
-      "prompt": "Which came first at the site of Toohey Forest Park — the Toohey family settling their cattle property, or the Commonwealth acquiring part of the land for a post-war Soldiers Settlement?",
+      "category": "landmark_oddity",
+      "topicKey": "old-windmill-windless-treadmill",
+      "prompt": "Brisbane's Old Windmill was built in 1828 on a hilltop to grind grain. Why did convicts end up powering a treadmill inside instead of the wind doing the work?",
       "options": [
         {
           "id": "a",
-          "label": "The Toohey family settling Mount Galway"
+          "label": "The hilltop was too windless to turn the sails"
         },
         {
           "id": "b",
-          "label": "The Commonwealth's post-war Soldiers Settlement"
+          "label": "The millstones were too heavy for any wind-powered mechanism"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The Toohey family occupied 'Mount Galway' from 1872. The Commonwealth only acquired the first section of the park in 1919, for a proposed WWI Soldiers Settlement.",
+      "reveal": "Poorly sited in a near-windless spot, the sails couldn't turn reliably. Convicts were forced onto a treadmill — sometimes wearing 8 kg leg irons for 14 hours — to keep the millstones grinding.",
       "source": {
-        "title": "Toohey Forest Park | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'the Toohey family from 1872 to 1946' and 'The Commonwealth acquired the first section of the park in 1919 for a proposed post World War 1 Soldiers Settlement.'"
+        "title": "Old Windmill Tower | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the windmill 'is located in a somewhat windless location' and 'convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "toohey-forest",
-        "nathan",
-        "land-history",
-        "world-war-one"
+        "old-windmill",
+        "spring-hill",
+        "convict",
+        "treadmill",
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-004",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "kedron-park-hotel-opening-vs-brick-extension",
-      "prompt": "Which came first at the Kedron Park Hotel in Wooloowin — the hotel opening its doors, or the brick extension added along Lutwyche Road?",
+      "category": "landmark_oddity",
+      "topicKey": "skyneedle-hairdresser-purchased",
+      "prompt": "When World Expo '88 ended and its sculptures were sold off, who bought the 88-metre Skyneedle and kept it in South Brisbane?",
       "options": [
         {
           "id": "a",
-          "label": "The hotel opening its doors"
+          "label": "A prominent Brisbane hairdresser"
         },
         {
           "id": "b",
-          "label": "The Lutwyche Road brick extension"
+          "label": "Brisbane City Council"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The Kedron Park Hotel was built in 1881 for owner Frederick Morris. The brick extension on the Lutwyche Road frontage wasn't added until 1920, under James Cavill's ownership.",
+      "reveal": "After Expo closed, all sculptures went on public sale. Hairdresser Steve Ackerie purchased the Skyneedle and relocated it from Southbank to his Stefan corporate HQ, saving it for Brisbane.",
       "source": {
-        "title": "Kedron Park Hotel | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1010",
+        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'The Kedron Park Hotel was built in 1881' and 'Under ownership of the James Cavill a brick extension was added on the Lutwyche Rd frontage in 1920.'"
+        "verifierNote": "Page states: 'Skyneedle was purchased by prominent Brisbane businessman and hairdresser Steve Ackerie who moved it from Southbank to his Stefan corporate headquarters at 16 Edmondstone Street.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "kedron-park-hotel",
-        "wooloowin",
-        "pub-history",
-        "kedron"
+        "skyneedle",
+        "expo-88",
+        "south-brisbane",
+        "stefan-ackerie",
+        "sculpture"
       ]
     },
     {
       "id": "flip-auto-20260826-005",
       "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "sunnybank-dutch-houses-concrete",
-      "prompt": "The heritage-listed 'Dutch Houses' built in Sunnybank in the early 1950s were unusual for Brisbane because they were constructed from what material?",
+      "category": "landmark_oddity",
+      "topicKey": "old-windmill-windless-treadmill",
+      "prompt": "Brisbane's Old Windmill was built in 1828 on a hilltop to grind grain by wind. Why did convicts end up powering a treadmill inside instead?",
       "options": [
         {
           "id": "a",
-          "label": "Concrete wall tiles"
+          "label": "The hilltop was too windless to turn the sails"
         },
         {
           "id": "b",
-          "label": "Traditional timber weatherboard"
+          "label": "The millstones were too heavy for any wind-powered mechanism"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Built 1951–55 by a joint Australian-Dutch company, the Sunnybank Dutch Houses used concrete tiles popular in the Netherlands — a method previously unused in Brisbane, where timber was the norm.",
+      "reveal": "Poorly sited in a near-windless spot, the sails couldn't turn reliably. Convicts were forced onto a treadmill — sometimes in 8 kg leg irons for 14 hours — to keep the millstones grinding.",
       "source": {
-        "title": "Dutch Houses | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2816",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states houses were 'constructed using a form of concrete wall tiles previously unused in Brisbane' and built between 1951 and 1955 by joint Australian-Dutch company Concrete Developments Pty Ltd."
+        "title": "Old Windmill Tower | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the windmill 'is located in a somewhat windless location' and that 'convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "sunnybank",
-        "post-war-housing",
-        "dutch",
-        "concrete",
-        "queensland-housing-commission"
+        "old-windmill",
+        "spring-hill",
+        "convict",
+        "treadmill",
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-006",
       "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "nundah-original-name-german-station",
-      "prompt": "The heritage-listed house 'Primrosa' in Nundah was built in 1912. According to its heritage listing, what was the suburb of Nundah originally known as?",
+      "category": "landmark_oddity",
+      "topicKey": "skyneedle-hairdresser-purchased",
+      "prompt": "When World Expo '88 ended and its sculptures were sold off, who bought the 88-metre Skyneedle and kept it in South Brisbane?",
       "options": [
         {
           "id": "a",
-          "label": "German Station"
+          "label": "A prominent Brisbane hairdresser"
         },
         {
           "id": "b",
-          "label": "Missionary Station"
+          "label": "Brisbane City Council"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The suburb was named 'German Station' after Lutheran missionaries who settled there from 1838. The name changed to 'Nundah' — believed to be an Aboriginal word for a chain of waterholes — when the railway arrived in 1882.",
+      "reveal": "After Expo closed, all sculptures went on public sale. Hairdresser Steve Ackerie bought the Skyneedle and relocated it from Southbank to his Stefan corporate HQ, keeping it in the city.",
       "source": {
-        "title": "Primrosa | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2180",
+        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states 'The suburb of Nundah was originally known as German Station' and that the name changed to 'Nundah' when the railway was built in 1882."
+        "verifierNote": "Page states: 'Skyneedle was purchased by prominent Brisbane businessman and hairdresser Steve Ackerie who moved it from Southbank to his Stefan corporate headquarters at 16 Edmondstone Street.'"
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "nundah",
-        "suburb-history",
-        "german-station",
-        "workers-dwelling",
-        "railway"
+        "skyneedle",
+        "expo-88",
+        "south-brisbane",
+        "stefan-ackerie",
+        "sculpture"
       ]
     },
     {
       "id": "flip-auto-20260826-007",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "tattersalls-club-same-architects-city-hall",
-      "prompt": "Brisbane's Tattersalls Club building on Edward Street was designed by the same architectural firm as which other famous Brisbane landmark?",
+      "category": "homes_lifestyle",
+      "topicKey": "new-farm-wealthy-streets-river-views",
+      "prompt": "In late 19th-century New Farm, which streets were described as home to 'the well-to-do'?",
       "options": [
         {
           "id": "a",
-          "label": "Brisbane City Hall"
+          "label": "Elevated streets with river views"
         },
         {
           "id": "b",
-          "label": "The Treasury Building"
+          "label": "Flat streets close to the tramway"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Both were designed by Hall & Prentice. The Tattersalls clubrooms opened in 1926, the same firm having completed City Hall in 1930.",
+      "reveal": "The BCC heritage register for Mossrose Cottage states that 'elevated streets with views to the river were occupied by residences of the well-to-do,' while workers' cottages filled the nearby lower streets.",
       "source": {
-        "title": "Tattersalls Club - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Tattersalls_Club",
-        "publisher": "Wikipedia (citing Queensland Heritage Register entry 600093)",
-        "verifierNote": "Page states the building 'was designed by Hall and Prentice' and separately states Tattersalls Club 'was formed in November 1883'; the History & Heritage page at tattersallsclub.com.au explicitly calls Hall and Prentice 'the architects responsible for Brisbane City Hall'."
+        "title": "Mossrose Cottage | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'While elevated streets with views to the river were occupied by residences of the well-to-do, workers' cottages such as this were common in nearby streets.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "tattersalls",
-        "architecture",
-        "city-hall",
-        "hall-and-prentice",
-        "edward-street",
-        "heritage"
+        "new-farm",
+        "housing",
+        "class",
+        "19th-century"
       ]
     },
     {
       "id": "flip-auto-20260826-008",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "wickham-terrace-carpark-first-bcc-station",
-      "prompt": "The heritage-listed car park on Wickham Terrace in Spring Hill holds an unusual distinction — what was it the first of?",
+      "category": "homes_lifestyle",
+      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
+      "prompt": "The heritage cottages at Cairns Street, Kangaroo Point were built in the 1880s as what type of housing?",
       "options": [
         {
           "id": "a",
-          "label": "The first parking station built by Brisbane City Council"
+          "label": "Purpose-built rental cottages"
         },
         {
           "id": "b",
-          "label": "The first underground car park in Queensland"
+          "label": "Owner-occupier family homes"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Designed by City Architect James Birrell and completed in 1960, it was BCC's first-ever parking station — and was heritage-listed in 1995. A tunnel connects it to Central Railway Station.",
+      "reveal": "A 1880s Brisbane building boom drove the Kangaroo Point population from 1,903 to 3,204 in just five years. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at Moar's nearby shipyard.",
       "source": {
-        "title": "James Birrell, Queensland architect | State Library of Queensland",
-        "url": "https://www.slq.qld.gov.au/blog/james-birrell-queensland-architect",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page explicitly states 'It was constructed between 1959 and 1960 and was the first parking station constructed by the Council' and that it was added to the Queensland Heritage Register in January 1995."
+        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the cottages are 'purpose-built nineteenth century rental cottages' and that 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s housing demand."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "wickham-terrace",
-        "car-park",
-        "james-birrell",
-        "spring-hill",
-        "heritage",
-        "bcc"
+        "kangaroo-point",
+        "housing",
+        "rental",
+        "19th-century",
+        "workers"
       ]
     },
     {
       "id": "flip-auto-20260826-009",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "teneriffe-named-canary-islands",
-      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a landowner in the 1850s. What did he name it after?",
+      "category": "homes_lifestyle",
+      "topicKey": "new-farm-wealthy-streets-river-views",
+      "prompt": "In late 19th-century New Farm, which streets were described as home to 'the well-to-do'?",
       "options": [
         {
           "id": "a",
-          "label": "The largest of the Canary Islands"
+          "label": "Elevated streets with river views"
         },
         {
           "id": "b",
-          "label": "A Scottish coastal village he grew up near"
+          "label": "Flat streets close to the tramway"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "reveal": "The BCC heritage page for Mossrose Cottage states that elevated streets with river views were home to the well-to-do, while workers' cottages filled the nearby lower streets of the suburb.",
       "source": {
-        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "title": "Mossrose Cottage | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+        "verifierNote": "Page states: 'While elevated streets with views to the river were occupied by residences of the well-to-do, workers' cottages such as this were common in nearby streets.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "teneriffe",
-        "suburb-naming",
-        "james-gibbon",
-        "canary-islands",
-        "newstead"
+        "new-farm",
+        "housing",
+        "class",
+        "19th-century"
       ]
     },
     {
       "id": "flip-auto-20260826-010",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "newstead-house-unofficial-government-house",
-      "prompt": "Newstead House — Brisbane's oldest surviving residence, built in 1846 — served a special civic role for several years. What was it?",
+      "category": "homes_lifestyle",
+      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
+      "prompt": "The heritage cottages on Cairns Street, Kangaroo Point were built in the 1880s boom as what kind of housing?",
       "options": [
         {
           "id": "a",
-          "label": "Brisbane's unofficial government house"
+          "label": "Purpose-built rental cottages"
         },
         {
           "id": "b",
-          "label": "Brisbane's first public hospital"
+          "label": "Owner-occupier family homes"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "From 1853 to 1859, Captain John Wickham hosted government business at Newstead House, making it the colony's unofficial government residence before a formal one was established.",
+      "reveal": "Kangaroo Point's population leapt from 1,903 to 3,204 between 1881 and 1886. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at the nearby Moar's shipyard.",
       "source": {
-        "title": "Brisbane River Heritage Trail | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states: 'The oldest surviving residence in Brisbane, it served as the unofficial government house between 1853 and 1859.'"
+        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page describes the cottages as 'purpose-built nineteenth century rental cottages' and states 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s demand."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "newstead",
-        "newstead-house",
-        "government",
-        "captain-wickham",
-        "1846"
+        "kangaroo-point",
+        "housing",
+        "rental",
+        "19th-century",
+        "workers"
       ]
     },
     {
       "id": "flip-auto-20260826-011",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "teneriffe-named-canary-islands",
-      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a land speculator in the 1850s. What did he name it after?",
+      "category": "wildcard",
+      "topicKey": "waratah-hellicar-qld-law-society-role",
+      "prompt": "George Hellicar, who co-owned the heritage-listed 'Waratah' flats in Woolloongabba, was a foundation member of the Queensland Law Society. What role was he appointed to at its formation in 1873?",
       "options": [
         {
           "id": "a",
-          "label": "The largest of the Canary Islands"
+          "label": "Honorary Secretary"
         },
         {
           "id": "b",
-          "label": "A Scottish coastal village he grew up near"
+          "label": "President"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "reveal": "Hellicar was 'appointed as honorary secretary' when the Queensland Law Society was formed at the Supreme Court in Brisbane in August 1873.",
       "source": {
-        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "title": "Waratah | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1167",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+        "verifierNote": "Page states Hellicar 'was one of the foundation members of the Queensland Law Society when it was formed at the Supreme Court in Brisbane in August 1873' and 'Appointed as honorary secretary'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "teneriffe",
-        "suburb-naming",
-        "james-gibbon",
-        "canary-islands"
+        "woolloongabba",
+        "law",
+        "federation-era",
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-012",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "newstead-house-unofficial-government-house",
-      "prompt": "Newstead House in Newstead — Brisbane's oldest surviving residence, built in 1846 — served a special civic role for six years. What was it?",
+      "category": "wildcard",
+      "topicKey": "toohey-forest-mount-galway-property-name",
+      "prompt": "Toohey Forest Park occupies land that was once a cattle grazing property owned by the Toohey family from the 1870s. What was that property called?",
       "options": [
         {
           "id": "a",
-          "label": "Brisbane's unofficial government house"
+          "label": "'Mount Galway'"
         },
         {
           "id": "b",
-          "label": "Brisbane's first public hospital"
+          "label": "'Moorlands'"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "From 1853 to 1859, Captain John Wickham hosted government business there, making it the colony's unofficial government residence before a formal one was built.",
+      "reveal": "The park's site was the cattle grazing property 'Mount Galway', home of the Toohey family from 1872 to 1946, before Brisbane City Council completed its purchase and declared it parkland.",
       "source": {
-        "title": "Brisbane River Heritage Trail | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+        "title": "Toohey Forest Park | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The Park's site was part of the cattle grazing property 'Mount Galway' that was the home of district pioneers, the Toohey family from 1872 to 1946.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "toohey-forest",
+        "nathan",
+        "parklands",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-013",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Greater Brisbane Council was formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
         "publisher": "Brisbane City Council",
-        "verifierNote": "Page states: 'The oldest surviving residence in Brisbane, it served as the unofficial government house between 1853 and 1859.'"
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and 'Council started meeting in the Brisbane City Hall in 1928 while construction was being completed, before opening in April 1930.'"
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "newstead",
-        "newstead-house",
-        "government",
-        "captain-wickham",
-        "1846",
-        "1853"
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-014",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge didn't open until 1940, a full decade later, when cross-river bus services also commenced.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened in April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-015",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Greater Brisbane Council formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-016",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened in 1940 — a full decade later — when cross-river bus services also began.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-017",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Greater Brisbane Council formed on 1 October 1925, when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect as 20 existing local authorities amalgamated' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-018",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened a decade later in 1940, when cross-river bus services also began running.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-019",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "albion-named-after-hotel-white-cliffs",
+      "prompt": "The Brisbane suburb of Albion takes its name from a hotel built in 1864. What inspired the hotel's name?",
+      "options": [
+        {
+          "id": "a",
+          "label": "White quarry walls that reminded the owner of England's white cliffs"
+        },
+        {
+          "id": "b",
+          "label": "A famous inn of the same name in London's East End"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The original Albion Hotel's owner, Tom Haselden, saw the white stone quarry walls nearby and was reminded of the white cliffs of Dover — so the suburb inherited a name rooted in a local landmark.",
+      "source": {
+        "title": "Albion Hotel | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/91",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The suburb of Albion was named after the hotel' and that Haselden named it because 'the white walls of the stone quarry in the area reminded him of the white cliffs of Dover.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "albion",
+        "suburb-name-origin",
+        "hotel",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-020",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "kelvin-grove-named-bancroft-glasgow",
+      "prompt": "Brisbane's inner suburb of Kelvin Grove gets its name from a house built in the 1860s. Where did the house's owner get the name 'Kelvin Grove'?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A park in Glasgow, Scotland"
+        },
+        {
+          "id": "b",
+          "label": "A river valley in the English Lake District"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Dr Joseph Bancroft arrived in Brisbane in 1864 and built a home near Enoggera Creek, naming it after Kelvin Grove Park in Glasgow, which he remembered fondly. The suburb took its name from his house.",
+      "source": {
+        "title": "Queensland Place Histories - Kelvin Grove",
+        "url": "https://www.slq.qld.gov.au/blog/queensland-place-histories-kelvin-grove",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the suburb's name 'derives from the 1868 purchase by Joseph Bancroft of land in the area and on which he built a residence called Kelvin Grove Park. It is believed that he named the property after Kelvin Grove Park in Glasgow.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "kelvin-grove",
+        "suburb-name-origin",
+        "glasgow",
+        "joseph-bancroft"
       ]
     }
   ]

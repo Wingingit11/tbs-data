@@ -1,106 +1,385 @@
 {
   "bank": [
     {
-      "id": "flip-auto-20260826-003",
+      "id": "flip-auto-20260826-008",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "toohey-forest-park-settlement-vs-soldiers-settlement",
-      "prompt": "Which came first at the site of Toohey Forest Park — the Toohey family settling their cattle property, or the Commonwealth acquiring part of the land for a post-war Soldiers Settlement?",
+      "category": "homes_lifestyle",
+      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
+      "prompt": "The heritage cottages at Cairns Street, Kangaroo Point were built in the 1880s as what type of housing?",
       "options": [
         {
           "id": "a",
-          "label": "The Toohey family settling Mount Galway"
+          "label": "Purpose-built rental cottages"
         },
         {
           "id": "b",
-          "label": "The Commonwealth's post-war Soldiers Settlement"
+          "label": "Owner-occupier family homes"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The Toohey family occupied 'Mount Galway' from 1872. The Commonwealth only acquired the first section of the park in 1919, for a proposed WWI Soldiers Settlement.",
+      "reveal": "A 1880s Brisbane building boom drove the Kangaroo Point population from 1,903 to 3,204 in just five years. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at Moar's nearby shipyard.",
       "source": {
-        "title": "Toohey Forest Park | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
+        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'the Toohey family from 1872 to 1946' and 'The Commonwealth acquired the first section of the park in 1919 for a proposed post World War 1 Soldiers Settlement.'"
+        "verifierNote": "Page states the cottages are 'purpose-built nineteenth century rental cottages' and that 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s housing demand."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "toohey-forest",
-        "nathan",
-        "land-history",
-        "world-war-one"
+        "kangaroo-point",
+        "housing",
+        "rental",
+        "19th-century",
+        "workers"
       ]
     },
     {
-      "id": "flip-auto-20260826-009",
+      "id": "flip-auto-20260826-010",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "teneriffe-named-canary-islands",
-      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a landowner in the 1850s. What did he name it after?",
+      "category": "homes_lifestyle",
+      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
+      "prompt": "The heritage cottages on Cairns Street, Kangaroo Point were built in the 1880s boom as what kind of housing?",
       "options": [
         {
           "id": "a",
-          "label": "The largest of the Canary Islands"
+          "label": "Purpose-built rental cottages"
         },
         {
           "id": "b",
-          "label": "A Scottish coastal village he grew up near"
+          "label": "Owner-occupier family homes"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "reveal": "Kangaroo Point's population leapt from 1,903 to 3,204 between 1881 and 1886. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at the nearby Moar's shipyard.",
       "source": {
-        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+        "verifierNote": "Page describes the cottages as 'purpose-built nineteenth century rental cottages' and states 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s demand."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "teneriffe",
-        "suburb-naming",
-        "james-gibbon",
-        "canary-islands",
-        "newstead"
+        "kangaroo-point",
+        "housing",
+        "rental",
+        "19th-century",
+        "workers"
       ]
     },
     {
       "id": "flip-auto-20260826-011",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "teneriffe-named-canary-islands",
-      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a land speculator in the 1850s. What did he name it after?",
+      "category": "wildcard",
+      "topicKey": "waratah-hellicar-qld-law-society-role",
+      "prompt": "George Hellicar, who co-owned the heritage-listed 'Waratah' flats in Woolloongabba, was a foundation member of the Queensland Law Society. What role was he appointed to at its formation in 1873?",
       "options": [
         {
           "id": "a",
-          "label": "The largest of the Canary Islands"
+          "label": "Honorary Secretary"
         },
         {
           "id": "b",
-          "label": "A Scottish coastal village he grew up near"
+          "label": "President"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "reveal": "Hellicar was 'appointed as honorary secretary' when the Queensland Law Society was formed at the Supreme Court in Brisbane in August 1873.",
       "source": {
-        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "title": "Waratah | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1167",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+        "verifierNote": "Page states Hellicar 'was one of the foundation members of the Queensland Law Society when it was formed at the Supreme Court in Brisbane in August 1873' and 'Appointed as honorary secretary'."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "woolloongabba",
+        "law",
+        "federation-era",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-012",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "toohey-forest-mount-galway-property-name",
+      "prompt": "Toohey Forest Park occupies land that was once a cattle grazing property owned by the Toohey family from the 1870s. What was that property called?",
+      "options": [
+        {
+          "id": "a",
+          "label": "'Mount Galway'"
+        },
+        {
+          "id": "b",
+          "label": "'Moorlands'"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The park's site was the cattle grazing property 'Mount Galway', home of the Toohey family from 1872 to 1946, before Brisbane City Council completed its purchase and declared it parkland.",
+      "source": {
+        "title": "Toohey Forest Park | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The Park's site was part of the cattle grazing property 'Mount Galway' that was the home of district pioneers, the Toohey family from 1872 to 1946.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "toohey-forest",
+        "nathan",
+        "parklands",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-013",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Greater Brisbane Council was formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and 'Council started meeting in the Brisbane City Hall in 1928 while construction was being completed, before opening in April 1930.'"
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "teneriffe",
-        "suburb-naming",
-        "james-gibbon",
-        "canary-islands"
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-014",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge didn't open until 1940, a full decade later, when cross-river bus services also commenced.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened in April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-015",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Greater Brisbane Council formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-016",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened in 1940 — a full decade later — when cross-river bus services also began.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-017",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The formation of the Greater Brisbane Council"
+        },
+        {
+          "id": "b",
+          "label": "The opening of Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Greater Brisbane Council formed on 1 October 1925, when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect as 20 existing local authorities amalgamated' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "greater-brisbane",
+        "city-hall",
+        "council",
+        "1925",
+        "1930"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-018",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-hall-before-story-bridge",
+      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The opening of Brisbane City Hall"
+        },
+        {
+          "id": "b",
+          "label": "The opening of the Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened a decade later in 1940, when cross-river bus services also began running.",
+      "source": {
+        "title": "Council history | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "story-bridge",
+        "1930",
+        "1940",
+        "brisbane-landmarks"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-019",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "albion-named-after-hotel-white-cliffs",
+      "prompt": "The Brisbane suburb of Albion takes its name from a hotel built in 1864. What inspired the hotel's name?",
+      "options": [
+        {
+          "id": "a",
+          "label": "White quarry walls that reminded the owner of England's white cliffs"
+        },
+        {
+          "id": "b",
+          "label": "A famous inn of the same name in London's East End"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The original Albion Hotel's owner, Tom Haselden, saw the white stone quarry walls nearby and was reminded of the white cliffs of Dover — so the suburb inherited a name rooted in a local landmark.",
+      "source": {
+        "title": "Albion Hotel | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/91",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The suburb of Albion was named after the hotel' and that Haselden named it because 'the white walls of the stone quarry in the area reminded him of the white cliffs of Dover.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "albion",
+        "suburb-name-origin",
+        "hotel",
+        "heritage"
       ]
     }
   ]

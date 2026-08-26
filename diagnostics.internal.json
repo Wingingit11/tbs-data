@@ -1,29 +1,29 @@
 {
   "date": "2026-08-26",
   "repeatWindowDays": 365,
-  "totalRecords": 14,
-  "approvedRecords": 14,
-  "eligibleToday": 4,
+  "totalRecords": 20,
+  "approvedRecords": 20,
+  "eligibleToday": 10,
   "byCategory": {
     "suburb_story": {
-      "approved": 5,
-      "eligibleToday": 3
+      "approved": 6,
+      "eligibleToday": 4
     },
     "landmark_oddity": {
       "approved": 2,
       "eligibleToday": 0
     },
     "which_came_first": {
+      "approved": 5,
+      "eligibleToday": 3
+    },
+    "homes_lifestyle": {
       "approved": 3,
       "eligibleToday": 1
     },
-    "homes_lifestyle": {
-      "approved": 2,
-      "eligibleToday": 0
-    },
     "wildcard": {
-      "approved": 2,
-      "eligibleToday": 0
+      "approved": 4,
+      "eligibleToday": 2
     }
   },
   "blockedByQuestionIdWindow": 10,
@@ -45,20 +45,8 @@
         "category": "landmark_oddity",
         "difficulty": 2,
         "reason": "no eligible approved record for this category and difficulty"
-      },
-      {
-        "slot": 4,
-        "category": "homes_lifestyle",
-        "difficulty": 2,
-        "reason": "no eligible approved record for this category and difficulty"
-      },
-      {
-        "slot": 5,
-        "category": "wildcard",
-        "difficulty": 3,
-        "reason": "no eligible approved record for this category and difficulty"
       }
     ]
   },
-  "generatedAt": "2026-08-26T06:15:47.205Z"
+  "generatedAt": "2026-08-26T06:41:44.268Z"
 }
