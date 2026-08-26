@@ -1,0 +1,98 @@
+
+# FLIP autonomous question replenishment — runs inside tbs-data.
+#
+# Commits with the built-in GITHUB_TOKEN. No VPS credential, no Netlify
+# credential. The only external secret is ANTHROPIC_API_KEY.
+#
+# Publication is by jsDelivr reading this repo, so the Lookaburra site is never
+# redeployed for a question update.
+name: FLIP replenish
+
+on:
+  # SCHEDULE DELIBERATELY DISABLED until the manual pilot has been reviewed.
+  # schedule:
+  #   - cron: "0 18 * * 0"      # Sundays 04:00 Brisbane
+  workflow_dispatch:
+    inputs:
+      cap:
+        description: "Max candidates to generate"
+        default: "10"
+
+concurrency:
+  group: flip-replenish          # never two replenishment runs at once
+  cancel-in-progress: false
+
+permissions:
+  contents: write                # commit approved content + internal audit
+
+jobs:
+  replenish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+
+      - name: Preflight
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node tools/flip-preflight.js
+
+      - name: Runway check
+        id: runway
+        run: |
+          set +e
+          node tools/flip-runway.js
+          echo "state=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Generate candidates for the weakest slots
+        if: steps.runway.outputs.state != '0'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MAX_PER_RUN: ${{ inputs.cap || '10' }}
+        run: node tools/generate-questions.mjs
+
+      - name: Verify every source URL against the live page
+        if: steps.runway.outputs.state != '0'
+        run: node tools/flip-verify-sources.js batches/auto-latest.json
+
+      - name: Ingest — strict validation, duplicate audit, merge, re-plan
+        if: steps.runway.outputs.state != '0'
+        run: node tools/flip-ingest.js batches/auto-latest.verified.json --merge
+
+      - name: Emit trimmed public runtime files
+        if: steps.runway.outputs.state != '0'
+        run: node tools/flip-publish.js
+
+      - name: Commit
+        if: steps.runway.outputs.state != '0'
+        run: |
+          git config user.name "flip-replenish"
+          git config user.email "noreply@lookaburra.com.au"
+          mkdir -p audit
+          ts=$(date -u +%Y%m%dT%H%M%SZ)
+          cp runway.internal.json      "audit/runway-$ts.json"      2>/dev/null || true
+          cp batch-report.internal.json "audit/batch-$ts.json"      2>/dev/null || true
+          # Two writers may share this repo; never clobber the other one.
+          git pull --rebase --autostash || true
+          git add -A flip questions.internal.json history.internal.json \
+                     schedule.internal.json diagnostics.internal.json \
+                     runway.internal.json batch-report.internal.json batches audit
+          git diff --staged --quiet || git commit -m "FLIP: autonomous replenishment $(date -u +%F)"
+          git push
+
+      # Best effort. A failed purge must never fail the run or touch the bank —
+      # the 120-day forward schedule is the real protection against staleness.
+      - name: Purge jsDelivr
+        if: steps.runway.outputs.state != '0'
+        continue-on-error: true
+        run: |
+          for f in questions schedule; do
+            curl -fsS "https://purge.jsdelivr.net/gh/Wingingit11/tbs-data@main/flip/$f.json" \
+              && echo "purged $f.json" || echo "::warning::purge failed for $f.json (non-fatal)"
+          done
+
+      - name: Final runway
+        if: always()
+        run: node tools/flip-runway.js || true
