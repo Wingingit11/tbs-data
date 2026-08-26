@@ -1,111 +1,164 @@
 {
   "rejected": [
     {
-      "id": "flip-auto-20260826-003",
-      "url": "https://piercepipeorgans.com.au/projects/hello-world",
+      "id": "flip-auto-20260826-001",
+      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
       "reasons": [
-        "host not on the authoritative allow-list: piercepipeorgans.com.au"
-      ],
-      "detail": null
-    },
-    {
-      "id": "flip-auto-20260826-004",
-      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
-      "reasons": [
-        "year 1940 never appears near \"jubilee\" on the page",
-        "year 1936 never appears near \"jubilee\" on the page",
-        "source does not distinguish the options (correct 0.50 vs distractor 0.33) - ambiguous or unsupported",
-        "reveal is largely unsupported by the page (5/17 terms)"
+        "source does not distinguish the options (correct 0.67 vs distractor 0.67) - ambiguous or unsupported"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
-        "proximityOk": false,
+        "proximityOk": true,
         "discriminates": false,
-        "supportCorrect": 0.5,
-        "supportDistractor": 0.33,
-        "revealSupport": 0.29,
+        "supportCorrect": 0.67,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.72,
         "notes": [
-          "year 1940 never appears near \"jubilee\" on the page",
-          "year 1936 never appears near \"jubilee\" on the page",
-          "source does not distinguish the options (correct 0.50 vs distractor 0.33) - ambiguous or unsupported",
-          "reveal is largely unsupported by the page (5/17 terms)"
+          "source does not distinguish the options (correct 0.67 vs distractor 0.67) - ambiguous or unsupported"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-002",
+      "url": "https://www.awm.gov.au/articles/encyclopedia/eternal_flame/flames_aust",
+      "reasons": [
+        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.79,
+        "notes": [
+          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-004",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1010",
+      "reasons": [
+        "comparison page does not cover both subjects (correct 0.33, other 1.00)"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 0.33,
+        "supportDistractor": 1,
+        "revealSupport": 0.95,
+        "notes": [
+          "comparison page does not cover both subjects (correct 0.33, other 1.00)"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-005",
-      "url": "https://www.slq.qld.gov.au/discover/exhibitions/hornibrook/william-jolly-bridge",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2816",
       "reasons": [
-        "year 1940 never appears near \"william\" on the page",
-        "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
-        "proximityOk": false,
+        "proximityOk": true,
         "discriminates": false,
         "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.82,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.95,
         "notes": [
-          "year 1940 never appears near \"william\" on the page",
-          "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
         ]
       }
     },
     {
       "id": "flip-auto-20260826-006",
-      "url": "https://www.qagoma.qld.gov.au/about/",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2180",
       "reasons": [
-        "host not on the authoritative allow-list: www.qagoma.qld.gov.au"
-      ],
-      "detail": null
-    },
-    {
-      "id": "flip-auto-20260826-007",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
-      "reasons": [
-        "year 1897 never appears near \"1885\" on the page",
-        "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+        "the key date 1838 never appears near \"station\" on the page"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": false,
-        "discriminates": false,
+        "discriminates": true,
         "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.73,
+        "supportDistractor": 0.5,
+        "revealSupport": 0.67,
         "notes": [
-          "year 1897 never appears near \"1885\" on the page",
-          "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+          "the key date 1838 never appears near \"station\" on the page"
         ]
       }
     },
     {
-      "id": "flip-auto-20260826-008",
-      "url": "https://www.govhouse.qld.gov.au/government-house/about-government-house/the-history",
+      "id": "flip-auto-20260826-007",
+      "url": "https://en.wikipedia.org/wiki/Tattersalls_Club",
       "reasons": [
-        "host not on the authoritative allow-list: www.govhouse.qld.gov.au"
+        "host not on the authoritative allow-list: en.wikipedia.org"
       ],
       "detail": null
     },
     {
-      "id": "flip-auto-20260826-009",
-      "url": "https://blog.qm.qld.gov.au/2020/07/06/80-years-strong-a-story-bridge-anniversary/",
+      "id": "flip-auto-20260826-008",
+      "url": "https://www.slq.qld.gov.au/blog/james-birrell-queensland-architect",
       "reasons": [
-        "host not on the authoritative allow-list: blog.qm.qld.gov.au"
+        "source does not distinguish the options (correct 0.83 vs distractor 0.67) - ambiguous or unsupported"
       ],
-      "detail": null
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 0.83,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.67,
+        "notes": [
+          "source does not distinguish the options (correct 0.83 vs distractor 0.67) - ambiguous or unsupported"
+        ]
+      }
     },
     {
       "id": "flip-auto-20260826-010",
-      "url": "https://www.rna.org.au/about-us/about-the-rna/",
+      "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
       "reasons": [
-        "host not on the authoritative allow-list: www.rna.org.au"
+        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
       ],
-      "detail": null
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.94,
+        "notes": [
+          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-012",
+      "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+      "reasons": [
+        "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 0.67,
+        "revealSupport": 0.94,
+        "notes": [
+          "source does not distinguish the options (correct 1.00 vs distractor 0.67) - ambiguous or unsupported"
+        ]
+      }
     }
   ]
 }

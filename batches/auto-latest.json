@@ -1,353 +1,425 @@
 {
   "_note": "CANDIDATES - unverified. Must pass flip-verify-sources.js then flip-ingest.js.",
-  "generatedAt": "2026-08-26T04:37:51.008Z",
+  "generatedAt": "2026-08-26T06:15:37.526Z",
   "bank": [
     {
       "id": "flip-auto-20260826-001",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "fortitude-valley-named-after-ship",
-      "prompt": "Fortitude Valley got its name from a ship that arrived in Brisbane in 1849. What was that ship called?",
+      "category": "landmark_oddity",
+      "topicKey": "old-windmill-treadmill-punishment",
+      "prompt": "Brisbane's Old Windmill was built to grind grain using wind power — but it barely caught a breeze. What did authorities use instead to keep the millstones turning?",
       "options": [
         {
           "id": "a",
-          "label": "The Fortitude"
+          "label": "Convicts working a treadmill"
         },
         {
           "id": "b",
-          "label": "The Endeavour"
+          "label": "A horse-drawn capstan"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Scottish immigrants aboard the barque Fortitude arrived at Brisbane in January 1849. Denied promised free land, they camped nearby — and named the area after their ship.",
+      "reveal": "Built in a windless spot, the mill never worked properly. Convicts were forced onto a treadmill — sometimes in leg irons — for up to 14 hours straight to grind the colony's grain.",
       "source": {
-        "title": "Fortitude Valley | Queensland Places",
-        "url": "https://queenslandplaces.com.au/fortitude-valley",
-        "publisher": "Centre for the Government of Queensland",
-        "verifierNote": "Page states 'The first vessel, the Fortitude, arrived at Brisbane in January 1849' and 'The temporary abode gave rise to the name Fortitude Valley.'"
+        "title": "Old Windmill Tower | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states 'it is located in a somewhat windless location, it quickly became a place of punishment, with convicts being put to work on a treadmill to keep the arms and heavy millstone turning' and that convicts wore 8kg leg irons for 14 hours."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "fortitude-valley",
-        "ship",
-        "immigration",
-        "1849",
-        "suburb-name-origin"
+        "old-windmill",
+        "spring-hill",
+        "convict-history",
+        "treadmill",
+        "landmark"
       ]
     },
     {
       "id": "flip-auto-20260826-002",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "indooroopilly-name-meaning-leeches",
-      "prompt": "The suburb name 'Indooroopilly' comes from an Aboriginal word. What does it mean?",
+      "category": "landmark_oddity",
+      "topicKey": "anzac-square-first-eternal-flame-australia",
+      "prompt": "The Eternal Flame burning inside the Shrine of Remembrance at Brisbane's Anzac Square holds a rare national distinction. What is it?",
       "options": [
         {
           "id": "a",
-          "label": "Gully of leeches"
+          "label": "It was the first eternal flame lit in Australia"
         },
         {
           "id": "b",
-          "label": "Place of magpie larks"
+          "label": "It was the first war memorial built in Queensland"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Brisbane City Council's Heritage Trail explains the name comes from an Aboriginal word believed to mean a gully or creek with leeches — a nod to the leech-filled gullies once running to the Brisbane River.",
+      "reveal": "Lit on Armistice Day, 11 November 1930, the flame at Anzac Square was Australia's first eternal flame — beating Melbourne's Shrine of Remembrance by 24 years.",
       "source": {
-        "title": "Indooroopilly Heritage Trail | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states 'The name Indooroopilly is thought to come from an Aboriginal word. It is believed to mean a gully or creek with leeches.'"
+        "title": "Eternal flames in Australia | Australian War Memorial",
+        "url": "https://www.awm.gov.au/articles/encyclopedia/eternal_flame/flames_aust",
+        "publisher": "Australian War Memorial",
+        "verifierNote": "Page states 'Australia's first eternal flame was lit in Brisbane on Armistice Day in 1930' and that Melbourne's second eternal flame was lit by the Queen in 1954."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "indooroopilly",
-        "aboriginal-name",
-        "suburb-name-origin",
-        "language"
+        "anzac-square",
+        "shrine-of-remembrance",
+        "eternal-flame",
+        "brisbane-cbd",
+        "landmark"
       ]
     },
     {
       "id": "flip-auto-20260826-003",
       "status": "approved",
-      "category": "landmark_oddity",
-      "topicKey": "city-hall-organ-original-home",
-      "prompt": "Brisbane City Hall's famous pipe organ was NOT built for City Hall. Where was it originally installed when it arrived in Brisbane in 1892?",
+      "category": "which_came_first",
+      "topicKey": "toohey-forest-park-settlement-vs-soldiers-settlement",
+      "prompt": "Which came first at the site of Toohey Forest Park — the Toohey family settling their cattle property, or the Commonwealth acquiring part of the land for a post-war Soldiers Settlement?",
       "options": [
         {
           "id": "a",
-          "label": "The Brisbane Exhibition Building, Bowen Park"
+          "label": "The Toohey family settling Mount Galway"
         },
         {
           "id": "b",
-          "label": "St John's Anglican Cathedral, Ann Street"
+          "label": "The Commonwealth's post-war Soldiers Settlement"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Built by Henry Willis & Sons in 1891–92, the organ first lived at the Exhibition Building in Bowen Park for 35 years before being moved and enlarged for City Hall in 1927.",
+      "reveal": "The Toohey family occupied 'Mount Galway' from 1872. The Commonwealth only acquired the first section of the park in 1919, for a proposed WWI Soldiers Settlement.",
       "source": {
-        "title": "Brisbane City Hall – Pierce Pipe Organs",
-        "url": "https://piercepipeorgans.com.au/projects/hello-world",
-        "publisher": "Pierce Pipe Organs Pty Ltd",
-        "verifierNote": "Page states: 'This instrument was originally built by Henry Willis and Sons in England between 1891-2 and first erected in the Brisbane Exhibition Hall, Bowen Park.'"
+        "title": "Toohey Forest Park | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'the Toohey family from 1872 to 1946' and 'The Commonwealth acquired the first section of the park in 1919 for a proposed post World War 1 Soldiers Settlement.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
+      "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "city-hall",
-        "organ",
-        "music",
-        "exhibition-building",
-        "bowen-hills"
+        "toohey-forest",
+        "nathan",
+        "land-history",
+        "world-war-one"
       ]
     },
     {
       "id": "flip-auto-20260826-004",
       "status": "approved",
-      "category": "landmark_oddity",
-      "topicKey": "story-bridge-construction-name",
-      "prompt": "Brisbane's Story Bridge wasn't always called the Story Bridge. What was it officially known as during construction from 1935?",
+      "category": "which_came_first",
+      "topicKey": "kedron-park-hotel-opening-vs-brick-extension",
+      "prompt": "Which came first at the Kedron Park Hotel in Wooloowin — the hotel opening its doors, or the brick extension added along Lutwyche Road?",
       "options": [
         {
           "id": "a",
-          "label": "The Jubilee Bridge"
+          "label": "The hotel opening its doors"
         },
         {
           "id": "b",
-          "label": "The Kangaroo Point Bridge"
+          "label": "The Lutwyche Road brick extension"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Named to honour King George V's Silver Jubilee, it was renamed Story Bridge at its 1940 opening after JD Story, Public Service Commissioner — the King had died in 1936.",
+      "reveal": "The Kedron Park Hotel was built in 1881 for owner Frederick Morris. The brick extension on the Lutwyche Road frontage wasn't added until 1920, under James Cavill's ownership.",
       "source": {
-        "title": "Story Bridge | Environment, land and water | Queensland Government",
-        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
-        "publisher": "Queensland Heritage Register",
-        "verifierNote": "Page states: 'From mid-1935 to 1940 the bridge was known as the Jubilee Bridge, honouring George V, but when opened on 6 July 1940 it was named after JD Story, the Public Service Commissioner and a member of the Bridge Board.'"
+        "title": "Kedron Park Hotel | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1010",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The Kedron Park Hotel was built in 1881' and 'Under ownership of the James Cavill a brick extension was added on the Lutwyche Rd frontage in 1920.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
+      "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "story-bridge",
-        "history",
-        "naming",
-        "king-george-v",
-        "kangaroo-point"
+        "kedron-park-hotel",
+        "wooloowin",
+        "pub-history",
+        "kedron"
       ]
     },
     {
       "id": "flip-auto-20260826-005",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "william-jolly-bridge-before-story-bridge",
-      "prompt": "Which came first: the opening of the William Jolly Bridge or the opening of the Story Bridge?",
+      "category": "homes_lifestyle",
+      "topicKey": "sunnybank-dutch-houses-concrete",
+      "prompt": "The heritage-listed 'Dutch Houses' built in Sunnybank in the early 1950s were unusual for Brisbane because they were constructed from what material?",
       "options": [
         {
           "id": "a",
-          "label": "William Jolly Bridge"
+          "label": "Concrete wall tiles"
         },
         {
           "id": "b",
-          "label": "Story Bridge"
+          "label": "Traditional timber weatherboard"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The William Jolly Bridge (then called Grey Street Bridge) opened 30 March 1932 — nearly eight years before the Story Bridge opened on 6 July 1940.",
+      "reveal": "Built 1951–55 by a joint Australian-Dutch company, the Sunnybank Dutch Houses used concrete tiles popular in the Netherlands — a method previously unused in Brisbane, where timber was the norm.",
       "source": {
-        "title": "William Jolly Bridge Brisbane | State Library of Queensland",
-        "url": "https://www.slq.qld.gov.au/discover/exhibitions/hornibrook/william-jolly-bridge",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page states the William Jolly Bridge was 'the second one built to cross the Brisbane River, opening on 30 March 1932 and nearly eight years before the Story Bridge'."
+        "title": "Dutch Houses | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2816",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states houses were 'constructed using a form of concrete wall tiles previously unused in Brisbane' and built between 1951 and 1955 by joint Australian-Dutch company Concrete Developments Pty Ltd."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "bridges",
-        "infrastructure",
-        "1930s",
-        "Brisbane River"
+        "sunnybank",
+        "post-war-housing",
+        "dutch",
+        "concrete",
+        "queensland-housing-commission"
       ]
     },
     {
       "id": "flip-auto-20260826-006",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "queensland-art-gallery-southbank-before-qpac",
-      "prompt": "Which opened first at Brisbane's South Bank Cultural Centre: the Queensland Art Gallery building or QPAC?",
+      "category": "homes_lifestyle",
+      "topicKey": "nundah-original-name-german-station",
+      "prompt": "The heritage-listed house 'Primrosa' in Nundah was built in 1912. According to its heritage listing, what was the suburb of Nundah originally known as?",
       "options": [
         {
           "id": "a",
-          "label": "Queensland Art Gallery"
+          "label": "German Station"
         },
         {
           "id": "b",
-          "label": "QPAC"
+          "label": "Missionary Station"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The Queensland Art Gallery opened on 21 June 1982 as the first stage of the Cultural Centre. QPAC followed three years later, officially opened on 20 April 1985.",
+      "reveal": "The suburb was named 'German Station' after Lutheran missionaries who settled there from 1838. The name changed to 'Nundah' — believed to be an Aboriginal word for a chain of waterholes — when the railway arrived in 1882.",
       "source": {
-        "title": "About – Queensland Art Gallery | Gallery of Modern Art",
-        "url": "https://www.qagoma.qld.gov.au/about/",
-        "publisher": "Queensland Art Gallery | Gallery of Modern Art (QAGOMA)",
-        "verifierNote": "Official QAGOMA page states QAG 'Opened: 21 June 1982'; QPAC's own official history page (qpac.com.au/corporate/history) states it 'officially opened by His Royal Highness the Duke of Kent on 20 April 1985'."
+        "title": "Primrosa | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2180",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'The suburb of Nundah was originally known as German Station' and that the name changed to 'Nundah' when the railway was built in 1882."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "South Bank",
-        "cultural precinct",
-        "art gallery",
-        "performing arts",
-        "1980s"
+        "nundah",
+        "suburb-history",
+        "german-station",
+        "workers-dwelling",
+        "railway"
       ]
     },
     {
       "id": "flip-auto-20260826-007",
       "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "brisbane-first-horse-tram-1885",
-      "prompt": "In what year did Brisbane's very first horse-drawn tramcar begin passenger service?",
+      "category": "wildcard",
+      "topicKey": "tattersalls-club-same-architects-city-hall",
+      "prompt": "Brisbane's Tattersalls Club building on Edward Street was designed by the same architectural firm as which other famous Brisbane landmark?",
       "options": [
         {
           "id": "a",
-          "label": "1885"
+          "label": "Brisbane City Hall"
         },
         {
           "id": "b",
-          "label": "1897"
+          "label": "The Treasury Building"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The horse-drawn service started on 10 August 1885; electric trams didn't arrive until 1897, often confused as Brisbane's 'first' trams.",
+      "reveal": "Both were designed by Hall & Prentice. The Tattersalls clubrooms opened in 1926, the same firm having completed City Hall in 1930.",
       "source": {
-        "title": "Tram Pole | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Construction of the tramway network began in early 1885, and Brisbane's first horse-drawn tramcar operated on 10 August of the same year.' Also states first electric trams arrived in 1897."
+        "title": "Tattersalls Club - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tattersalls_Club",
+        "publisher": "Wikipedia (citing Queensland Heritage Register entry 600093)",
+        "verifierNote": "Page states the building 'was designed by Hall and Prentice' and separately states Tattersalls Club 'was formed in November 1883'; the History & Heritage page at tattersallsclub.com.au explicitly calls Hall and Prentice 'the architects responsible for Brisbane City Hall'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "transport",
-        "trams",
-        "1885",
-        "history",
-        "inner-city"
+        "tattersalls",
+        "architecture",
+        "city-hall",
+        "hall-and-prentice",
+        "edward-street",
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-008",
       "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "fernberg-government-house-1910",
-      "prompt": "Fernberg — now Queensland's Government House — has been the official home of Queensland Governors since which year?",
+      "category": "wildcard",
+      "topicKey": "wickham-terrace-carpark-first-bcc-station",
+      "prompt": "The heritage-listed car park on Wickham Terrace in Spring Hill holds an unusual distinction — what was it the first of?",
       "options": [
         {
           "id": "a",
-          "label": "1910"
+          "label": "The first parking station built by Brisbane City Council"
         },
         {
           "id": "b",
-          "label": "1865"
+          "label": "The first underground car park in Queensland"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Fernberg was built in 1865 by merchant Johann Heussler, but Queensland Governors only moved in from 1910, after the original Government House became the University of Queensland.",
+      "reveal": "Designed by City Architect James Birrell and completed in 1960, it was BCC's first-ever parking station — and was heritage-listed in 1995. A tunnel connects it to Central Railway Station.",
       "source": {
-        "title": "The History | Government House Queensland",
-        "url": "https://www.govhouse.qld.gov.au/government-house/about-government-house/the-history",
-        "publisher": "Government House Queensland",
-        "verifierNote": "Page states: ''Fernberg' was one of the first houses built in Brisbane's Paddington area and since 1910, has been the home and workplace of Queensland Governors.' Also references the original merchant-built villa of 1865."
+        "title": "James Birrell, Queensland architect | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/blog/james-birrell-queensland-architect",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page explicitly states 'It was constructed between 1959 and 1960 and was the first parking station constructed by the Council' and that it was added to the Queensland Heritage Register in January 1995."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "Paddington",
-        "Government-House",
-        "Fernberg",
+        "wickham-terrace",
+        "car-park",
+        "james-birrell",
+        "spring-hill",
         "heritage",
-        "1910"
+        "bcc"
       ]
     },
     {
       "id": "flip-auto-20260826-009",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "story-bridge-name-origin",
-      "prompt": "The Story Bridge is one of Brisbane's most iconic landmarks — but who was it named after?",
+      "category": "suburb_story",
+      "topicKey": "teneriffe-named-canary-islands",
+      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a landowner in the 1850s. What did he name it after?",
       "options": [
         {
           "id": "a",
-          "label": "A Queensland public servant"
+          "label": "The largest of the Canary Islands"
         },
         {
           "id": "b",
-          "label": "The engineer who designed it"
+          "label": "A Scottish coastal village he grew up near"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "It honours J.D. Story, Queensland's Public Service Commissioner 1920–39 — not designer John Bradfield, who built Sydney Harbour Bridge.",
+      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
       "source": {
-        "title": "80 years strong – A Story Bridge Anniversary",
-        "url": "https://blog.qm.qld.gov.au/2020/07/06/80-years-strong-a-story-bridge-anniversary/",
-        "publisher": "Queensland Museum",
-        "verifierNote": "Page states the bridge 'was named after J.D. Story, a prominent Queensland public servant who held the position of Public Service Commissioner from 1920 up until 1939' — explicitly distinguishing him from engineer Bradfield."
+        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "story-bridge",
-        "naming",
-        "public-servant",
-        "john-bradfield",
-        "kangaroo-point"
+        "teneriffe",
+        "suburb-naming",
+        "james-gibbon",
+        "canary-islands",
+        "newstead"
       ]
     },
     {
       "id": "flip-auto-20260826-010",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "ekka-royal-prefix-year",
-      "prompt": "Brisbane's beloved Ekka is officially the *Royal* Queensland Show — but in what year did it earn the 'Royal' prefix?",
+      "category": "suburb_story",
+      "topicKey": "newstead-house-unofficial-government-house",
+      "prompt": "Newstead House — Brisbane's oldest surviving residence, built in 1846 — served a special civic role for several years. What was it?",
       "options": [
         {
           "id": "a",
-          "label": "1921"
+          "label": "Brisbane's unofficial government house"
         },
         {
           "id": "b",
-          "label": "1901"
+          "label": "Brisbane's first public hospital"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "King George V granted the 'Royal' prefix by warrant in 1921, 45 years after the very first Exhibition was held at Bowen Park in 1876.",
+      "reveal": "From 1853 to 1859, Captain John Wickham hosted government business at Newstead House, making it the colony's unofficial government residence before a formal one was established.",
       "source": {
-        "title": "About the RNA",
-        "url": "https://www.rna.org.au/about-us/about-the-rna/",
-        "publisher": "Royal National Agricultural and Industrial Association of Queensland (RNA)",
-        "verifierNote": "Page explicitly states: 'The first Royal Show was held in 1921, when the Association was granted the prefix under warrant from His Majesty King George V.'"
+        "title": "Brisbane River Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states: 'The oldest surviving residence in Brisbane, it served as the unofficial government house between 1853 and 1859.'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "ekka",
-        "royal-queensland-show",
-        "RNA",
-        "king-george-v",
-        "history"
+        "newstead",
+        "newstead-house",
+        "government",
+        "captain-wickham",
+        "1846"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-011",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "teneriffe-named-canary-islands",
+      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a land speculator in the 1850s. What did he name it after?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The largest of the Canary Islands"
+        },
+        {
+          "id": "b",
+          "label": "A Scottish coastal village he grew up near"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "source": {
+        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "teneriffe",
+        "suburb-naming",
+        "james-gibbon",
+        "canary-islands"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-012",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "newstead-house-unofficial-government-house",
+      "prompt": "Newstead House in Newstead — Brisbane's oldest surviving residence, built in 1846 — served a special civic role for six years. What was it?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane's unofficial government house"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane's first public hospital"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "From 1853 to 1859, Captain John Wickham hosted government business there, making it the colony's unofficial government residence before a formal one was built.",
+      "source": {
+        "title": "Brisbane River Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states: 'The oldest surviving residence in Brisbane, it served as the unofficial government house between 1853 and 1859.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "newstead",
+        "newstead-house",
+        "government",
+        "captain-wickham",
+        "1846",
+        "1853"
       ]
     }
   ]

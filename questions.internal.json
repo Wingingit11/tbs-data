@@ -523,7 +523,76 @@
         "suburb-name-origin",
         "language"
       ]
+    },
+    {
+      "id": "flip-auto-20260826-003",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "toohey-forest-park-settlement-vs-soldiers-settlement",
+      "prompt": "Which came first at the site of Toohey Forest Park — the Toohey family settling their cattle property, or the Commonwealth acquiring part of the land for a post-war Soldiers Settlement?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Toohey family settling Mount Galway"
+        },
+        {
+          "id": "b",
+          "label": "The Commonwealth's post-war Soldiers Settlement"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Toohey family occupied 'Mount Galway' from 1872. The Commonwealth only acquired the first section of the park in 1919, for a proposed WWI Soldiers Settlement.",
+      "source": {
+        "title": "Toohey Forest Park | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'the Toohey family from 1872 to 1946' and 'The Commonwealth acquired the first section of the park in 1919 for a proposed post World War 1 Soldiers Settlement.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "toohey-forest",
+        "nathan",
+        "land-history",
+        "world-war-one"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-009",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "teneriffe-named-canary-islands",
+      "prompt": "The Brisbane suburb of Teneriffe got its unusual name from a landowner in the 1850s. What did he name it after?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The largest of the Canary Islands"
+        },
+        {
+          "id": "b",
+          "label": "A Scottish coastal village he grew up near"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Property speculator James Gibbon named his 1854 land holding after Tenerife, the largest island in the Canary Islands archipelago — giving the suburb its distinctive double-F spelling.",
+      "source": {
+        "title": "46 Kingsholme Street, Teneriffe | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2611",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Gibbon's naming of Teneriffe was a variation of Tenerife, the largest island in the Canary Islands archipelago.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "teneriffe",
+        "suburb-naming",
+        "james-gibbon",
+        "canary-islands",
+        "newstead"
+      ]
     }
   ],
-  "updatedAt": "2026-08-26T04:37:58.459Z"
+  "updatedAt": "2026-08-26T06:15:47.178Z"
 }

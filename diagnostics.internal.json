@@ -1,21 +1,21 @@
 {
   "date": "2026-08-26",
   "repeatWindowDays": 365,
-  "totalRecords": 12,
-  "approvedRecords": 12,
-  "eligibleToday": 2,
+  "totalRecords": 14,
+  "approvedRecords": 14,
+  "eligibleToday": 4,
   "byCategory": {
     "suburb_story": {
-      "approved": 4,
-      "eligibleToday": 2
+      "approved": 5,
+      "eligibleToday": 3
     },
     "landmark_oddity": {
       "approved": 2,
       "eligibleToday": 0
     },
     "which_came_first": {
-      "approved": 2,
-      "eligibleToday": 0
+      "approved": 3,
+      "eligibleToday": 1
     },
     "homes_lifestyle": {
       "approved": 2,
@@ -47,12 +47,6 @@
         "reason": "no eligible approved record for this category and difficulty"
       },
       {
-        "slot": 3,
-        "category": "which_came_first",
-        "difficulty": 1,
-        "reason": "no eligible approved record for this category and difficulty"
-      },
-      {
         "slot": 4,
         "category": "homes_lifestyle",
         "difficulty": 2,
@@ -66,5 +60,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-26T04:37:58.484Z"
+  "generatedAt": "2026-08-26T06:15:47.205Z"
 }
