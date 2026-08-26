@@ -25,6 +25,40 @@ const ROOT = path.join(HERE, "..");
 const P = (f) => path.join(ROOT, f);
 const rj = (f, d) => { try { return JSON.parse(fs.readFileSync(P(f), "utf8")); } catch { return d; } };
 
+
+/* SOURCE-FIRST DRAFTING.
+ *
+ * Runs 1-5 all failed the same way: the model researched a topic, then cited a
+ * page that was *related* rather than one that *stated* the fact - a Museum of
+ * Brisbane "What's On" page for an 1891 claim, a Botanic Gardens page where the
+ * date sat nowhere near the subject. Corroboration then correctly refused it.
+ *
+ * So invert it. Give the model a real page, make it read that page, and have it
+ * write a question the page plainly establishes. The fact comes OUT of the
+ * source instead of being matched to one afterwards, which is why this should
+ * pass verification rather than fight it.
+ *
+ * BCC Heritage Places is ideal: thousands of entries, one stable URL shape, a
+ * History section written in prose, and already on the allow-list. Each page
+ * usually supports a suburb story AND a landmark oddity AND something about
+ * housing, so one fetch can feed several slots.
+ */
+var SEED_POOL = [];
+function seedUrls(n) {
+  /* Deterministic spread across the heritage-place id range so successive runs
+     do not keep landing on the same entries. Ids are not contiguous, so a miss
+     is expected and the model is told to skip rather than invent. */
+  var out = [], used = {};
+  var day = Math.floor(Date.now() / 86400000);
+  for (var i = 0; out.length < n && i < n * 8; i++) {
+    var id = 500 + ((day * 137 + i * 61) % 2600);
+    if (used[id]) continue;
+    used[id] = true;
+    out.push("https://heritage.brisbane.qld.gov.au/heritage-places/" + id);
+  }
+  return out;
+}
+
 const KEY = process.env.ANTHROPIC_API_KEY;
 if (!KEY) { console.error("ANTHROPIC_API_KEY is not set - refusing to run."); process.exit(2); }
 const MAX = Math.max(1, parseInt(process.env.MAX_PER_RUN || "10", 10));
@@ -114,19 +148,31 @@ ${SCHEMA}`;
 async function draftSlot(slot) {
   const body = {
     model: MODEL,
-    max_tokens: 8000,
+    max_tokens: 16000,
     system: SYSTEM,
     tools: [{ type: "web_search_20250305", name: "web_search" }],
     messages: [{
       role: "user",
-      content: `CATEGORY: ${slot.category}   (every record you return MUST have "category": "${slot.category}")
-Research and draft ${slot.count} question(s) for the "${slot.category}" slot at predictedDifficulty ${slot.difficulty}.
-knowledgeOnly must be ${slot.category === "wildcard" ? "true or false (your choice)" : "false"}.
-${slot.category === "which_came_first" ? "This compares two Brisbane events. Verify BOTH dates, citing the stronger source; mention the second date in the reveal only if the cited page states it.\n" : ""}
-Do NOT reuse any of these existing topicKeys or anything factually equivalent:
+      content: `CATEGORY: ${slot.category}   (every record MUST have "category": "${slot.category}")
+predictedDifficulty: ${slot.difficulty}
+knowledgeOnly: ${slot.category === "wildcard" ? "true or false, your choice" : "false"}
+How many: ${slot.count}
+
+WORK FROM THESE PAGES. Fetch each one and read its History section:
+${seedUrls(slot.count * 3).map((u) => "  " + u).join("\n")}
+
+For each page that loads and contains a fact suitable for this category, write ONE
+question that the page PLAINLY STATES. Cite that exact page as the source. If a
+page 404s, is thin, or has nothing suitable for this category, SKIP IT and move to
+the next - do not stretch, and do not cite a page you did not read.
+
+You may use web_search instead ONLY if none of the pages above yield anything for
+this category. If you do, the page you cite must still plainly state the fact.
+${slot.category === "which_came_first" ? "This compares two Brisbane things. One page must state BOTH dates, or skip.\n" : ""}
+Do NOT reuse these topicKeys or anything factually equivalent:
 ${usedTopics.join(", ")}
 
-Search first. Draft only what you can actually source. Return the JSON array.`
+Return the JSON array only.`
     }]
   };
   const res = await fetch("https://api.anthropic.com/v1/messages", {
@@ -147,11 +193,17 @@ Search first. Draft only what you can actually source. Return the JSON array.`
   const m = text.match(/\[[\s\S]*\]/);
   if (!m) { console.error(`  no JSON array returned for ${slot.category}`); return []; }
   try {
-    const arr = JSON.parse(m[0]);
-    return Array.isArray(arr) ? arr : [];
+    return JSON.parse(m[0]).filter(Boolean);
   } catch (e) {
-    console.error(`  unparseable JSON for ${slot.category}`);
-    return [];
+    /* A truncated array cost three whole categories across runs 3-5. Salvage the
+       complete objects rather than discarding the lot. */
+    const objs = [];
+    m[0].replace(/\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}/g, (o) => {
+      try { objs.push(JSON.parse(o)); } catch (e2) { }
+      return o;
+    });
+    console.error(`  JSON was truncated for ${slot.category} - salvaged ${objs.length}`);
+    return objs;
   }
 }
 
