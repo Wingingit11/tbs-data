@@ -131,6 +131,12 @@ State Library of Queensland, Trove, Queensland Museum, official venue or institu
 history pages, Visit Brisbane.
 
 OPTION WORDING - this one matters most:
+- The two options must DIFFER IN SUBSTANCE, not word order. Never write a pair
+  that is the same words rearranged: "metal rather than timber" vs "timber rather
+  than metal" is unusable. Write "Cast metal poles" vs "Timber poles".
+- Keep each option short - a few words naming the thing, not a sentence.
+- Use a DIFFERENT source page for each question in your batch. Do not write three
+  questions from one page.
 - NEVER make an option a bare number or year. "1897" vs "1885" cannot be verified
   against a source page, because a page about trams mentions a dozen years.
 - Always word the options. Good: "The Story Bridge" / "The Victoria Bridge",
