@@ -175,7 +175,7 @@ fs.writeFileSync(P("batch-report.internal.json"), JSON.stringify({
 console.log("wrote flip-batch-report.json");
 
 if (!MERGE) { console.log("dry run — bank not modified. Re-run with --merge to apply."); process.exit(quarantined.length ? 1 : 0); }
-if (!approved.length) { console.log("nothing approved; bank not modified."); process.exit(1); }
+if (!approved.length) { console.log("nothing approved; bank not modified."); process.exit(0); }
 
 /* ------------------------------------------------------------------ merge */
 bankDoc.bank = bank.concat(approved);
