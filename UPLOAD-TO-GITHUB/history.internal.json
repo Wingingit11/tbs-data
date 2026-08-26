@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "_note": "Canonical publication history. Append-only. Drives 12-month repeat blocking.",
+  "updatedAt": "2026-08-25T23:17:06.544Z",
+  "published": [
+    {
+      "questionId": "flip-gold-006",
+      "topicKey": "stones-corner-james-stone",
+      "date": "2026-08-25",
+      "slot": 1,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-007",
+      "topicKey": "herston-herbert-bramston",
+      "date": "2026-08-25",
+      "slot": 2,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-008",
+      "topicKey": "new-farm-park-before-story-bridge",
+      "date": "2026-08-25",
+      "slot": 3,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-004",
+      "topicKey": "brisbane-terrace-law-1885",
+      "date": "2026-08-25",
+      "slot": 4,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-010",
+      "topicKey": "st-johns-108-year-build",
+      "date": "2026-08-25",
+      "slot": 5,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-001",
+      "topicKey": "chapel-hill-name-origin",
+      "date": "2026-08-26",
+      "slot": 1,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-002",
+      "topicKey": "city-hall-clock-size",
+      "date": "2026-08-26",
+      "slot": 2,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-003",
+      "topicKey": "chermside-before-toombul",
+      "date": "2026-08-26",
+      "slot": 3,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-009",
+      "topicKey": "powerhouse-powered-trams",
+      "date": "2026-08-26",
+      "slot": 4,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-gold-005",
+      "topicKey": "old-windmill-first-television",
+      "date": "2026-08-26",
+      "slot": 5,
+      "provenance": "production"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "checkedAt": "2026-08-26T03:59:16.938Z",
+  "today": "2026-08-26",
+  "planningFrom": "2026-08-27",
+  "policy": {
+    "TARGET": 120,
+    "TRIGGER": 90,
+    "MINIMUM": 60
+  },
+  "state": "CRITICAL",
+  "runwayDays": 0,
+  "firstInsufficientDate": "2026-08-27",
+  "totalRecords": 10,
+  "approvedRecords": 10,
+  "quarantinedRecords": 0,
+  "blockedByQuestionIdWindow": 10,
+  "blockedByTopicKeyWindow": 0,
+  "perSlot": [
+    {
+      "slot": 1,
+      "category": "suburb_story",
+      "difficulty": 1,
+      "approved": 2,
+      "eligible": 0,
+      "daysOfSupply": 0
+    },
+    {
+      "slot": 2,
+      "category": "landmark_oddity",
+      "difficulty": 2,
+      "approved": 2,
+      "eligible": 0,
+      "daysOfSupply": 0
+    },
+    {
+      "slot": 3,
+      "category": "which_came_first",
+      "difficulty": 1,
+      "approved": 2,
+      "eligible": 0,
+      "daysOfSupply": 0
+    },
+    {
+      "slot": 4,
+      "category": "homes_lifestyle",
+      "difficulty": 2,
+      "approved": 2,
+      "eligible": 0,
+      "daysOfSupply": 0
+    },
+    {
+      "slot": 5,
+      "category": "wildcard",
+      "difficulty": 3,
+      "approved": 2,
+      "eligible": 0,
+      "daysOfSupply": 0
+    }
+  ],
+  "bottleneck": {
+    "slot": 1,
+    "category": "suburb_story",
+    "difficulty": 1,
+    "approved": 2,
+    "eligible": 0,
+    "daysOfSupply": 0
+  },
+  "shortfallBySlot": [
+    {
+      "slot": 1,
+      "category": "suburb_story",
+      "difficulty": 1,
+      "need": 120
+    },
+    {
+      "slot": 2,
+      "category": "landmark_oddity",
+      "difficulty": 2,
+      "need": 120
+    },
+    {
+      "slot": 3,
+      "category": "which_came_first",
+      "difficulty": 1,
+      "need": 120
+    },
+    {
+      "slot": 4,
+      "category": "homes_lifestyle",
+      "difficulty": 2,
+      "need": 120
+    },
+    {
+      "slot": 5,
+      "category": "wildcard",
+      "difficulty": 3,
+      "need": 120
+    }
+  ],
+  "recordsNeeded": 600
+}

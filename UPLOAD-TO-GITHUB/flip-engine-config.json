@@ -1,0 +1,9 @@
+{
+  "_note": "FLIP production question engine configuration.",
+  "repeatWindowDays": 365,
+  "seedBridge": {
+    "enabled": false,
+    "_why": "Created only to work around a validator bug: verifierNote lives at source.verifierNote and the mapping did not read it. With the mapping corrected all ten gold records pass STRICT validation, so the bridge has no purpose. Left in place as a documented escape hatch, disabled.",
+    "_ifYouEverEnableIt": "It admits records missing ONLY verifierNote. It never relaxes the 365-day repeat window, so it cannot cause recycling."
+  }
+}

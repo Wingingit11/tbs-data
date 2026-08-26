@@ -1,0 +1,37 @@
+FLIP QUESTION PIPELINE - UPLOAD INSTRUCTIONS
+============================================
+
+You are uploading to:  github.com/Wingingit11/tbs-data
+
+STEP 1 - UPLOAD
+  1. Open  github.com/Wingingit11/tbs-data
+  2. Click  "Add file"  ->  "Upload files"
+  3. Open this folder on your computer
+  4. Select EVERYTHING inside it (Ctrl+A) and drag it onto the GitHub page
+     (drag the FILES AND FOLDERS, not the folder that contains them)
+  5. Wait for all uploads to finish
+  6. Scroll down, click  "Commit changes"
+
+  You should end up with: .github, tools, flip, batches, audit,
+  and several .json files, alongside your existing businesses.js etc.
+
+STEP 2 - ADD THE API KEY
+  Settings -> Secrets and variables -> Actions -> New repository secret
+  Name:   ANTHROPIC_API_KEY
+  Value:  your key from console.anthropic.com
+  Click "Add secret"
+
+STEP 3 - ALLOW WRITING
+  Settings -> Actions -> General
+  Scroll to "Workflow permissions"
+  Choose "Read and write permissions"
+  Click Save
+
+STEP 4 - RUN IT
+  Actions tab -> "FLIP replenish" (left side) -> "Run workflow" -> Run workflow
+
+STEP 5 - SEND ME
+  The Actions run log, and whether it went green or red.
+
+NOTE: the folders "batches" and "audit" contain a placeholder file
+(.gitkeep) so they upload. That is normal.
