@@ -1,7 +1,7 @@
 {
   "version": 1,
   "_note": "Canonical publication history. Append-only. Drives 12-month repeat blocking.",
-  "updatedAt": "2026-08-26T07:36:22.650Z",
+  "updatedAt": "2026-08-26T07:43:33.130Z",
   "published": [
     {
       "questionId": "flip-gold-006",
@@ -70,6 +70,76 @@
       "questionId": "flip-gold-005",
       "topicKey": "old-windmill-first-television",
       "date": "2026-08-26",
+      "slot": 5,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-053",
+      "topicKey": "brisbane-first-tram-tracks-1884-route",
+      "date": "2026-08-27",
+      "slot": 1,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-067",
+      "topicKey": "old-windmill-sails-failed-treadmill-convicts",
+      "date": "2026-08-27",
+      "slot": 2,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-013",
+      "topicKey": "greater-brisbane-council-before-city-hall",
+      "date": "2026-08-27",
+      "slot": 3,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-015",
+      "topicKey": "spilsbury-cottage-spring-hill-class-geography",
+      "date": "2026-08-27",
+      "slot": 4,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-018",
+      "topicKey": "ascot-fire-station-allied-forces-wwii",
+      "date": "2026-08-27",
+      "slot": 5,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-056",
+      "topicKey": "new-farm-strathmore-incholm-hospital-ww1",
+      "date": "2026-08-28",
+      "slot": 1,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-079",
+      "topicKey": "hamilton-suburb-named-after-hotel",
+      "date": "2026-08-28",
+      "slot": 2,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-014",
+      "topicKey": "city-hall-before-story-bridge",
+      "date": "2026-08-28",
+      "slot": 3,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-008",
+      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
+      "date": "2026-08-28",
+      "slot": 4,
+      "provenance": "production"
+    },
+    {
+      "questionId": "flip-auto-20260826-012",
+      "topicKey": "toohey-forest-mount-galway-property-name",
+      "date": "2026-08-28",
       "slot": 5,
       "provenance": "production"
     }

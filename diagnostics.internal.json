@@ -1,17 +1,17 @@
 {
   "date": "2026-08-26",
   "repeatWindowDays": 90,
-  "totalRecords": 35,
-  "approvedRecords": 35,
-  "eligibleToday": 25,
+  "totalRecords": 40,
+  "approvedRecords": 40,
+  "eligibleToday": 30,
   "byCategory": {
     "suburb_story": {
       "approved": 14,
       "eligibleToday": 12
     },
     "landmark_oddity": {
-      "approved": 2,
-      "eligibleToday": 0
+      "approved": 7,
+      "eligibleToday": 5
     },
     "which_came_first": {
       "approved": 6,
@@ -31,22 +31,22 @@
   "quarantined": [],
   "quarantinedCount": 0,
   "placeholderRecordsExcluded": 0,
-  "daysOfSupplyRemaining": 0,
+  "daysOfSupplyRemaining": 2,
   "seedBridgeEnabled": false,
   "plannedFrom": "2026-08-27",
-  "plannedThrough": null,
+  "plannedThrough": "2026-08-28",
   "stoppedAt": {
-    "date": "2026-08-27",
+    "date": "2026-08-29",
     "ok": false,
     "questions": [],
     "shortfalls": [
       {
-        "slot": 2,
-        "category": "landmark_oddity",
+        "slot": 4,
+        "category": "homes_lifestyle",
         "difficulty": 2,
         "reason": "no eligible approved record for this category and difficulty"
       }
     ]
   },
-  "generatedAt": "2026-08-26T07:36:22.650Z"
+  "generatedAt": "2026-08-26T07:43:33.130Z"
 }

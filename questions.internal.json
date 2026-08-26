@@ -1315,7 +1315,178 @@
         "farming",
         "suburban-development"
       ]
+    },
+    {
+      "id": "flip-auto-20260826-065",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "story-bridge-hotel-original-name-logan-hotel",
+      "prompt": "The Story Bridge Hotel in Kangaroo Point was NOT always called that. What was it called when it first opened on the same corner around 1878?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Logan Hotel"
+        },
+        {
+          "id": "b",
+          "label": "The River View Hotel"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "A hotel stood on the corner of Main and Wilson Street from about 1878, known as the Logan Hotel. In 1885 James Darragh rebuilt it and renamed it the Kangaroo Point Hotel — the 'Story Bridge' name came much later.",
+      "source": {
+        "title": "Story Bridge Hotel | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/949",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'A hotel has been located on the corner of Main and Wilson (now Baildon) Street since circa 1878. The earlier hotel on the site was called the Logan Hotel.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "kangaroo-point",
+        "hotels",
+        "story-bridge",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-067",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "old-windmill-sails-failed-treadmill-convicts",
+      "prompt": "Brisbane's Old Windmill on Wickham Terrace was built in 1828 — but it almost immediately failed at its one job. What went wrong?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Its sails never turned in the wind"
+        },
+        {
+          "id": "b",
+          "label": "It ground the wrong type of grain"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The windmill was poorly positioned and its sails failed to catch the breeze, making it useless as a mill. Convicts were put on a treadmill beside it instead to grind grain by foot for up to 14 hours at a time.",
+      "source": {
+        "title": "Brisbane City Centre Heritage Place Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-city-centre-heritage-place-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'On completion however, the windmill's sails failed to turn' and describes the treadmill as the solution, also confirming it is Queensland's oldest standing building built in 1828."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "spring-hill",
+        "convict-era",
+        "old-windmill",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-071",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "hamilton-suburb-named-after-hotel-1865",
+      "prompt": "The Brisbane suburb of Hamilton got its name in an unusual way. What was it named after?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Hamilton Hotel, established 1865"
+        },
+        {
+          "id": "b",
+          "label": "Scottish town of Hamilton, home of early settlers"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "According to the BCC Ascot and Hamilton Heritage Trail, 'The Hamilton Hotel was established in 1865 and the suburb was subsequently named after it' — making this one of Brisbane's few suburbs named after a pub.",
+      "source": {
+        "title": "Ascot and Hamilton Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/ascot-and-hamilton-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'The Hamilton Hotel was established in 1865 and the suburb was subsequently named after it.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "hamilton",
+        "suburb-names",
+        "hotels",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-076",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "kangaroo-point-cliffs-created-by-quarrying",
+      "prompt": "Brisbane's dramatic Kangaroo Point Cliffs are actually man-made. What activity created them?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Quarrying stone for penal settlement buildings"
+        },
+        {
+          "id": "b",
+          "label": "Dredging and flood mitigation works"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Around 1826, Captain Patrick Logan opened a quarry there. 'Brisbane Tuff' stone was cut and punted across the river for penal settlement buildings including the Commissariat Store — the excavation created today's dramatic cliffs.",
+      "source": {
+        "title": "Brisbane River Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-river-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'Kangaroo Point Cliffs was originally a rocky ridge where, around 1826, Captain Patrick Logan opened a quarry for the penal settlement. It punted stone across the river for government buildings, including the Commissariat Store.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "kangaroo-point",
+        "cliffs",
+        "quarry",
+        "convict-era",
+        "commissariat-store"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-079",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "hamilton-suburb-named-after-hotel",
+      "prompt": "The Brisbane suburb of Hamilton got its name from an unexpected source. What was it named after?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Hamilton Hotel, established in 1865"
+        },
+        {
+          "id": "b",
+          "label": "The Scottish town of Hamilton"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Hamilton Hotel was established in 1865 and the suburb was subsequently named after it — making Hamilton one of Brisbane's few suburbs whose name traces back to a pub.",
+      "source": {
+        "title": "Ascot and Hamilton Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/ascot-and-hamilton-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'The Hamilton Hotel was established in 1865 and the suburb was subsequently named after it.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "hamilton",
+        "suburb-names",
+        "hotels",
+        "heritage"
+      ]
     }
   ],
-  "updatedAt": "2026-08-26T07:36:22.619Z"
+  "updatedAt": "2026-08-26T07:43:33.102Z"
 }
