@@ -1,100 +1,98 @@
 {
   "_note": "CANDIDATES - unverified. Must pass flip-verify-sources.js then flip-ingest.js.",
-  "generatedAt": "2026-08-26T06:41:34.588Z",
+  "generatedAt": "2026-08-26T07:35:32.850Z",
   "bank": [
     {
       "id": "flip-auto-20260826-001",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "old-windmill-windless-treadmill",
-      "prompt": "Brisbane's Old Windmill was built on a hilltop in 1828 to grind grain. Why did convicts end up powering a treadmill inside it?",
+      "topicKey": "city-hall-construction-cost-comparison",
+      "prompt": "When Brisbane City Hall was built between 1920 and 1930, it was the second-largest construction project in Australia at the time. What was the only project bigger?",
       "options": [
         {
           "id": "a",
-          "label": "The hilltop location was too windless to turn the sails"
+          "label": "The Sydney Harbour Bridge"
         },
         {
           "id": "b",
-          "label": "The sails were destroyed in a storm soon after opening"
+          "label": "The Melbourne Town Hall"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Poorly sited in a windless spot, the mill's sails couldn't turn. Convicts were forced to work a treadmill — sometimes in leg irons for 14 hours — to keep the millstones grinding.",
+      "reveal": "City Hall cost almost one million pounds and was second only to the Sydney Harbour Bridge, then under construction, making it Brisbane's most ambitious civic undertaking.",
       "source": {
-        "title": "Old Windmill Tower | State Library of Queensland",
-        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page states it 'is located in a somewhat windless location, it quickly became a place of punishment, with convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
+        "title": "Brisbane City Hall Tour - Museum of Brisbane | MoB",
+        "url": "https://www.museumofbrisbane.com.au/whats-on/brisbane-city-hall-tour/",
+        "publisher": "Museum of Brisbane",
+        "verifierNote": "Page states City Hall 'was the second largest construction project in Australia, second only to the Sydney Harbour Bridge'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "old-windmill",
-        "spring-hill",
-        "convict",
-        "treadmill",
-        "heritage"
+        "city-hall",
+        "sydney-harbour-bridge",
+        "1920s",
+        "construction"
       ]
     },
     {
       "id": "flip-auto-20260826-002",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "skyneedle-hairdresser-saved-tokyo",
-      "prompt": "After World Expo '88 closed, what was originally planned for Brisbane's iconic Skyneedle tower?",
+      "topicKey": "city-hall-clock-tallest-brisbane",
+      "prompt": "Brisbane City Hall's 92-metre clock tower was the tallest structure in Brisbane until which decade?",
       "options": [
         {
           "id": "a",
-          "label": "Relocation to Tokyo Disneyland"
+          "label": "The 1960s"
         },
         {
           "id": "b",
-          "label": "Permanent installation at South Bank Parklands"
+          "label": "The 1940s"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The 88 m Skyneedle was earmarked for Tokyo Disneyland after Expo closed. Brisbane hairdresser Stefan Ackerie bought it instead and moved it to his South Brisbane HQ, keeping it in the city.",
+      "reveal": "Built in the late 1920s, the tower was Australia's largest public clock and held the title of Brisbane's tallest structure until the 1960s, when taller buildings finally surpassed it.",
       "source": {
-        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states the Skyneedle was purchased by Steve Ackerie who moved it from Southbank to his Stefan corporate HQ; separate source (QSA blog) confirms it was originally planned for Tokyo Disneyland."
+        "title": "Brisbane City Hall and King George Square | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/things-to-see-and-do/council-venues-and-precincts/brisbane-city-hall/city-hall-history-and-heritage/main-auditorium-and-organ",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states the tower 'was the tallest structure in Brisbane until the 1960s'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "skyneedle",
-        "expo-88",
-        "south-brisbane",
-        "stefan-ackerie",
-        "sculpture"
+        "city-hall",
+        "clock-tower",
+        "1960s",
+        "tallest-building"
       ]
     },
     {
       "id": "flip-auto-20260826-003",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "old-windmill-windless-treadmill",
-      "prompt": "Brisbane's Old Windmill was built in 1828 on a hilltop to grind grain. Why did convicts end up powering a treadmill inside instead of the wind doing the work?",
+      "topicKey": "old-windmill-failed-wind-power",
+      "prompt": "Brisbane's Old Windmill on Wickham Terrace was built in 1828 to grind grain — but it barely used wind power. Why?",
       "options": [
         {
           "id": "a",
-          "label": "The hilltop was too windless to turn the sails"
+          "label": "It was poorly positioned and failed to catch the breeze"
         },
         {
           "id": "b",
-          "label": "The millstones were too heavy for any wind-powered mechanism"
+          "label": "The sails were never finished before the colony closed"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Poorly sited in a near-windless spot, the sails couldn't turn reliably. Convicts were forced onto a treadmill — sometimes wearing 8 kg leg irons for 14 hours — to keep the millstones grinding.",
+      "reveal": "Despite its hilltop location, the windmill was poorly positioned and rarely caught enough wind to turn its arms, so convicts were put to work on a treadmill to keep it grinding.",
       "source": {
-        "title": "Old Windmill Tower | State Library of Queensland",
-        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page states the windmill 'is located in a somewhat windless location' and 'convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
+        "title": "MoB Sunday Stories: the Old Windmill - Museum of Brisbane | MoB",
+        "url": "https://www.museumofbrisbane.com.au/mob-sunday-stories-the-old-windmill/",
+        "publisher": "Museum of Brisbane",
+        "verifierNote": "Page states the windmill 'was poorly positioned and failed to catch the breeze, thus making its primary function entirely redundant'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
@@ -103,90 +101,155 @@
         "old-windmill",
         "spring-hill",
         "convict",
-        "treadmill",
-        "heritage"
+        "wickham-terrace"
       ]
     },
     {
       "id": "flip-auto-20260826-004",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "skyneedle-hairdresser-purchased",
-      "prompt": "When World Expo '88 ended and its sculptures were sold off, who bought the 88-metre Skyneedle and kept it in South Brisbane?",
+      "topicKey": "newstead-house-first-heritage-act",
+      "prompt": "Newstead House, built in 1846, holds a special legal distinction in Queensland heritage history. What was it?",
       "options": [
         {
           "id": "a",
-          "label": "A prominent Brisbane hairdresser"
+          "label": "Queensland's first property protected by its own Act of Parliament"
         },
         {
           "id": "b",
-          "label": "Brisbane City Council"
+          "label": "The first building placed on the Queensland Heritage Register"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "After Expo closed, all sculptures went on public sale. Hairdresser Steve Ackerie purchased the Skyneedle and relocated it from Southbank to his Stefan corporate HQ, saving it for Brisbane.",
+      "reveal": "In 1939, Newstead House became Queensland's first property to be protected under its own dedicated Act of Parliament, decades before the modern Queensland Heritage Register was established.",
       "source": {
-        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Skyneedle was purchased by prominent Brisbane businessman and hairdresser Steve Ackerie who moved it from Southbank to his Stefan corporate headquarters at 16 Edmondstone Street.'"
+        "title": "About - Newstead House | Brisbane's oldest standing European residence",
+        "url": "https://newsteadhouse.com.au/about/",
+        "publisher": "Newstead House",
+        "verifierNote": "Page states 'In 1939, Newstead House made history again as Queensland's first property protected under its own Act of Parliament'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "skyneedle",
-        "expo-88",
-        "south-brisbane",
-        "stefan-ackerie",
-        "sculpture"
+        "newstead-house",
+        "heritage-act",
+        "1939",
+        "oldest-home"
       ]
     },
     {
       "id": "flip-auto-20260826-005",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "old-windmill-windless-treadmill",
-      "prompt": "Brisbane's Old Windmill was built in 1828 on a hilltop to grind grain by wind. Why did convicts end up powering a treadmill inside instead?",
+      "topicKey": "story-bridge-australian-design",
+      "prompt": "The Story Bridge, opened in 1940, holds a notable distinction among Australian bridges. What is it?",
       "options": [
         {
           "id": "a",
-          "label": "The hilltop was too windless to turn the sails"
+          "label": "The largest steel bridge designed, fabricated and built in Australia by Australians"
         },
         {
           "id": "b",
-          "label": "The millstones were too heavy for any wind-powered mechanism"
+          "label": "The first bridge to use electric arc welding instead of rivets"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Poorly sited in a near-windless spot, the sails couldn't turn reliably. Convicts were forced onto a treadmill — sometimes in 8 kg leg irons for 14 hours — to keep the millstones grinding.",
+      "reveal": "The Story Bridge is Australia's longest cantilever bridge and is celebrated as the largest steel bridge designed, fabricated and constructed in Australia by Australians, using approximately 95% Australian materials.",
       "source": {
-        "title": "Old Windmill Tower | State Library of Queensland",
-        "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page states the windmill 'is located in a somewhat windless location' and that 'convicts being put to work on a treadmill to keep the arms and heavy millstone turning.'"
+        "title": "Story Bridge | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states 'The Story Bridge remains the largest steel bridge designed and built mostly by Australians from Australian materials' and 'approximately 95 per cent of the materials used were of Australian manufacture'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "old-windmill",
-        "spring-hill",
-        "convict",
-        "treadmill",
-        "heritage"
+        "story-bridge",
+        "cantilever",
+        "1940",
+        "engineering"
       ]
     },
     {
       "id": "flip-auto-20260826-006",
       "status": "approved",
       "category": "landmark_oddity",
-      "topicKey": "skyneedle-hairdresser-purchased",
-      "prompt": "When World Expo '88 ended and its sculptures were sold off, who bought the 88-metre Skyneedle and kept it in South Brisbane?",
+      "topicKey": "story-bridge-deepest-airlock-work",
+      "prompt": "During the Story Bridge's construction in the 1930s, workers had to dig extremely deep for the southern pier. What record did this set?",
       "options": [
         {
           "id": "a",
-          "label": "A prominent Brisbane hairdresser"
+          "label": "The deepest airlock work done in Australia at the time"
+        },
+        {
+          "id": "b",
+          "label": "The deepest bridge foundation poured in the Southern Hemisphere"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Workers in watertight airlock chambers within steel caissons dug up to 40 metres below ground level for the southern pier — the deepest airlock work ever done in Australia at that time.",
+      "source": {
+        "title": "Story Bridge | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states excavations 'necessitated men working in watertight airlock chambers within steel caissons up to 40 metres below ground level' and 'This was the deepest airlock work done in Australia at the time'."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "story-bridge",
+        "construction",
+        "1930s",
+        "engineering"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-007",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "treasury-building-largest-19th-century",
+      "prompt": "Brisbane's Treasury Building, completed in stages from 1886 to 1928, holds what distinction among Australian government buildings?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Largest 19th-century government building in Australia by floor area"
+        },
+        {
+          "id": "b",
+          "label": "The first Australian government building designed in Italian Renaissance style"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Treasury Building is heritage-listed as the largest 19th-century government building in Australia by gross floor area, occupying an entire city block bounded by Queen, George, Elizabeth and William Streets.",
+      "source": {
+        "title": "Treasury Building, Brisbane - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Treasury_Building,_Brisbane",
+        "publisher": "Wikipedia (citing Queensland Heritage Register)",
+        "verifierNote": "Page states the Treasury Building 'is the largest 19th-century government building in Australia by gross floor area', citing the Queensland Heritage Register."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "treasury-building",
+        "italian-renaissance",
+        "cbd",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-008",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "customs-house-university-queensland",
+      "prompt": "Brisbane's Customs House, completed in 1889, was originally the city's main customs collection point. Who operates it today?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The University of Queensland"
         },
         {
           "id": "b",
@@ -194,506 +257,1954 @@
         }
       ],
       "correctOptionId": "a",
-      "reveal": "After Expo closed, all sculptures went on public sale. Hairdresser Steve Ackerie bought the Skyneedle and relocated it from Southbank to his Stefan corporate HQ, keeping it in the city.",
+      "reveal": "After Customs relocated in 1988, the beautifully restored heritage building was leased to The University of Queensland, which now operates it as a cultural, educational and heritage venue on the Brisbane River.",
       "source": {
-        "title": "Expo 88 Skyneedle, sculpture | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'Skyneedle was purchased by prominent Brisbane businessman and hairdresser Steve Ackerie who moved it from Southbank to his Stefan corporate headquarters at 16 Edmondstone Street.'"
+        "title": "Brisbane Customs House | Visit Brisbane",
+        "url": "https://visit.brisbane.qld.au/things-to-do/inner-city/history-and-heritage/brisbane-customs-house-69fe",
+        "publisher": "Visit Brisbane",
+        "verifierNote": "Page states Customs House 'once served as the city's principal customs collection point' and 'Today the beautifully restored building is operated by The University of Queensland as a cultural, educational and heritage venue'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "skyneedle",
-        "expo-88",
-        "south-brisbane",
-        "stefan-ackerie",
-        "sculpture"
-      ]
-    },
-    {
-      "id": "flip-auto-20260826-007",
-      "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "new-farm-wealthy-streets-river-views",
-      "prompt": "In late 19th-century New Farm, which streets were described as home to 'the well-to-do'?",
-      "options": [
-        {
-          "id": "a",
-          "label": "Elevated streets with river views"
-        },
-        {
-          "id": "b",
-          "label": "Flat streets close to the tramway"
-        }
-      ],
-      "correctOptionId": "a",
-      "reveal": "The BCC heritage register for Mossrose Cottage states that 'elevated streets with views to the river were occupied by residences of the well-to-do,' while workers' cottages filled the nearby lower streets.",
-      "source": {
-        "title": "Mossrose Cottage | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'While elevated streets with views to the river were occupied by residences of the well-to-do, workers' cottages such as this were common in nearby streets.'"
-      },
-      "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
-      "knowledgeOnly": false,
-      "tags": [
-        "new-farm",
-        "housing",
-        "class",
-        "19th-century"
-      ]
-    },
-    {
-      "id": "flip-auto-20260826-008",
-      "status": "approved",
-      "category": "homes_lifestyle",
-      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
-      "prompt": "The heritage cottages at Cairns Street, Kangaroo Point were built in the 1880s as what type of housing?",
-      "options": [
-        {
-          "id": "a",
-          "label": "Purpose-built rental cottages"
-        },
-        {
-          "id": "b",
-          "label": "Owner-occupier family homes"
-        }
-      ],
-      "correctOptionId": "a",
-      "reveal": "A 1880s Brisbane building boom drove the Kangaroo Point population from 1,903 to 3,204 in just five years. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at Moar's nearby shipyard.",
-      "source": {
-        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states the cottages are 'purpose-built nineteenth century rental cottages' and that 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s housing demand."
-      },
-      "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 2,
-      "knowledgeOnly": false,
-      "tags": [
-        "kangaroo-point",
-        "housing",
-        "rental",
-        "19th-century",
-        "workers"
+        "customs-house",
+        "university-of-queensland",
+        "1889",
+        "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-009",
       "status": "approved",
       "category": "homes_lifestyle",
-      "topicKey": "new-farm-wealthy-streets-river-views",
-      "prompt": "In late 19th-century New Farm, which streets were described as home to 'the well-to-do'?",
+      "topicKey": "watson-terrace-speculative-investment-1887",
+      "prompt": "Watson Terrace in South Brisbane — three attached houses at 45 Browning Street — was built circa 1887. Why did builder Thomas Watson construct them?",
       "options": [
         {
           "id": "a",
-          "label": "Elevated streets with river views"
+          "label": "Speculative rental investment"
         },
         {
           "id": "b",
-          "label": "Flat streets close to the tramway"
+          "label": "His personal family home"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The BCC heritage page for Mossrose Cottage states that elevated streets with river views were home to the well-to-do, while workers' cottages filled the nearby lower streets of the suburb.",
+      "reveal": "Watson built the terrace as an investment to profit from the 1880s building boom. He sold up after becoming insolvent in 1891.",
       "source": {
-        "title": "Mossrose Cottage | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+        "title": "Watson Terrace | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1489",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'While elevated streets with views to the river were occupied by residences of the well-to-do, workers' cottages such as this were common in nearby streets.'"
+        "verifierNote": "Page states the residences 'were a speculative investment for Watson who took advantage of the 1880s economic and building boom' and that 'Watson sold the building in 1891 after becoming insolvent'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "new-farm",
-        "housing",
-        "class",
-        "19th-century"
+        "south-brisbane",
+        "terrace-houses",
+        "1880s-boom",
+        "rental-housing"
       ]
     },
     {
       "id": "flip-auto-20260826-010",
       "status": "approved",
       "category": "homes_lifestyle",
-      "topicKey": "kangaroo-point-cairns-street-rental-cottages",
-      "prompt": "The heritage cottages on Cairns Street, Kangaroo Point were built in the 1880s boom as what kind of housing?",
+      "topicKey": "astrea-west-end-semi-detached-1888",
+      "prompt": "Astrea at 19 Bank Street, West End, was built around 1888 as a pair of semi-detached houses. What happened to it in 1909?",
       "options": [
         {
           "id": "a",
-          "label": "Purpose-built rental cottages"
+          "label": "Converted into a single residence"
         },
         {
           "id": "b",
-          "label": "Owner-occupier family homes"
+          "label": "Demolished and rebuilt as flats"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Kangaroo Point's population leapt from 1,903 to 3,204 between 1881 and 1886. Landowner Mullen built the Cairns Street cottages specifically as rental properties for workers, many employed at the nearby Moar's shipyard.",
+      "reveal": "In 1909 new owners Thomas and Harriet Walters converted the two semi-detached halves into one home and likely gave it the name Astrea.",
       "source": {
-        "title": "35 Cairns Street, Kangaroo Point | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/929",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page describes the cottages as 'purpose-built nineteenth century rental cottages' and states 'landowners like Mullen constructed rental houses on their properties' to meet the 1880s demand."
+        "title": "Astrea | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600341",
+        "publisher": "Queensland Government (Queensland Heritage Register)",
+        "verifierNote": "Page states 'In 1909 the building was sold to Thomas and Harriet Walters, who converted it into a single residence, and possibly gave it the name Astrea'."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "kangaroo-point",
-        "housing",
-        "rental",
-        "19th-century",
-        "workers"
+        "west-end",
+        "semi-detached",
+        "1880s-boom",
+        "residential-conversion"
       ]
     },
     {
       "id": "flip-auto-20260826-011",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "waratah-hellicar-qld-law-society-role",
-      "prompt": "George Hellicar, who co-owned the heritage-listed 'Waratah' flats in Woolloongabba, was a foundation member of the Queensland Law Society. What role was he appointed to at its formation in 1873?",
+      "category": "homes_lifestyle",
+      "topicKey": "glenugie-new-farm-timber-not-masonry",
+      "prompt": "Glenugie (1884–85) stands out from its neighbours along Moray Street, New Farm. What sets its construction apart from most other large 1880s houses on that street?",
       "options": [
         {
           "id": "a",
-          "label": "Honorary Secretary"
+          "label": "Timber construction throughout"
         },
         {
           "id": "b",
-          "label": "President"
+          "label": "Brick and stone construction"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Hellicar was 'appointed as honorary secretary' when the Queensland Law Society was formed at the Supreme Court in Brisbane in August 1873.",
+      "reveal": "Architect Alexander Brown Wilson built Glenugie entirely of timber, believing wood was preferable in Brisbane's climate as it did not retain heat the way brick or stone did.",
       "source": {
-        "title": "Waratah | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1167",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states Hellicar 'was one of the foundation members of the Queensland Law Society when it was formed at the Supreme Court in Brisbane in August 1873' and 'Appointed as honorary secretary'."
+        "title": "Glenugie | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600262",
+        "publisher": "Queensland Government (Queensland Heritage Register)",
+        "verifierNote": "Page describes Glenugie as 'two-storeyed but built of timber rather than masonry' and notes it is 'an unusual timber version of the large two-storey verandahed houses fashionable in the 1880s'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "woolloongabba",
-        "law",
-        "federation-era",
-        "heritage"
+        "new-farm",
+        "1880s",
+        "residential-architecture",
+        "timber-construction"
       ]
     },
     {
       "id": "flip-auto-20260826-012",
       "status": "approved",
-      "category": "wildcard",
-      "topicKey": "toohey-forest-mount-galway-property-name",
-      "prompt": "Toohey Forest Park occupies land that was once a cattle grazing property owned by the Toohey family from the 1870s. What was that property called?",
+      "category": "homes_lifestyle",
+      "topicKey": "fernberg-paddington-first-governor-1910",
+      "prompt": "Fernberg (now Government House) in Paddington was one of the first houses built in that area. When did it become the official residence of Queensland's Governors?",
       "options": [
         {
           "id": "a",
-          "label": "'Mount Galway'"
+          "label": "From 1910 onwards"
         },
         {
           "id": "b",
-          "label": "'Moorlands'"
+          "label": "From 1865 onwards"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The park's site was the cattle grazing property 'Mount Galway', home of the Toohey family from 1872 to 1946, before Brisbane City Council completed its purchase and declared it parkland.",
+      "reveal": "Built by merchant Johann Heussler in 1865, Fernberg only became the Governor's official residence in 1910 when Governor MacGregor moved in temporarily after the old Government House was given to the University of Queensland.",
       "source": {
-        "title": "Toohey Forest Park | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1411",
-        "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'The Park's site was part of the cattle grazing property 'Mount Galway' that was the home of district pioneers, the Toohey family from 1872 to 1946.'"
+        "title": "The History | Government House Queensland",
+        "url": "https://www.govhouse.qld.gov.au/government-house/history-of-government-house.aspx",
+        "publisher": "Government House Queensland",
+        "verifierNote": "Page states ''Fernberg' was one of the first houses built in Brisbane's Paddington area, by merchant Johann Heussler in 1865. Since 1910, the estate has been the home and workplace of Queensland Governors'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 3,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "toohey-forest",
-        "nathan",
-        "parklands",
-        "heritage"
+        "paddington",
+        "government-house",
+        "1865",
+        "governors-residence"
       ]
     },
     {
       "id": "flip-auto-20260826-013",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "greater-brisbane-council-before-city-hall",
-      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "category": "homes_lifestyle",
+      "topicKey": "spring-hill-north-brisbane-first-dormitory-suburb",
+      "prompt": "Lonsdale House (283 Boundary Street) is a key surviving example of Spring Hill's early residential character. How is Spring Hill described in its Queensland Heritage Register entry?",
       "options": [
         {
           "id": "a",
-          "label": "The formation of the Greater Brisbane Council"
+          "label": "North Brisbane's first dormitory suburb"
         },
         {
           "id": "b",
-          "label": "The opening of Brisbane City Hall"
+          "label": "Brisbane's first industrial precinct"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Greater Brisbane Council was formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "reveal": "Spring Hill was within easy walking distance of Queen Street and rapidly emerged as North Brisbane's first dormitory suburb, with little commercial or industrial base of its own.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and 'Council started meeting in the Brisbane City Hall in 1928 while construction was being completed, before opening in April 1930.'"
+        "title": "Lonsdale House | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601159",
+        "publisher": "Queensland Government (Queensland Heritage Register)",
+        "verifierNote": "Page states 'Spring Hill, within easy walking distance of Queen Street, rapidly emerged as North Brisbane's first dormitory suburb, with little commercial or industrial base of its own'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "greater-brisbane",
-        "city-hall",
-        "council",
-        "1925",
-        "1930"
+        "spring-hill",
+        "dormitory-suburb",
+        "19th-century",
+        "residential-history"
       ]
     },
     {
       "id": "flip-auto-20260826-014",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "city-hall-before-story-bridge",
-      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "category": "homes_lifestyle",
+      "topicKey": "brighton-terrace-west-end-first-tenants-1889",
+      "prompt": "Brighton Terrace in West End (30 Sussex Street) was completed in 1889–90. Who were the first two tenants of the initial pair of houses when they were let in 1889?",
       "options": [
         {
           "id": "a",
-          "label": "The opening of Brisbane City Hall"
+          "label": "A commercial traveller and a bank manager"
         },
         {
           "id": "b",
-          "label": "The opening of the Story Bridge"
+          "label": "A doctor and a school teacher"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge didn't open until 1940, a full decade later, when cross-river bus services also commenced.",
+      "reveal": "The first two Brighton Terrace houses were immediately let in 1889 to A. Mirls, a commercial traveller, and WH Robertson, a bank manager — reflecting their upmarket design for professional tenants.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states City Hall opened in April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+        "title": "Brighton Terrace",
+        "url": "https://en.wikipedia.org/wiki/Brighton_Terrace",
+        "publisher": "Wikipedia (citing Queensland Heritage Register entry 600343)",
+        "verifierNote": "Wikipedia article states 'The first two houses were completed in 1889 and were immediately let to A. Mirls, a commercial traveller and WH Robertson, a bank manager'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "city-hall",
-        "story-bridge",
-        "1930",
-        "1940",
-        "brisbane-landmarks"
+        "west-end",
+        "terrace-housing",
+        "1880s-boom",
+        "rental-housing"
       ]
     },
     {
       "id": "flip-auto-20260826-015",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "greater-brisbane-council-before-city-hall",
-      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "category": "homes_lifestyle",
+      "topicKey": "spilsbury-cottage-spring-hill-class-geography",
+      "prompt": "The heritage-listed Spilsbury's Cottage in Spring Hill (built 1865–72) sat on the slopes, not the ridges. According to its heritage register entry, who lived on Spring Hill's ridges versus its slopes?",
       "options": [
         {
           "id": "a",
-          "label": "The formation of the Greater Brisbane Council"
+          "label": "Wealthy on ridges; middle-class tradesmen on slopes"
         },
         {
           "id": "b",
-          "label": "The opening of Brisbane City Hall"
+          "label": "Working-class labourers on ridges; wealthy on slopes"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Greater Brisbane Council formed on 1 October 1925 when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "reveal": "Ridge roads with cooling breezes attracted wealthier residents, while middle-class grocers, clerks and skilled tradesmen — like the Spilsburys — lived on Spring Hill's slopes.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+        "title": "Spilsbury's Cottage - Brisbane Heritage Register",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2291",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'Those with the means to own the highest land with cooling breezes and expansive views built residences along the ridges, while the middle classes of shopkeepers and artisans lived on the slopes of Spring Hill'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "greater-brisbane",
-        "city-hall",
-        "council",
-        "1925",
-        "1930"
+        "spring-hill",
+        "social-history",
+        "19th-century",
+        "class-geography"
       ]
     },
     {
       "id": "flip-auto-20260826-016",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "city-hall-before-story-bridge",
-      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "category": "homes_lifestyle",
+      "topicKey": "exeter-street-west-end-brick-terrace-1878",
+      "prompt": "The two-storey house at 12 Exeter Street, West End is described as a rare example of its type. What makes it unusual for Brisbane's inner suburbs?",
       "options": [
         {
           "id": "a",
-          "label": "The opening of Brisbane City Hall"
+          "label": "Brick two-storey terrace house"
         },
         {
           "id": "b",
-          "label": "The opening of the Story Bridge"
+          "label": "Timber single-storey Queenslander"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened in 1940 — a full decade later — when cross-river bus services also began.",
+      "reveal": "Built in 1878 by local bricklayer Thomas Jackson, this two-storey brick terrace is rare because Queensland's 1885 Undue Subdivision of Land Act and local preference meant most inner Brisbane homes were detached timber Queenslanders.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+        "title": "12 Exeter Street, West End | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1750",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'This residence is a rare and uncommon example of a brick, two-storey terrace house' and that 'Thomas Jackson, a local bricklayer, purchased Lot 46 and built this house in 1878'."
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 2,
       "knowledgeOnly": false,
       "tags": [
-        "city-hall",
-        "story-bridge",
-        "1930",
-        "1940",
-        "brisbane-landmarks"
+        "west-end",
+        "brick-construction",
+        "terrace-house",
+        "19th-century"
       ]
     },
     {
       "id": "flip-auto-20260826-017",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "greater-brisbane-council-before-city-hall",
-      "prompt": "Which came first — the formation of the Greater Brisbane Council, or the opening of Brisbane City Hall?",
+      "category": "wildcard",
+      "topicKey": "albion-railway-1882-tram-1899",
+      "prompt": "What form of public transport first connected Albion to the city in 1882, opening up the suburb to rapid growth?",
       "options": [
         {
           "id": "a",
-          "label": "The formation of the Greater Brisbane Council"
+          "label": "A railway line"
         },
         {
           "id": "b",
-          "label": "The opening of Brisbane City Hall"
+          "label": "An electric tramline"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The Greater Brisbane Council formed on 1 October 1925, when 20 local authorities amalgamated. City Hall didn't open until April 1930 — five years later.",
+      "reveal": "The Roma Street–Sandgate railway opened in 1882, making Albion a popular suburb. The tramline linking Albion with Clayfield and the city didn't open until 1899.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states 'On 1 October 1925, the greater Brisbane Council came into effect as 20 existing local authorities amalgamated' and Council started meeting in City Hall in 1928 'before opening in April 1930.'"
+        "title": "Albion Public Hall (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/95",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'the coming of the railway in 1882 saw the urbanisation of the area' and 'in 1899 a tramline linking Albion with Clayfield and the city opened'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "greater-brisbane",
-        "city-hall",
-        "council",
-        "1925",
-        "1930"
+        "albion",
+        "transport",
+        "railway",
+        "tram",
+        "1882",
+        "1899"
       ]
     },
     {
       "id": "flip-auto-20260826-018",
       "status": "approved",
-      "category": "which_came_first",
-      "topicKey": "city-hall-before-story-bridge",
-      "prompt": "Which came first — the opening of Brisbane City Hall, or the opening of the Story Bridge?",
+      "category": "wildcard",
+      "topicKey": "ascot-fire-station-allied-forces-wwii",
+      "prompt": "The former Ascot fire station on Racecourse Road was built in 1920 but closed just seven years later. What purpose did it serve during World War Two?",
       "options": [
         {
           "id": "a",
-          "label": "The opening of Brisbane City Hall"
+          "label": "Offices for the Allied Forces"
         },
         {
           "id": "b",
-          "label": "The opening of the Story Bridge"
+          "label": "A military hospital ward"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Brisbane City Hall opened in April 1930. The Story Bridge opened a decade later in 1940, when cross-river bus services also began running.",
+      "reveal": "After closing in 1927 when a new station opened at Albion, the building served as offices for the Allied Forces during World War Two, then later as tertiary education and community facilities.",
       "source": {
-        "title": "Council history | Brisbane City Council",
-        "url": "https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-        "publisher": "Brisbane City Council",
-        "verifierNote": "Page states City Hall opened April 1930 and 'Cross river bus services commenced in 1940, with the opening of the Story Bridge.'"
+        "title": "Ascot Fire Station (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/153",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states it was used as 'offices for the Allied Forces during World War Two' after closing as a fire station in 1927"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "city-hall",
-        "story-bridge",
-        "1930",
-        "1940",
-        "brisbane-landmarks"
+        "ascot",
+        "fire station",
+        "world war two",
+        "allied forces",
+        "hamilton"
       ]
     },
     {
       "id": "flip-auto-20260826-019",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "albion-named-after-hotel-white-cliffs",
-      "prompt": "The Brisbane suburb of Albion takes its name from a hotel built in 1864. What inspired the hotel's name?",
+      "category": "wildcard",
+      "topicKey": "nyrambla-ascot-built-for-bank-manager",
+      "prompt": "Nyrambla, the grand Ascot mansion that became Australia's WWII code-breaking headquarters, was originally built in 1885–86 as a residence for whom?",
       "options": [
         {
           "id": "a",
-          "label": "White quarry walls that reminded the owner of England's white cliffs"
+          "label": "The manager of the Australian Joint Stock Bank"
         },
         {
           "id": "b",
-          "label": "A famous inn of the same name in London's East End"
+          "label": "The Queensland Governor's private secretary"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "The original Albion Hotel's owner, Tom Haselden, saw the white stone quarry walls nearby and was reminded of the white cliffs of Dover — so the suburb inherited a name rooted in a local landmark.",
+      "reveal": "Nyrambla was built by the Australian Joint Stock Bank in 1885–86 as the residence of its manager, Henry P. Abbott. During WWII, the Central Bureau used it to break Japanese codes.",
       "source": {
-        "title": "Albion Hotel | Heritage Places",
-        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/91",
+        "title": "Nyrambla | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/152",
         "publisher": "Brisbane City Council Heritage Places",
-        "verifierNote": "Page states: 'The suburb of Albion was named after the hotel' and that Haselden named it because 'the white walls of the stone quarry in the area reminded him of the white cliffs of Dover.'"
+        "verifierNote": "Page states 'Nyrambla was built by the Australian Joint Stock Bank in 1885-86 as the residence of its manager, Henry P. Abbott' and that it was 'occupied by the Central Bureau during World War II who worked on breaking Japanese codes'"
       },
       "verifiedOn": "2026-08-26",
-      "predictedDifficulty": 1,
+      "predictedDifficulty": 3,
       "knowledgeOnly": false,
       "tags": [
-        "albion",
-        "suburb-name-origin",
-        "hotel",
+        "ascot",
+        "nyrambla",
+        "wwii",
+        "code-breaking",
         "heritage"
       ]
     },
     {
       "id": "flip-auto-20260826-020",
       "status": "approved",
-      "category": "suburb_story",
-      "topicKey": "kelvin-grove-named-bancroft-glasgow",
-      "prompt": "Brisbane's inner suburb of Kelvin Grove gets its name from a house built in the 1860s. Where did the house's owner get the name 'Kelvin Grove'?",
+      "category": "wildcard",
+      "topicKey": "whytecliffe-albion-crown-solicitor-1876",
+      "prompt": "The grand hilltop mansion Whytecliffe in Albion was built in 1876 for which notable Queensland official?",
       "options": [
         {
           "id": "a",
-          "label": "A park in Glasgow, Scotland"
+          "label": "Queensland's first Crown Solicitor"
         },
         {
           "id": "b",
-          "label": "A river valley in the English Lake District"
+          "label": "Queensland's first Commissioner of Railways"
         }
       ],
       "correctOptionId": "a",
-      "reveal": "Dr Joseph Bancroft arrived in Brisbane in 1864 and built a home near Enoggera Creek, naming it after Kelvin Grove Park in Glasgow, which he remembered fondly. The suburb took its name from his house.",
+      "reveal": "Whytecliffe was designed by architect F.D.G. Stanley and built in 1876 as an elite private residence for Robert Little, Queensland's Crown Solicitor. It later became part of St Columban's College.",
       "source": {
-        "title": "Queensland Place Histories - Kelvin Grove",
-        "url": "https://www.slq.qld.gov.au/blog/queensland-place-histories-kelvin-grove",
-        "publisher": "State Library of Queensland",
-        "verifierNote": "Page states the suburb's name 'derives from the 1868 purchase by Joseph Bancroft of land in the area and on which he built a residence called Kelvin Grove Park. It is believed that he named the property after Kelvin Grove Park in Glasgow.'"
+        "title": "St Columban's Christian Brothers College, Whytecliffe, Highlands (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/99",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'Whytecliffe was constructed in 1876 and was designed by prominent Architect F.D.G. Stanley as an elite private residence for Queensland's Crown Solicitor Robert Little'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "albion",
+        "whytecliffe",
+        "heritage",
+        "1876",
+        "crown solicitor"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-021",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "carver-and-co-toowong-drapery-65-years",
+      "prompt": "A heritage-listed two-storey masonry building on High Street, Toowong was home to a single business for more than 65 years. What trade did that business practise?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Drapery and outfitting"
+        },
+        {
+          "id": "b",
+          "label": "Hardware and ironmongery"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Carver and Co., drapers and outfitters, occupied the building from around 1885 until 1951 — over 65 years. The building, constructed circa 1885, still stands on High Street today.",
+      "source": {
+        "title": "Carver and Co. building (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1698",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the building 'was occupied by the prominent Toowong drapery company of Carver and Co., for more than 65 years' and 'Carver and Co remained at the premises until 1951'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "toowong",
+        "heritage",
+        "commercial",
+        "drapery",
+        "high street"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-022",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "auchenflower-named-mcilwraith-scotland",
+      "prompt": "The Brisbane suburb of Auchenflower takes its name from a house renamed in 1880 by a former Queensland Premier. Which country's estate inspired that name?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Scotland"
+        },
+        {
+          "id": "b",
+          "label": "Ireland"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Premier Thomas McIlwraith bought the property in 1880 and named it Auchenflower after his family's estate in Ayrshire, Scotland. The Gaelic name is thought to mean 'field of flowers'.",
+      "source": {
+        "title": "Auchenflower | Queensland Places",
+        "url": "https://queenslandplaces.com.au/auchenflower",
+        "publisher": "Centre for the Government of Queensland",
+        "verifierNote": "Page states McIlwraith 'named it Auchenflower after the McIlwraith family estate in Ayrshire, Scotland' in 1880"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "auchenflower",
+        "suburb name",
+        "mcilwraith",
+        "premier",
+        "scotland"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-023",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "hamilton-town-hall-eight-of-twenty",
+      "prompt": "The Hamilton Town Hall (1920) is one of only eight surviving pre-Greater-Brisbane town halls. How many were built before the 1925 amalgamation?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Twenty town halls"
+        },
+        {
+          "id": "b",
+          "label": "Thirty-two town halls"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Twenty town halls were built by the separate local authorities before they merged into Greater Brisbane in 1925. Hamilton's is one of only eight still standing.",
+      "source": {
+        "title": "Hamilton Town Hall, Brisbane – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Town_Hall,_Brisbane",
+        "publisher": "Wikipedia (citing Queensland Heritage Register)",
+        "verifierNote": "Page states it 'is one eight remaining town halls from the twenty that were built prior to the formation of Greater Brisbane in 1925'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "hamilton",
+        "town hall",
+        "greater brisbane",
+        "1925",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-024",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "moorlands-auchenflower-mayne-bequeathed-uu-wesley",
+      "prompt": "Heritage-listed Moorlands in Auchenflower was bequeathed by the Mayne family to the University of Queensland in 1940. What opened in the grounds behind it in 1977?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Wesley Hospital"
+        },
+        {
+          "id": "b",
+          "label": "A Uniting Church theological college"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "After passing to Legacy and then the Methodist Church, Moorlands' grounds became the site of The Wesley Hospital, which opened in March 1977. The heritage house still stands as Wesley's administration building.",
+      "source": {
+        "title": "Moorlands | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600052",
+        "publisher": "Queensland Government (Queensland Heritage Register)",
+        "verifierNote": "Page states 'The Methodist (later Uniting) Church bought the property in 1971 and the Wesley Hospital, which opened in March 1977, was built in the grounds behind the house' and that Moorlands 'remained the property of the Mayne family until 1940, when it was bequeathed to the University of Queensland'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "auchenflower",
+        "moorlands",
+        "mayne family",
+        "wesley hospital",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-025",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "albion-railway-1882-tram-1899",
+      "prompt": "What form of public transport first connected Albion to the city in 1882, opening up the suburb to rapid growth?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A railway line"
+        },
+        {
+          "id": "b",
+          "label": "An electric tramline"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Roma Street–Sandgate railway opened in 1882, making Albion a popular suburb. The tramline linking Albion with Clayfield and the city didn't open until 1899.",
+      "source": {
+        "title": "Albion Public Hall (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/95",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'the coming of the railway in 1882 saw the urbanisation of the area' and 'in 1899 a tramline linking Albion with Clayfield and the city opened'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "albion",
+        "transport",
+        "railway",
+        "tram",
+        "1882",
+        "1899"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-026",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "ascot-fire-station-allied-forces-wwii",
+      "prompt": "The former Ascot fire station on Racecourse Road was built in 1920 but closed just seven years later. What purpose did it serve during World War Two?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Offices for the Allied Forces"
+        },
+        {
+          "id": "b",
+          "label": "A military hospital ward"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "After closing in 1927 when a new station opened at Albion, the building served as offices for the Allied Forces during World War Two, then later as tertiary education and community facilities.",
+      "source": {
+        "title": "Ascot Fire Station (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/153",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states it was used as 'offices for the Allied Forces during World War Two' after closing as a fire station in 1927"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "ascot",
+        "fire station",
+        "world war two",
+        "allied forces",
+        "hamilton"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-027",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "nyrambla-ascot-built-for-bank-manager",
+      "prompt": "Nyrambla, the grand Ascot mansion that became Australia's WWII code-breaking headquarters, was originally built in 1885–86 as a residence for whom?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The manager of the Australian Joint Stock Bank"
+        },
+        {
+          "id": "b",
+          "label": "The Queensland Governor's private secretary"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Nyrambla was built by the Australian Joint Stock Bank in 1885–86 as the residence of its manager, Henry P. Abbott. During WWII, the Central Bureau used it to break Japanese codes.",
+      "source": {
+        "title": "Nyrambla | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/152",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'Nyrambla was built by the Australian Joint Stock Bank in 1885-86 as the residence of its manager, Henry P. Abbott' and that it was 'occupied by the Central Bureau during World War II who worked on breaking Japanese codes'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "ascot",
+        "nyrambla",
+        "wwii",
+        "code-breaking",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-028",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "whytecliffe-albion-crown-solicitor-1876",
+      "prompt": "The grand hilltop mansion Whytecliffe in Albion was built in 1876 for which notable Queensland official?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Queensland's first Crown Solicitor"
+        },
+        {
+          "id": "b",
+          "label": "Queensland's first Commissioner of Railways"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Whytecliffe was designed by architect F.D.G. Stanley and built in 1876 as an elite private residence for Robert Little, Queensland's Crown Solicitor. It later became part of St Columban's College.",
+      "source": {
+        "title": "St Columban's Christian Brothers College, Whytecliffe, Highlands (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/99",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'Whytecliffe was constructed in 1876 and was designed by prominent Architect F.D.G. Stanley as an elite private residence for Queensland's Crown Solicitor Robert Little'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "albion",
+        "whytecliffe",
+        "heritage",
+        "1876",
+        "crown solicitor"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-029",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "carver-and-co-toowong-drapery-65-years",
+      "prompt": "A heritage-listed two-storey masonry building on High Street, Toowong was home to a single business for more than 65 years. What trade did that business practise?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Drapery and outfitting"
+        },
+        {
+          "id": "b",
+          "label": "Hardware and ironmongery"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Carver and Co., drapers and outfitters, occupied the building from around 1885 until 1951 — over 65 years. The building, constructed circa 1885, still stands on High Street today.",
+      "source": {
+        "title": "Carver and Co. building (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1698",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the building 'was occupied by the prominent Toowong drapery company of Carver and Co., for more than 65 years' and 'Carver and Co remained at the premises until 1951'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "toowong",
+        "heritage",
+        "commercial",
+        "drapery",
+        "high street"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-030",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "auchenflower-named-mcilwraith-scotland",
+      "prompt": "The Brisbane suburb of Auchenflower takes its name from a house renamed in 1880 by a former Queensland Premier. Which country's estate inspired that name?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Scotland"
+        },
+        {
+          "id": "b",
+          "label": "Ireland"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Premier Thomas McIlwraith bought the property in 1880 and named it Auchenflower after his family's estate in Ayrshire, Scotland. The Gaelic name is thought to mean 'field of flowers'.",
+      "source": {
+        "title": "Auchenflower | Queensland Places",
+        "url": "https://queenslandplaces.com.au/auchenflower",
+        "publisher": "Centre for the Government of Queensland",
+        "verifierNote": "Page states McIlwraith 'named it Auchenflower after the McIlwraith family estate in Ayrshire, Scotland' in 1880"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "auchenflower",
+        "suburb name",
+        "mcilwraith",
+        "premier",
+        "scotland"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-031",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "hamilton-town-hall-eight-of-twenty",
+      "prompt": "The Hamilton Town Hall (1920) is one of only eight surviving pre-Greater-Brisbane town halls. How many were originally built before the 1925 amalgamation?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Twenty town halls"
+        },
+        {
+          "id": "b",
+          "label": "Thirty-two town halls"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Twenty town halls were built by the separate local authorities before they merged into Greater Brisbane in 1925. Hamilton's is one of only eight still standing.",
+      "source": {
+        "title": "Hamilton Town Hall, Brisbane – Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hamilton_Town_Hall,_Brisbane",
+        "publisher": "Wikipedia (citing Queensland Heritage Register)",
+        "verifierNote": "Page states it 'is one eight remaining town halls from the twenty that were built prior to the formation of Greater Brisbane in 1925'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "hamilton",
+        "town hall",
+        "greater brisbane",
+        "1925",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-032",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "moorlands-auchenflower-mayne-wesley-hospital-1977",
+      "prompt": "Heritage-listed Moorlands in Auchenflower was bequeathed by the Mayne family to the University of Queensland in 1940. What opened in the grounds behind it in 1977?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Wesley Hospital"
+        },
+        {
+          "id": "b",
+          "label": "A Uniting Church theological college"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "After passing to Legacy and then the Methodist Church, Moorlands' grounds became the site of The Wesley Hospital, which opened in March 1977. The heritage house still stands as the hospital's administration building.",
+      "source": {
+        "title": "Moorlands | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600052",
+        "publisher": "Queensland Government (Queensland Heritage Register)",
+        "verifierNote": "Page states 'The Methodist (later Uniting) Church bought the property in 1971 and the Wesley Hospital, which opened in March 1977, was built in the grounds behind the house' and Moorlands 'remained the property of the Mayne family until 1940, when it was bequeathed to the University of Queensland'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "tags": [
+        "auchenflower",
+        "moorlands",
+        "mayne family",
+        "wesley hospital",
+        "heritage"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-033",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "ann-street-presbyterian-church-vs-queensland-separation",
+      "prompt": "Which came first: the Ann Street Presbyterian Church opening in Brisbane, or Queensland separating from New South Wales?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Ann Street Presbyterian Church"
+        },
+        {
+          "id": "b",
+          "label": "Queensland's separation from NSW"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Ann Street Presbyterian Church opened in 1858, a full year before Queensland separated from New South Wales on 6 June 1859.",
+      "source": {
+        "title": "Ann Street Presbyterian Church (entry 600071)",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600071",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states the church was built in 1858; Queensland separation occurred 1859 per companion historical record."
       },
       "verifiedOn": "2026-08-26",
       "predictedDifficulty": 1,
       "knowledgeOnly": false,
       "tags": [
-        "kelvin-grove",
+        "religion",
+        "church",
+        "separation",
+        "Ann Street",
+        "Brisbane CBD"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-034",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-botanic-gardens-vs-mt-coottha-botanic-gardens",
+      "prompt": "Which Brisbane botanic garden came first: the City Botanic Gardens or the Brisbane Botanic Gardens at Mount Coot-tha?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The City Botanic Gardens"
+        },
+        {
+          "id": "b",
+          "label": "The Mt Coot-tha Botanic Gardens"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The City Botanic Gardens was declared a botanic reserve in 1855; the Mt Coot-tha gardens were established in 1970 — over a century later.",
+      "source": {
+        "title": "City Botanic Gardens | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/city-botanic-gardens",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'In 1855, the area was declared a botanic reserve' and that Mt Coot-tha gardens were established as the second botanic gardens."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "parks",
+        "botanic gardens",
+        "Mt Coot-tha",
+        "South Brisbane",
+        "horticulture"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-035",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "roma-street-station-vs-south-brisbane-station-masonry",
+      "prompt": "Which came first: Brisbane's Roma Street railway station, or the South Brisbane railway station's current masonry building?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Roma Street Station"
+        },
+        {
+          "id": "b",
+          "label": "South Brisbane Station (masonry building)"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Roma Street Station opened in 1875 as Brisbane's first city railway terminus. The South Brisbane masonry station followed in 1891, as it was the second such structure after Roma Street.",
+      "source": {
+        "title": "South Brisbane Railway Station | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600307",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page explicitly states South Brisbane was 'the second masonry station to be erected in Brisbane after Roma Street [1875]', opening in 1891."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "railways",
+        "South Brisbane",
+        "Roma Street",
+        "transport",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-036",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "electric-trams-vs-story-bridge",
+      "prompt": "Which came first in Brisbane: the first electric trams, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane's first electric trams"
+        },
+        {
+          "id": "b",
+          "label": "The Story Bridge opening"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane's first electric trams ran from 1897. The Story Bridge didn't open until 6 July 1940 — more than 40 years later.",
+      "source": {
+        "title": "Tram Shelter (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/199",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'The first electric trams were introduced in Brisbane in 1897'; Story Bridge opened 1940 per Wikipedia (QHR 600240)."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "trams",
+        "transport",
+        "Story Bridge",
+        "infrastructure",
+        "Brisbane CBD"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-037",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "victoria-bridge-permanent-vs-electric-trams",
+      "prompt": "Which came first: the first permanent Victoria Bridge over the Brisbane River, or Brisbane's first electric trams?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The first permanent Victoria Bridge"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane's first electric trams"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The first permanent Victoria Bridge opened in 1874, named by the Governor. Electric trams didn't arrive until 1897 — over two decades later.",
+      "source": {
+        "title": "History of Brisbane's Victoria Bridge | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/blog/history-brisbanes-victoria-bridge",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the permanent Victoria Bridge 'was completed in 1874, opened on 15 June by Governor George Phipps'; trams were introduced in 1897."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "bridges",
+        "Victoria Bridge",
+        "trams",
+        "transport",
+        "Brisbane River"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-038",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "nundah-free-settlement-vs-queensland-separation",
+      "prompt": "Which came first: Queensland's first free European settlement at Nundah, or Queensland separating from New South Wales?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The free settlement at Nundah"
+        },
+        {
+          "id": "b",
+          "label": "Queensland's separation from NSW"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "German missionaries established Queensland's first free settlement at Nundah (then Zion's Hill) in 1838 — more than 20 years before Queensland separated from NSW in 1859.",
+      "source": {
+        "title": "First Free Settlers Monument | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601926",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states the monument commemorates '150 years first free settlement in Queensland by German Missionaries who settled in 1838 at Walkers Way, Nundah'; separation occurred 1859."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Nundah",
+        "free settlement",
+        "German missionaries",
+        "Queensland history",
+        "separation"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-039",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "brisbane-arcade-vs-city-hall",
+      "prompt": "Which came first: the opening of Brisbane Arcade in the CBD, or the completion of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane Arcade"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane Arcade opened in 1924, making it Brisbane's oldest shopping arcade. City Hall wasn't officially completed and opened until 1930.",
+      "source": {
+        "title": "Brisbane Arcade | Queensland Heritage Register",
+        "url": "https://en.wikipedia.org/wiki/Brisbane_Arcade",
+        "publisher": "Wikipedia (citing Queensland Heritage Register 600058)",
+        "verifierNote": "Article states Brisbane Arcade was 'Built: 1923–1924' and 'opened on April 16, 1924'; City Hall completed in 1930 per mustdobrisbane and BCC sources."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Brisbane Arcade",
+        "City Hall",
+        "CBD",
+        "shopping",
+        "heritage buildings"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-040",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "customs-house-brisbane-vs-story-bridge",
+      "prompt": "Which came first: the completion of Brisbane Customs House, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane Customs House"
+        },
+        {
+          "id": "b",
+          "label": "The Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Customs House was completed in 1889 as Brisbane's principal customs point. The Story Bridge didn't open until 6 July 1940 — over 50 years later.",
+      "source": {
+        "title": "Customs House, Brisbane | National Archives of Australia",
+        "url": "https://www.naa.gov.au/help-your-research/fact-sheets/customs-house-brisbane",
+        "publisher": "National Archives of Australia",
+        "verifierNote": "Page states the new Custom House 'was completed in 1889'; Story Bridge opened 1940 per Wikipedia and QHR record 600240."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Customs House",
+        "Story Bridge",
+        "Brisbane CBD",
+        "heritage buildings",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-041",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "ann-street-presbyterian-church-vs-queensland-separation",
+      "prompt": "Which came first: the Ann Street Presbyterian Church opening in Brisbane, or Queensland separating from New South Wales?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Ann Street Presbyterian Church"
+        },
+        {
+          "id": "b",
+          "label": "Queensland's separation from NSW"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Ann Street Presbyterian Church opened in 1858, a full year before Queensland separated from New South Wales on 6 June 1859.",
+      "source": {
+        "title": "Ann Street Presbyterian Church (entry 600071)",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600071",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "QHR entry states the church was built in 1858; Queensland's separation from NSW occurred 1859, clearly post-dating the church's construction."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "religion",
+        "church",
+        "separation",
+        "Ann Street",
+        "Brisbane CBD"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-042",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "city-botanic-gardens-vs-mt-coottha-botanic-gardens",
+      "prompt": "Which came first: the City Botanic Gardens in the Brisbane CBD, or the Botanic Gardens at Mount Coot-tha?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The City Botanic Gardens"
+        },
+        {
+          "id": "b",
+          "label": "The Mt Coot-tha Botanic Gardens"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The City Botanic Gardens was declared a botanic reserve in 1855. The Mt Coot-tha gardens were established in 1970 — over a century later — because the city site was flood-prone and couldn't be expanded.",
+      "source": {
+        "title": "City Botanic Gardens | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/city-botanic-gardens",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'In 1855, the area was declared a botanic reserve' and notes the Mt Coot-tha gardens opened as a second gardens, with the BCC Mt Coot-tha page confirming establishment in 1970."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "parks",
+        "botanic gardens",
+        "Mt Coot-tha",
+        "horticulture",
+        "Brisbane River"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-043",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "roma-street-station-vs-south-brisbane-station",
+      "prompt": "Which came first: Brisbane's Roma Street railway station, or the South Brisbane railway station's masonry building?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Roma Street Station"
+        },
+        {
+          "id": "b",
+          "label": "South Brisbane Station"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Roma Street opened in 1875 as Brisbane's first city railway terminus. The South Brisbane masonry station followed in 1891 — the Queensland Heritage Register records it as 'the second masonry station erected in Brisbane after Roma Street [1875]'.",
+      "source": {
+        "title": "South Brisbane Railway Station | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600307",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page explicitly states South Brisbane was 'the second masonry station to be erected in Brisbane after Roma Street [1875]', with passenger services commencing 21 December 1891."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "railways",
+        "South Brisbane",
+        "Roma Street",
+        "transport",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-044",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "brisbane-electric-trams-vs-story-bridge",
+      "prompt": "Which came first in Brisbane: the introduction of electric trams, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Electric trams"
+        },
+        {
+          "id": "b",
+          "label": "The Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane's first electric trams began running in 1897. The Story Bridge didn't open until 6 July 1940 — more than 40 years later.",
+      "source": {
+        "title": "Tram Shelter (former) | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/199",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states 'The first electric trams were introduced in Brisbane in 1897'; the Story Bridge opened in 1940 per Queensland Heritage Register entry 600240."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "trams",
+        "transport",
+        "Story Bridge",
+        "infrastructure",
+        "Brisbane CBD"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-045",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "victoria-bridge-permanent-vs-electric-trams",
+      "prompt": "Which came first: the first permanent Victoria Bridge over the Brisbane River, or Brisbane's first electric trams?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The first permanent Victoria Bridge"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane's first electric trams"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The first permanent Victoria Bridge opened on 15 June 1874, named after Queen Victoria by the Governor. Electric trams didn't arrive until June 1897 — over two decades later.",
+      "source": {
+        "title": "History of Brisbane's Victoria Bridge | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/blog/history-brisbanes-victoria-bridge",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the bridge 'was completed in 1874, opened on 15 June by Governor George Phipps'; the first permanent bridge pre-dates Brisbane's 1897 electric trams confirmed by BCC heritage page 199."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "bridges",
+        "Victoria Bridge",
+        "trams",
+        "transport",
+        "Brisbane River"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-046",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "nundah-free-settlement-vs-queensland-separation",
+      "prompt": "Which came first: Queensland's first free European settlement at Nundah, or Queensland separating from New South Wales?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The free settlement at Nundah"
+        },
+        {
+          "id": "b",
+          "label": "Queensland's separation from NSW"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "German missionaries established Queensland's first free settlement at Nundah (Zion's Hill) in 1838 — more than 20 years before Queensland separated from NSW on 6 June 1859.",
+      "source": {
+        "title": "First Free Settlers Monument | Queensland Heritage Register",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601926",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states the monument commemorates '150 years first free settlement in Queensland by German Missionaries who settled in 1838 at Walkers Way, Nundah'; separation from NSW occurred 1859."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Nundah",
+        "free settlement",
+        "German missionaries",
+        "Queensland history",
+        "separation"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-047",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "brisbane-arcade-vs-city-hall",
+      "prompt": "Which came first: the opening of Brisbane Arcade on Queen Street, or the completion of Brisbane City Hall?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane Arcade"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane City Hall"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane Arcade opened in 1924, earning its title as Brisbane's oldest shopping arcade. City Hall wasn't completed and officially opened until 1930.",
+      "source": {
+        "title": "Brisbane Arcade | Wikipedia (citing Queensland Heritage Register 600058)",
+        "url": "https://en.wikipedia.org/wiki/Brisbane_Arcade",
+        "publisher": "Wikipedia / Queensland Heritage Register",
+        "verifierNote": "Article states Brisbane Arcade was built 1923–1924 and opened 16 April 1924; City Hall completion in 1930 confirmed by BCC and mustdobrisbane.com.au sources."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Brisbane Arcade",
+        "City Hall",
+        "CBD",
+        "shopping",
+        "heritage buildings"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-048",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "customs-house-brisbane-vs-story-bridge",
+      "prompt": "Which came first: the completion of Brisbane Customs House, or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane Customs House"
+        },
+        {
+          "id": "b",
+          "label": "The Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Customs House was completed in 1889 as Brisbane's principal customs point. The Story Bridge didn't open until 6 July 1940 — over 50 years later.",
+      "source": {
+        "title": "Customs House, Brisbane | National Archives of Australia",
+        "url": "https://www.naa.gov.au/help-your-research/fact-sheets/customs-house-brisbane",
+        "publisher": "National Archives of Australia",
+        "verifierNote": "Page states the new Custom House 'was completed in 1889'; Story Bridge opened 1940 per Queensland Heritage Register entry 600240 and ABC News reporting the opening date of 6 July 1940."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "Customs House",
+        "Story Bridge",
+        "Brisbane CBD",
+        "heritage buildings",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-049",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-named-convict-settlement-binkinba",
+      "prompt": "New Farm takes its name from what aspect of the suburb's colonial past?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A convict-era farm established in the 1830s"
+        },
+        {
+          "id": "b",
+          "label": "A free settler's pastoral run from the 1850s"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The land, known to Indigenous people as 'binkinba', was cleared by convicts for cultivation in the 1830s — making it the settlement's 'new farm' and giving the suburb its name.",
+      "source": {
+        "title": "Mossrose Cottage | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The suburb of New Farm derives its name from its origins as the 'new farm' of the developing convict settlement during the 1830s' and the land 'then known by the indigenous word 'binkinba''."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "convict-era",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-050",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "wavell-heights-name-almost-beverley-hills",
+      "prompt": "When Brisbane City Council renamed West Nundah in 1941, which name was first proposed before the wartime choice was made?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Beverley Hills"
+        },
+        {
+          "id": "b",
+          "label": "Churchill Heights"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Plans to develop West Nundah post-war initially proposed 'Beverley Hills', but a more morale-boosting wartime name was chosen — Wavell Heights, after General Archibald Wavell, commander of Allied forces in the Middle East in 1940–41.",
+      "source": {
+        "title": "Pfingst Farmhouse | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1723",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Initially it was proposed to change the name of West Nundah to Beverley Hills but due to the war situation, a more morale-boosting name was chosen. This was Wavell Heights and it was named after General Sir Archibald Wavell.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "wavell-heights",
         "suburb-name-origin",
-        "glasgow",
-        "joseph-bancroft"
+        "world-war-ii"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-051",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "wavell-heights-renamed-from-west-nundah",
+      "prompt": "What was the suburb of Wavell Heights called before it was renamed in 1941?",
+      "options": [
+        {
+          "id": "a",
+          "label": "West Nundah"
+        },
+        {
+          "id": "b",
+          "label": "North Kedron"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The suburb was renamed Wavell Heights in 1941, ending confusion for residents who had variously considered their street part of Kedron, West Nundah, and Chermside.",
+      "source": {
+        "title": "Tooroonga | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2233",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The suburb was renamed Wavell Heights in 1941, providing clarity for the Hillcrest Avenue residents, who had variously considered the avenue part of Kedron, West Nundah, and Chermside.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "wavell-heights",
+        "suburb-name-origin",
+        "west-nundah"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-052",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "ashgrove-tramline-glenlyon-gardens-1924",
+      "prompt": "When the tram line was extended to Ashgrove in 1924, what major event happened in the same month that drove the suburb's rapid growth?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Glenlyon Gardens estate opened for sale"
+        },
+        {
+          "id": "b",
+          "label": "Ashgrove State School was officially opened"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Brisbane Tramway Trust extended the line to Ashgrove in March 1924 — the same month the 855-allotment Glenlyon Gardens estate went on sale, acting as the catalyst for the suburb's residential development.",
+      "source": {
+        "title": "Tram Shelter | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/200",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The decision to extend the tramline along Waterworks Road to Ashgrove was made in March 1924, the same month as Glenlyon Gardens Estate was opened for sale. The release of the 855 allotment Glenlyon Gardens estate was the catalyst for the development of Ashgrove as a residential suburb.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "ashgrove",
+        "tram",
+        "residential-development",
+        "glenlyon-gardens"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-053",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "brisbane-first-tram-tracks-1884-route",
+      "prompt": "Brisbane's first tram tracks, laid in 1884, ran between which two points?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Woolloongabba to Breakfast Creek"
+        },
+        {
+          "id": "b",
+          "label": "The city centre to Paddington"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "In 1884 the Metropolitan Tramway and Investment Company laid six and a half miles of track from Woolloongabba to Breakfast Creek, with branches to the Exhibition Building and New Farm.",
+      "source": {
+        "title": "Tram Shelter | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/200",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'In 1884 the privately owned Metropolitan Tramway and Investment Company laid Brisbane's first tram tracks. These covered six and a half miles from Woolloongabba to Breakfast Creek, with branches to the Exhibition Building and New Farm.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "tram",
+        "brisbane-history",
+        "woolloongabba",
+        "breakfast-creek"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-054",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-colonial-sugar-refinery-1893",
+      "prompt": "What major industrial facility opened on New Farm's eastern peninsula in 1893, marking the start of the suburb's industrial era?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Colonial Sugar Refinery"
+        },
+        {
+          "id": "b",
+          "label": "The Brisbane Gas Company works"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Industrial development on New Farm began in the 1890s with the opening of the Colonial Sugar Refinery on the peninsula's eastern side in 1893, accompanied by a railway goods line to service the area.",
+      "source": {
+        "title": "Tram Pole | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Industrial development on the New Farm peninsula began in the 1890s with the opening of the Colonial Sugar Refinery on the peninsula's eastern side in 1893. In addition, a railway goods line was developed to service this part of New Farm.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "colonial-sugar-refinery",
+        "industrial-history"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-055",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "kedron-district-tanning-farming-lutwyche",
+      "prompt": "What was the Kedron district primarily known for before the post-war housing boom turned it into a residential suburb?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Farming and tanning"
+        },
+        {
+          "id": "b",
+          "label": "Quarrying and timber-milling"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Kedron was 'a farming and tanning district on the outer fringes of suburban Brisbane' — tanneries were active along Kedron Brook — before interwar housing estates and the postwar boom transformed the area.",
+      "source": {
+        "title": "Craigie Knowe | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/967",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: ''Craigie Knowe' still exists as a reminder of a time when Kedron was a farming and tanning district on the outer fringes of suburban Brisbane.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "kedron",
+        "tanning",
+        "farming",
+        "suburban-development"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-056",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-strathmore-incholm-hospital-ww1",
+      "prompt": "During World War I, what role did the 1880s New Farm mansion 'Strathmore' play from 1916–1918?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Incholm Private Hospital"
+        },
+        {
+          "id": "b",
+          "label": "Military officers' mess and quarters"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The masonry dwelling at 840 Brunswick Street, New Farm — originally called Strathmore — served as Incholm Private Hospital during World War I from 1916 to 1918, before becoming a boarding house by the late 1930s.",
+      "source": {
+        "title": "840 Brunswick Street, New Farm | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1129",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'It served as Incholm Private Hospital during the First World War from 1916-1918, and by the late 1930s was a boarding house.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "world-war-i",
+        "hospital",
+        "brunswick-street"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-057",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-named-convict-settlement-binkinba",
+      "prompt": "New Farm takes its name from what aspect of the suburb's colonial past?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A convict-era farm established in the 1830s"
+        },
+        {
+          "id": "b",
+          "label": "A free settler's pastoral run from the 1850s"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The land — known to Indigenous people as 'binkinba' — was cleared by convicts for cultivation in the 1830s, becoming the penal settlement's 'new farm' and giving the suburb its name.",
+      "source": {
+        "title": "Mossrose Cottage | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the suburb derives its name from 'its origins as the 'new farm' of the developing convict settlement during the 1830s' and the land was 'then known by the indigenous word 'binkinba''."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "convict-era",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-058",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "wavell-heights-name-almost-beverley-hills",
+      "prompt": "When Brisbane City Council planned to rename West Nundah in 1941, which name was first proposed before the wartime choice was settled on?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Beverley Hills"
+        },
+        {
+          "id": "b",
+          "label": "Churchill Heights"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Plans for a post-war suburb initially nominated 'Beverley Hills', but a morale-boosting wartime name was chosen instead — Wavell Heights, honouring General Archibald Wavell, commander of Allied forces in the Middle East in 1940–41.",
+      "source": {
+        "title": "Pfingst Farmhouse | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1723",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Initially it was proposed to change the name of West Nundah to Beverley Hills but due to the war situation, a more morale-boosting name was chosen. This was Wavell Heights and it was named after General Sir Archibald Wavell.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "wavell-heights",
+        "suburb-name-origin",
+        "world-war-ii",
+        "west-nundah"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-059",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "wavell-heights-formerly-west-nundah-1941",
+      "prompt": "What was the suburb of Wavell Heights called before it was renamed in 1941?",
+      "options": [
+        {
+          "id": "a",
+          "label": "West Nundah"
+        },
+        {
+          "id": "b",
+          "label": "North Kedron"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Renamed Wavell Heights in 1941, the suburb had been known as West Nundah — and residents on Hillcrest Avenue had variously considered their street part of Kedron, West Nundah, and Chermside.",
+      "source": {
+        "title": "Tooroonga | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2233",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The suburb was renamed Wavell Heights in 1941, providing clarity for the Hillcrest Avenue residents, who had variously considered the avenue part of Kedron, West Nundah, and Chermside.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "wavell-heights",
+        "west-nundah",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-060",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "ashgrove-tramline-glenlyon-gardens-1924",
+      "prompt": "When Brisbane's tram line extended to Ashgrove in March 1924, what happened in the same month that sparked the suburb's residential boom?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The 855-allotment Glenlyon Gardens estate opened for sale"
+        },
+        {
+          "id": "b",
+          "label": "Ashgrove State School held its official opening"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Brisbane Tramway Trust extended the line to Ashgrove in March 1924 — the exact same month the 855-allotment Glenlyon Gardens estate went on sale, acting as the catalyst for Ashgrove's development as a residential suburb.",
+      "source": {
+        "title": "Tram Shelter | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/200",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'The decision to extend the tramline along Waterworks Road to Ashgrove was made in March 1924, the same month as Glenlyon Gardens Estate was opened for sale. The release of the 855 allotment Glenlyon Gardens estate was the catalyst for the development of Ashgrove as a residential suburb.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "ashgrove",
+        "tram",
+        "glenlyon-gardens",
+        "residential-development"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-061",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "brisbane-first-tram-tracks-1884-woolloongabba-breakfast-creek",
+      "prompt": "Brisbane's very first tram tracks, laid in 1884, ran between which two points?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Woolloongabba to Breakfast Creek"
+        },
+        {
+          "id": "b",
+          "label": "The city centre to Paddington"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "In 1884 the privately owned Metropolitan Tramway and Investment Company laid six and a half miles of track from Woolloongabba to Breakfast Creek, with branches to the Exhibition Building and New Farm.",
+      "source": {
+        "title": "Tram Shelter | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/200",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'In 1884 the privately owned Metropolitan Tramway and Investment Company laid Brisbane's first tram tracks. These covered six and a half miles from Woolloongabba to Breakfast Creek, with branches to the Exhibition Building and New Farm.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "tram",
+        "brisbane-history",
+        "woolloongabba",
+        "breakfast-creek",
+        "1884"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-062",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-colonial-sugar-refinery-1893-industrial",
+      "prompt": "What major industrial facility opened on New Farm's eastern peninsula in 1893, marking the start of the area's industrial era?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Colonial Sugar Refinery"
+        },
+        {
+          "id": "b",
+          "label": "The Brisbane Gas Company works"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Industrial development on New Farm began in the 1890s when the Colonial Sugar Refinery opened on the peninsula's eastern side in 1893, and a railway goods line was built to service it.",
+      "source": {
+        "title": "Tram Pole | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Industrial development on the New Farm peninsula began in the 1890s with the opening of the Colonial Sugar Refinery on the peninsula's eastern side in 1893. In addition, a railway goods line was developed to service this part of New Farm.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "colonial-sugar-refinery",
+        "industrial-history",
+        "1893"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-063",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "kedron-farming-tanning-district-craigie-knowe",
+      "prompt": "Before the post-war housing boom, what two industries dominated the Kedron district on the outer fringes of Brisbane?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Farming and tanning"
+        },
+        {
+          "id": "b",
+          "label": "Quarrying and timber-milling"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The heritage-listed Craigie Knowe residence at Kedron is described as a reminder of 'a time when Kedron was a farming and tanning district on the outer fringes of suburban Brisbane', before interwar estates triggered suburban change.",
+      "source": {
+        "title": "Craigie Knowe | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/967",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states the house 'still exists as a reminder of a time when Kedron was a farming and tanning district on the outer fringes of suburban Brisbane.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "kedron",
+        "tanning",
+        "farming",
+        "suburban-development"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-064",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "new-farm-strathmore-incholm-hospital-ww1",
+      "prompt": "During World War I, Brisbane's 1880s New Farm mansion 'Strathmore' at 840 Brunswick Street served what wartime function from 1916–1918?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Incholm Private Hospital"
+        },
+        {
+          "id": "b",
+          "label": "Military officers' billet and mess"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The grand 1880s masonry dwelling originally known as 'Strathmore' — built for Palace Hotel proprietor David Lyons — served as Incholm Private Hospital from 1916–1918, before becoming a boarding house by the late 1930s.",
+      "source": {
+        "title": "840 Brunswick Street, New Farm | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1129",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'It served as Incholm Private Hospital during the First World War from 1916-1918, and by the late 1930s was a boarding house.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "new-farm",
+        "world-war-i",
+        "hospital",
+        "brunswick-street"
       ]
     }
   ]

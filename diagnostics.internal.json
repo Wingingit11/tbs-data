@@ -1,29 +1,29 @@
 {
   "date": "2026-08-26",
-  "repeatWindowDays": 365,
-  "totalRecords": 20,
-  "approvedRecords": 20,
-  "eligibleToday": 10,
+  "repeatWindowDays": 90,
+  "totalRecords": 35,
+  "approvedRecords": 35,
+  "eligibleToday": 25,
   "byCategory": {
     "suburb_story": {
-      "approved": 6,
-      "eligibleToday": 4
+      "approved": 14,
+      "eligibleToday": 12
     },
     "landmark_oddity": {
       "approved": 2,
       "eligibleToday": 0
     },
     "which_came_first": {
-      "approved": 5,
-      "eligibleToday": 3
+      "approved": 6,
+      "eligibleToday": 4
     },
     "homes_lifestyle": {
-      "approved": 3,
-      "eligibleToday": 1
-    },
-    "wildcard": {
       "approved": 4,
       "eligibleToday": 2
+    },
+    "wildcard": {
+      "approved": 9,
+      "eligibleToday": 7
     }
   },
   "blockedByQuestionIdWindow": 10,
@@ -48,5 +48,5 @@
       }
     ]
   },
-  "generatedAt": "2026-08-26T06:41:44.268Z"
+  "generatedAt": "2026-08-26T07:36:22.650Z"
 }

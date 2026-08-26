@@ -1,175 +1,448 @@
 {
   "rejected": [
     {
-      "id": "flip-auto-20260826-001",
-      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
-      "reasons": [
-        "the page does not clearly state the answer (support 0.60)"
-      ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 0.6,
-        "supportDistractor": 0.17,
-        "revealSupport": 0.67,
-        "notes": [
-          "the page does not clearly state the answer (support 0.60)"
-        ]
-      }
-    },
-    {
-      "id": "flip-auto-20260826-002",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
-      "reasons": [
-        "the page does not clearly state the answer (support 0.00)"
-      ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 0,
-        "supportDistractor": 0.4,
-        "revealSupport": 0.63,
-        "notes": [
-          "the page does not clearly state the answer (support 0.00)"
-        ]
-      }
-    },
-    {
-      "id": "flip-auto-20260826-003",
-      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
-      "reasons": [
-        "the page does not clearly state the answer (support 0.50)"
-      ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 0.5,
-        "supportDistractor": 0.4,
-        "revealSupport": 0.5,
-        "notes": [
-          "the page does not clearly state the answer (support 0.50)"
-        ]
-      }
-    },
-    {
       "id": "flip-auto-20260826-004",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
+      "url": "https://newsteadhouse.com.au/about/",
       "reasons": [
-        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+        "host not on the authoritative allow-list: newsteadhouse.com.au"
       ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.82,
-        "notes": [
-          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
-        ]
-      }
+      "detail": null
     },
     {
       "id": "flip-auto-20260826-005",
-      "url": "https://www.slq.qld.gov.au/mappingfuturebrisbane/old-windmill-tower",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
       "reasons": [
-        "the page does not clearly state the answer (support 0.50)"
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
       ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 0.5,
-        "supportDistractor": 0.4,
-        "revealSupport": 0.53,
-        "notes": [
-          "the page does not clearly state the answer (support 0.50)"
-        ]
-      }
+      "detail": null
     },
     {
       "id": "flip-auto-20260826-006",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1496",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
       "reasons": [
-        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
       ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.78,
-        "notes": [
-          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
-        ]
-      }
+      "detail": null
     },
     {
       "id": "flip-auto-20260826-007",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+      "url": "https://en.wikipedia.org/wiki/Treasury_Building,_Brisbane",
       "reasons": [
-        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-008",
+      "url": "https://visit.brisbane.qld.au/things-to-do/inner-city/history-and-heritage/brisbane-customs-house-69fe",
+      "reasons": [
+        "the key date 1988 never appears near \"university\" on the page"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
+        "proximityOk": false,
+        "discriminates": true,
         "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.78,
+        "supportDistractor": 0.5,
+        "revealSupport": 0.67,
         "notes": [
-          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+          "the key date 1988 never appears near \"university\" on the page"
         ]
       }
     },
     {
-      "id": "flip-auto-20260826-009",
-      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1160",
+      "id": "flip-auto-20260826-010",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600341",
       "reasons": [
-        "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
       ],
-      "detail": {
-        "ok": false,
-        "identityOk": true,
-        "proximityOk": true,
-        "discriminates": false,
-        "supportCorrect": 1,
-        "supportDistractor": 1,
-        "revealSupport": 0.83,
-        "notes": [
-          "the distractor is supported as well as the answer (1.00 vs 1.00) - ambiguous"
-        ]
-      }
+      "detail": null
     },
     {
-      "id": "flip-auto-20260826-020",
-      "url": "https://www.slq.qld.gov.au/blog/queensland-place-histories-kelvin-grove",
+      "id": "flip-auto-20260826-011",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600262",
       "reasons": [
-        "the key date 1864 never appears near \"scotland\" on the page",
-        "the page does not clearly state the answer (support 0.67)"
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-012",
+      "url": "https://www.govhouse.qld.gov.au/government-house/history-of-government-house.aspx",
+      "reasons": [
+        "the key date 1865 never appears near \"onwards\" on the page",
+        "the two options use the same words in a different order - rewrite them so they differ in substance, not word order"
       ],
       "detail": {
         "ok": false,
         "identityOk": true,
         "proximityOk": false,
         "discriminates": false,
-        "supportCorrect": 0.67,
+        "supportCorrect": 0.5,
         "supportDistractor": 0,
-        "revealSupport": 0.76,
+        "revealSupport": 0.5,
         "notes": [
-          "the key date 1864 never appears near \"scotland\" on the page",
-          "the page does not clearly state the answer (support 0.67)"
+          "the key date 1865 never appears near \"onwards\" on the page",
+          "the two options use the same words in a different order - rewrite them so they differ in substance, not word order"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-013",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601159",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-014",
+      "url": "https://en.wikipedia.org/wiki/Brighton_Terrace",
+      "reasons": [
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-016",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1750",
+      "reasons": [
+        "the key date 1878 never appears near \"terrace\" on the page",
+        "date 1885 in the reveal is not on the page at all"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": true,
+        "supportCorrect": 1,
+        "supportDistractor": 0.5,
+        "revealSupport": 0.62,
+        "notes": [
+          "the key date 1878 never appears near \"terrace\" on the page",
+          "date 1885 in the reveal is not on the page at all"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-021",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1698",
+      "reasons": [
+        "the key date 1885 never appears near \"outfitting\" on the page"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": true,
+        "supportCorrect": 0.5,
+        "supportDistractor": 0,
+        "revealSupport": 0.78,
+        "notes": [
+          "the key date 1885 never appears near \"outfitting\" on the page"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-023",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Town_Hall,_Brisbane",
+      "reasons": [
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-024",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600052",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-029",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/1698",
+      "reasons": [
+        "the key date 1885 never appears near \"outfitting\" on the page"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": true,
+        "supportCorrect": 0.5,
+        "supportDistractor": 0,
+        "revealSupport": 0.78,
+        "notes": [
+          "the key date 1885 never appears near \"outfitting\" on the page"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-031",
+      "url": "https://en.wikipedia.org/wiki/Hamilton_Town_Hall,_Brisbane",
+      "reasons": [
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-032",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600052",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-033",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600071",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-034",
+      "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/city-botanic-gardens",
+      "reasons": [
+        "a date in the reveal is not stated near either subject on the page"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.67,
+        "notes": [
+          "a date in the reveal is not stated near either subject on the page"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-035",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600307",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-036",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/199",
+      "reasons": [
+        "comparison page does not cover both subjects (correct 1.00, other 0.33)"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 0.33,
+        "revealSupport": 0.58,
+        "notes": [
+          "comparison page does not cover both subjects (correct 1.00, other 0.33)"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-038",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601926",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-039",
+      "url": "https://en.wikipedia.org/wiki/Brisbane_Arcade",
+      "reasons": [
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-040",
+      "url": "https://www.naa.gov.au/help-your-research/fact-sheets/customs-house-brisbane",
+      "reasons": [
+        "source did not resolve (HTTP 0, timeout)"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-041",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600071",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-042",
+      "url": "https://www.brisbane.qld.gov.au/parks-and-recreation/botanic-gardens/city-botanic-gardens",
+      "reasons": [
+        "a date in the reveal is not stated near either subject on the page"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.5,
+        "notes": [
+          "a date in the reveal is not stated near either subject on the page"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-043",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600307",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-044",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/199",
+      "reasons": [
+        "a date in the reveal is not stated near either subject on the page"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 0.5,
+        "revealSupport": 0.5,
+        "notes": [
+          "a date in the reveal is not stated near either subject on the page"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-046",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=601926",
+      "reasons": [
+        "that site renders its text in the browser, so it cannot be machine-verified - cite the Brisbane City Council heritage-places page instead"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-047",
+      "url": "https://en.wikipedia.org/wiki/Brisbane_Arcade",
+      "reasons": [
+        "host not on the authoritative allow-list: en.wikipedia.org"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-048",
+      "url": "https://www.naa.gov.au/help-your-research/fact-sheets/customs-house-brisbane",
+      "reasons": [
+        "source did not resolve (HTTP 0, timeout)"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-051",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2233",
+      "reasons": [
+        "the page supports the distractor's specifics just as well - ambiguous"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.88,
+        "notes": [
+          "the page supports the distractor's specifics just as well - ambiguous"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-052",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/200",
+      "reasons": [
+        "the page supports the distractor's specifics just as well - ambiguous"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.95,
+        "notes": [
+          "the page supports the distractor's specifics just as well - ambiguous"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-054",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+      "reasons": [
+        "the page supports the distractor's specifics just as well - ambiguous"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.95,
+        "notes": [
+          "the page supports the distractor's specifics just as well - ambiguous"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-059",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2233",
+      "reasons": [
+        "the page supports the distractor's specifics just as well - ambiguous"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 1,
+        "notes": [
+          "the page supports the distractor's specifics just as well - ambiguous"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-062",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+      "reasons": [
+        "the page supports the distractor's specifics just as well - ambiguous"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": true,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 1,
+        "notes": [
+          "the page supports the distractor's specifics just as well - ambiguous"
         ]
       }
     }
