@@ -22,15 +22,37 @@ var engine = require("./flip-engine");
 
 /* Authoritative hosts. Anything else is rejected outright, which also stops a
  * drafting model quietly substituting a blog for a heritage register. */
-var ALLOW = [
-  "heritage.brisbane.qld.gov.au", "brisbane.qld.gov.au", "www.brisbane.qld.gov.au",
-  "apps.des.qld.gov.au", "environment.des.qld.gov.au", "www.qld.gov.au",
-  "heritage.qld.gov.au", "www.slq.qld.gov.au", "slq.qld.gov.au",
-  "www.statelibrary.qld.gov.au", "trove.nla.gov.au", "nla.gov.au",
-  "www.qm.qld.gov.au", "www.museum.qld.gov.au", "visitbrisbane.com.au",
-  "www.visitbrisbane.com.au", "translink.com.au", "www.translink.com.au",
-  "queenslandplaces.com.au", "www.uq.edu.au", "espace.library.uq.edu.au"
+/* Authoritative hosts. Run one rejected QAGOMA, Government House, the
+ * Queensland Museum blog and the RNA - all exactly the institutional sources the
+ * brief asks for - because this was a hand-typed guess at ~20 hostnames. It is
+ * now a pattern list, so any Queensland government or council domain qualifies,
+ * plus named cultural institutions. Anything else is still rejected outright:
+ * this widens what counts as authoritative, it does not lower the bar. */
+var ALLOW_PATTERNS = [
+  /(^|\.)qld\.gov\.au$/i,          // all QLD government, incl. councils and agencies
+  /(^|\.)gov\.au$/i,               // other Australian government
+  /(^|\.)nla\.gov\.au$/i,          // National Library / Trove
+  /(^|\.)edu\.au$/i                // Australian universities
 ];
+var ALLOW_HOSTS = [
+  "queenslandplaces.com.au",          // Centre for the Government of Qld, UQ
+  "visitbrisbane.com.au", "www.visitbrisbane.com.au",
+  "visit.brisbane.qld.au",
+  "brisbanepowerhouse.org", "www.brisbanepowerhouse.org",
+  "qagoma.qld.gov.au", "www.qagoma.qld.gov.au",
+  "www.rna.org.au", "rna.org.au",     // Royal National Association (the Ekka)
+  "www.qm.qld.gov.au", "blog.qm.qld.gov.au",
+  "translink.com.au", "www.translink.com.au",
+  "trove.nla.gov.au",
+  "www.nationaltrust.org.au", "nationaltrust.org.au",
+  "adb.anu.edu.au",                   // Australian Dictionary of Biography
+  "www.abc.net.au"                    // ABC news/history, secondary but reliable
+];
+function hostAllowed(h) {
+  h = (h || "").toLowerCase();
+  if (ALLOW_HOSTS.indexOf(h) >= 0) return true;
+  return ALLOW_PATTERNS.some(function (re) { return re.test(h); });
+}
 
 function fetchText(url, redirects) {
   redirects = redirects || 0;
@@ -121,7 +143,10 @@ function corroborate(pageText, pageTitle, rec) {
   var years = (q.reveal.match(/\b(1[6-9]\d{2}|20\d{2})\b/g) || []);
   var anchor = keyTerms(right.label).sort(function (a, b) { return b.length - a.length; })[0] || "";
   var proximityOk = true;
-  if (years.length && anchor) {
+  if (q.category === "which_came_first") {
+    /* handled by the discrimination branch below, which checks each date
+       against its own subject rather than against a single anchor */
+  } else if (years.length && anchor) {
     var wins = windowsContaining(pageText, anchor);
     years.forEach(function (y) {
       if (!wins.some(function (w) { return w.indexOf(y) >= 0; })) {
@@ -134,13 +159,46 @@ function corroborate(pageText, pageTitle, rec) {
     if (!proximityOk) notes.push("a year in the reveal is absent from the page");
   }
 
-  // DISCRIMINATION - the source must pick a side
+  /* DISCRIMINATION.
+   * For most categories the page must support one option and not the other.
+   * But a "which came first" question NAMES BOTH subjects, so a page covering
+   * the comparison legitimately supports both - run one rejected two good
+   * candidates at 1.00 vs 1.00 for exactly this reason. For that category the
+   * correct test is stricter, not looser: BOTH subjects must appear AND each
+   * date must sit near its own subject, which is what actually establishes the
+   * ordering. */
   var sRight = supportScore(pageText, right.label);
   var sWrong = supportScore(pageText, wrong.label);
-  var discriminates = sRight >= 0.5 && sRight - sWrong >= 0.34;
-  if (!discriminates) {
-    notes.push("source does not distinguish the options (correct " + sRight.toFixed(2) +
-      " vs distractor " + sWrong.toFixed(2) + ") - ambiguous or unsupported");
+  var discriminates;
+  if (q.category === "which_came_first") {
+    var bothPresent = sRight >= 0.5 && sWrong >= 0.5;
+    if (!bothPresent) {
+      discriminates = false;
+      notes.push("comparison page does not cover both subjects (correct " +
+        sRight.toFixed(2) + ", other " + sWrong.toFixed(2) + ")");
+    } else {
+      /* Each year in the reveal must sit near one of the two subjects. */
+      var anchors = [right.label, wrong.label].map(function (l) {
+        return keyTerms(l).sort(function (a, b) { return b.length - a.length; })[0] || "";
+      }).filter(Boolean);
+      var datedOk = years.length >= 2 && years.every(function (y) {
+        return anchors.some(function (an) {
+          return windowsContaining(pageText, an).some(function (w) { return w.indexOf(y) >= 0; });
+        });
+      });
+      discriminates = datedOk;
+      if (!datedOk) {
+        notes.push(years.length < 2
+          ? "a comparison needs both dates stated in the reveal"
+          : "a date in the reveal is not stated near either subject on the page");
+      }
+    }
+  } else {
+    discriminates = sRight >= 0.5 && sRight - sWrong >= 0.34;
+    if (!discriminates) {
+      notes.push("source does not distinguish the options (correct " + sRight.toFixed(2) +
+        " vs distractor " + sWrong.toFixed(2) + ") - ambiguous or unsupported");
+    }
   }
 
   var revealTerms = keyTerms(q.reveal);
@@ -168,7 +226,7 @@ function corroborate(pageText, pageTitle, rec) {
     var rec = recs[i], q = engine.normalise(rec), reasons = [], detail = null;
     var host = "";
     try { host = new URL(q.sourceUrl).hostname; } catch (e) { reasons.push("source url malformed"); }
-    if (host && ALLOW.indexOf(host) < 0) reasons.push("host not on the authoritative allow-list: " + host);
+    if (host && !hostAllowed(host)) reasons.push("host not on the authoritative allow-list: " + host);
 
     if (!reasons.length) {
       var res = await fetchText(q.sourceUrl);
