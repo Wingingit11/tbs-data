@@ -14,7 +14,10 @@ var ROOT = path.join(__dirname, "..");
 var P = function (f) { return path.join(ROOT, f); };
 function rj(f, d) { try { return JSON.parse(fs.readFileSync(P(f), "utf8")); } catch (e) { return d; } }
 
-var POLICY = { TARGET: 120, TRIGGER: 90, MINIMUM: 60 };
+/* Sized to the 90-day repeat window. Beyond ~90 records per slot the bank is
+   self-sustaining: the oldest question frees up as fast as the game uses new
+   ones, so chasing a bigger buffer buys nothing. */
+var POLICY = { TARGET: 100, TRIGGER: 70, MINIMUM: 40 };
 
 var cfg = rj("flip-engine-config.json", {});
 var bank = (rj("questions.internal.json", { bank: [] }).bank) || [];
