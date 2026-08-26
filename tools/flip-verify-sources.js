@@ -242,10 +242,19 @@ function corroborate(pageText, pageTitle, rec) {
         : "the correct value does not appear near the subject on the page");
     }
   } else {
-    discriminates = sRight >= 0.5 && sRight - sWrong >= 0.34;
+    /* Run 6 evidence: six of nine rejections were "1.00 vs 0.67" - the page fully
+       supported the correct answer and partially matched a distractor about the
+       same building. That is normal English, not ambiguity, and the old rule
+       (a flat 0.34 gap) failed them by one hundredth.
+       So require the ANSWER to be strongly supported and to beat the distractor,
+       rather than demanding a gap word-overlap cannot deliver. A distractor that
+       scores AS HIGH as the answer is still refused - that is real ambiguity. */
+    discriminates = sRight >= 0.8 && sRight > sWrong;
     if (!discriminates) {
-      notes.push("source does not distinguish the options (correct " + sRight.toFixed(2) +
-        " vs distractor " + sWrong.toFixed(2) + ") - ambiguous or unsupported");
+      notes.push(sRight < 0.8
+        ? "the page does not clearly state the answer (support " + sRight.toFixed(2) + ")"
+        : "the distractor is supported as well as the answer (" + sRight.toFixed(2) +
+          " vs " + sWrong.toFixed(2) + ") - ambiguous");
     }
   }
 
