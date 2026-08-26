@@ -17,7 +17,7 @@
  *   node tools/flip-verify-sources.js batches/batch-002.json
  */
 "use strict";
-var fs = require("fs"), path = require("path"), https = require("https");
+var fs = require("fs"), path = require("path"), https = require("https"), http = require("http");
 var engine = require("./flip-engine");
 
 /* Authoritative hosts. Run one rejected QAGOMA, Government House, the
@@ -61,7 +61,14 @@ function fetchText(url, redirects) {
   redirects = redirects || 0;
   return new Promise(function (resolve) {
     if (redirects > 4) return resolve({ status: 0, text: "", note: "too many redirects" });
-    var req = https.get(url, { headers: { "User-Agent": "flip-source-verifier/1.0" } }, function (res) {
+    /* A source redirected to an http:// location and https.get threw
+       ERR_INVALID_PROTOCOL, killing the whole run mid-batch. Pick the module by
+       protocol, and treat anything that is not http/https as a rejection rather
+       than a crash. */
+    var mod;
+    try { mod = /^http:$/i.test(new URL(url).protocol) ? http : https; }
+    catch (e) { return resolve({ status: 0, text: "", note: "unparseable url" }); }
+    var req = mod.get(url, { headers: { "User-Agent": "flip-source-verifier/1.0" } }, function (res) {
       if ([301, 302, 303, 307, 308].indexOf(res.statusCode) >= 0 && res.headers.location) {
         res.resume();
         var next = new URL(res.headers.location, url).toString();
@@ -286,7 +293,9 @@ function corroborate(pageText, pageTitle, rec) {
     if (host && !hostAllowed(host)) reasons.push("host not on the authoritative allow-list: " + host);
 
     if (!reasons.length) {
-      var res = await fetchText(q.sourceUrl);
+      var res;
+      try { res = await fetchText(q.sourceUrl); }
+      catch (e) { res = { status: 0, text: "", note: "fetch failed: " + e.code }; }
       if (res.status !== 200) reasons.push("source did not resolve (HTTP " + res.status +
         (res.note ? ", " + res.note : "") + ")");
       else {
