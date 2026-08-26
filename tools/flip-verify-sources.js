@@ -20,8 +20,6 @@
 var fs = require("fs"), path = require("path"), https = require("https");
 var engine = require("./flip-engine");
 
-/* Authoritative hosts. Anything else is rejected outright, which also stops a
- * drafting model quietly substituting a blog for a heritage register. */
 /* Authoritative hosts. Run one rejected QAGOMA, Government House, the
  * Queensland Museum blog and the RNA - all exactly the institutional sources the
  * brief asks for - because this was a hand-typed guess at ~20 hostnames. It is
@@ -46,7 +44,12 @@ var ALLOW_HOSTS = [
   "trove.nla.gov.au",
   "www.nationaltrust.org.au", "nationaltrust.org.au",
   "adb.anu.edu.au",                   // Australian Dictionary of Biography
-  "www.abc.net.au"                    // ABC news/history, secondary but reliable
+  "www.abc.net.au",                   // ABC news/history, secondary but reliable
+  "www.museumofbrisbane.com.au", "museumofbrisbane.com.au",
+  "www.seqwater.com.au", "seqwater.com.au",       // operates Enoggera Dam etc.
+  "lonepinekoalasanctuary.com", "www.lonepinekoalasanctuary.com",
+  "www.govhouse.qld.gov.au", "govhouse.qld.gov.au",
+  "blogs.archives.qld.gov.au"
 ];
 function hostAllowed(h) {
   h = (h || "").toLowerCase();
@@ -118,6 +121,17 @@ function windowsContaining(text, term) {
   }
   return out;
 }
+/* Anchors must be WORDS. keyTerms keeps any token over 3 chars, so "1885" was
+ * being chosen as the anchor for its own question - and then we asked whether
+ * another year appeared near it, which is meaningless. Real example: a Tram Pole
+ * heritage page states both 1885 (first horse tram) and 1897 (first electric
+ * tram) plainly, and the question was rejected anyway. */
+function isYearish(t) { return /^\d+$/.test(t); }
+function wordTerms(s) { return keyTerms(s).filter(function (t) { return !isYearish(t); }); }
+function bestAnchor(s) {
+  return wordTerms(s).sort(function (a, b) { return b.length - a.length; })[0] || "";
+}
+
 function supportScore(text, label) {
   var terms = keyTerms(label);
   if (!terms.length) return 0;
@@ -141,17 +155,27 @@ function corroborate(pageText, pageTitle, rec) {
 
   // PROXIMITY - every year in the reveal must sit near the answer, not just on the page
   var years = (q.reveal.match(/\b(1[6-9]\d{2}|20\d{2})\b/g) || []);
-  var anchor = keyTerms(right.label).sort(function (a, b) { return b.length - a.length; })[0] || "";
+  /* If the answer is a bare year ("1897"), anchor on the PROMPT instead - what
+     the question is actually about - rather than on the number itself. */
+  var anchor = bestAnchor(right.label) || bestAnchor(q.prompt);
   var proximityOk = true;
   if (q.category === "which_came_first") {
     /* handled by the discrimination branch below, which checks each date
        against its own subject rather than against a single anchor */
   } else if (years.length && anchor) {
+    /* The KEY date must sit near the answer's subject; any further dates in the
+       reveal are context (a contrast year sits near a different subject by
+       definition) and need only appear on the page at all. */
     var wins = windowsContaining(pageText, anchor);
-    years.forEach(function (y) {
-      if (!wins.some(function (w) { return w.indexOf(y) >= 0; })) {
+    var keyYear = years[0];
+    if (!wins.some(function (w) { return w.indexOf(keyYear) >= 0; })) {
+      proximityOk = false;
+      notes.push("the key date " + keyYear + " never appears near \"" + anchor + "\" on the page");
+    }
+    years.slice(1).forEach(function (y) {
+      if (pageText.indexOf(y) < 0) {
         proximityOk = false;
-        notes.push("year " + y + " never appears near \"" + anchor + "\" on the page");
+        notes.push("date " + y + " in the reveal is not on the page at all");
       }
     });
   } else if (years.length) {
@@ -178,9 +202,9 @@ function corroborate(pageText, pageTitle, rec) {
         sRight.toFixed(2) + ", other " + sWrong.toFixed(2) + ")");
     } else {
       /* Each year in the reveal must sit near one of the two subjects. */
-      var anchors = [right.label, wrong.label].map(function (l) {
-        return keyTerms(l).sort(function (a, b) { return b.length - a.length; })[0] || "";
-      }).filter(Boolean);
+      var anchors = [right.label, wrong.label].map(bestAnchor)
+        .filter(Boolean);
+      if (!anchors.length) anchors = wordTerms(q.prompt).slice(0, 3);
       var datedOk = years.length >= 2 && years.every(function (y) {
         return anchors.some(function (an) {
           return windowsContaining(pageText, an).some(function (w) { return w.indexOf(y) >= 0; });
@@ -192,6 +216,30 @@ function corroborate(pageText, pageTitle, rec) {
           ? "a comparison needs both dates stated in the reveal"
           : "a date in the reveal is not stated near either subject on the page");
       }
+    }
+  } else if (!wordTerms(right.label).length || !wordTerms(wrong.label).length) {
+    /* Tested against the real Tram Pole heritage page: a genuinely correct
+       bare-year question and a deliberately WRONG one failed identically. The
+       check could not tell them apart, because the page states many years. So
+       do not pretend to verify this shape - reject it and let the generator
+       word the options instead. */
+    discriminates = false;
+    notes.push("options are bare numbers/dates - word the options and put the " +
+      "date in the reveal, so the source can actually settle which is correct");
+  } else if (false) {
+    /* Both options are bare dates/numbers. Term overlap cannot separate them, so
+       test what actually matters: the correct value sits near the thing the
+       PROMPT is about, and the wrong value does not. */
+    var subj = wordTerms(q.prompt).slice(0, 3);
+    var wins = [];
+    subj.forEach(function (t) { wins = wins.concat(windowsContaining(pageText, t)); });
+    var rightNear = wins.some(function (w) { return w.indexOf(right.label.trim()) >= 0; });
+    var wrongNear = wins.some(function (w) { return w.indexOf(wrong.label.trim()) >= 0; });
+    discriminates = rightNear && !wrongNear;
+    if (!discriminates) {
+      notes.push(rightNear
+        ? "both values appear near the subject - the page does not settle which is correct"
+        : "the correct value does not appear near the subject on the page");
     }
   } else {
     discriminates = sRight >= 0.5 && sRight - sWrong >= 0.34;
