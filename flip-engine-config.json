@@ -1,9 +1,11 @@
 {
   "_note": "FLIP production question engine configuration.",
-  "repeatWindowDays": 365,
+  "repeatWindowDays": 90,
   "seedBridge": {
     "enabled": false,
     "_why": "Created only to work around a validator bug: verifierNote lives at source.verifierNote and the mapping did not read it. With the mapping corrected all ten gold records pass STRICT validation, so the bridge has no purpose. Left in place as a documented escape hatch, disabled.",
     "_ifYouEverEnableIt": "It admits records missing ONLY verifierNote. It never relaxes the 365-day repeat window, so it cannot cause recycling."
-  }
+  },
+  "_repeatWindowNote": "Was 365. A year of no-repeats needs 5 x 365 = 1,825 researched records, which is not affordable. At 90 days the game needs ~90 per slot (~450 total) and is then self-sustaining forever, because the oldest question becomes eligible again as fast as the game consumes new ones."
 }
+
