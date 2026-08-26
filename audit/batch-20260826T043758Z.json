@@ -1,0 +1,38 @@
+{
+  "batch": "auto-latest.verified.json",
+  "generatedAt": "2026-08-26T04:37:58.459Z",
+  "drafted": 2,
+  "approved": 2,
+  "quarantined": [],
+  "nearDuplicateFlags": [],
+  "records": [
+    {
+      "id": "flip-auto-20260826-001",
+      "category": "suburb_story",
+      "difficulty": 1,
+      "knowledgeOnly": false,
+      "prompt": "Fortitude Valley got its name from a ship that arrived in Brisbane in 1849. What was that ship called?",
+      "correctAnswer": "The Fortitude",
+      "topicKey": "fortitude-valley-named-after-ship",
+      "sourcePublisher": "Centre for the Government of Queensland",
+      "sourceUrl": "https://queenslandplaces.com.au/fortitude-valley",
+      "verifiedOn": "2026-08-26",
+      "status": "APPROVED",
+      "reasons": []
+    },
+    {
+      "id": "flip-auto-20260826-002",
+      "category": "suburb_story",
+      "difficulty": 1,
+      "knowledgeOnly": false,
+      "prompt": "The suburb name 'Indooroopilly' comes from an Aboriginal word. What does it mean?",
+      "correctAnswer": "Gully of leeches",
+      "topicKey": "indooroopilly-name-meaning-leeches",
+      "sourcePublisher": "Brisbane City Council",
+      "sourceUrl": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
+      "verifiedOn": "2026-08-26",
+      "status": "APPROVED",
+      "reasons": []
+    }
+  ]
+}

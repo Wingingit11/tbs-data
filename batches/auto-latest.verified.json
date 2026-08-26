@@ -1,0 +1,73 @@
+{
+  "bank": [
+    {
+      "id": "flip-auto-20260826-001",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "fortitude-valley-named-after-ship",
+      "prompt": "Fortitude Valley got its name from a ship that arrived in Brisbane in 1849. What was that ship called?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Fortitude"
+        },
+        {
+          "id": "b",
+          "label": "The Endeavour"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Scottish immigrants aboard the barque Fortitude arrived at Brisbane in January 1849. Denied promised free land, they camped nearby — and named the area after their ship.",
+      "source": {
+        "title": "Fortitude Valley | Queensland Places",
+        "url": "https://queenslandplaces.com.au/fortitude-valley",
+        "publisher": "Centre for the Government of Queensland",
+        "verifierNote": "Page states 'The first vessel, the Fortitude, arrived at Brisbane in January 1849' and 'The temporary abode gave rise to the name Fortitude Valley.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "fortitude-valley",
+        "ship",
+        "immigration",
+        "1849",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-002",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "indooroopilly-name-meaning-leeches",
+      "prompt": "The suburb name 'Indooroopilly' comes from an Aboriginal word. What does it mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Gully of leeches"
+        },
+        {
+          "id": "b",
+          "label": "Place of magpie larks"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Council's Heritage Trail explains the name comes from an Aboriginal word believed to mean a gully or creek with leeches — a nod to the leech-filled gullies once running to the Brisbane River.",
+      "source": {
+        "title": "Indooroopilly Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'The name Indooroopilly is thought to come from an Aboriginal word. It is believed to mean a gully or creek with leeches.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "indooroopilly",
+        "aboriginal-name",
+        "suburb-name-origin",
+        "language"
+      ]
+    }
+  ]
+}

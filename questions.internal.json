@@ -1,459 +1,529 @@
 {
- "_note": "Approved gold-standard seed bank, integrated at Stage 3.2. Field names adapted to the application schema; prompts, options, answers, reveals and sources are the supplied content verbatim.",
- "bankId": "flip-gold-standard-seed-001",
- "version": "flip-question-bank-v1",
- "approvedOn": "2026-08-14",
- "difficultyPattern": [
-  1,
-  2,
-  1,
-  2,
-  3
- ],
- "bank": [
-  {
-   "id": "flip-gold-001",
-   "category": "suburb_story",
-   "topicKey": "chapel-hill-name-origin",
-   "prompt": "What gave the Brisbane suburb of Chapel Hill its name?",
-   "options": [
+  "_note": "Approved gold-standard seed bank, integrated at Stage 3.2. Field names adapted to the application schema; prompts, options, answers, reveals and sources are the supplied content verbatim.",
+  "bankId": "flip-gold-standard-seed-001",
+  "version": "flip-question-bank-v1",
+  "approvedOn": "2026-08-14",
+  "difficultyPattern": [
+    1,
+    2,
+    1,
+    2,
+    3
+  ],
+  "bank": [
     {
-     "id": "a",
-     "label": "A small timber chapel built on the hill"
+      "id": "flip-gold-001",
+      "category": "suburb_story",
+      "topicKey": "chapel-hill-name-origin",
+      "prompt": "What gave the Brisbane suburb of Chapel Hill its name?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A small timber chapel built on the hill"
+        },
+        {
+          "id": "b",
+          "label": "A sandstone chapel carved into the hillside"
+        }
+      ],
+      "answer": "a",
+      "reveal": "A Primitive Methodist chapel was built there in 1875. By the 1880s the district was known as Chapel Hill after the chapel standing on the hill.",
+      "source": {
+        "title": "Chapel Hill Uniting Church (former)",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2253",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "The Council entry states that the Primitive Methodist Church was built in 1875 and that the district became known as Chapel Hill after the chapel on the hill."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council entry states that the Primitive Methodist Church was built in 1875 and that the district became known as Chapel Hill after the chapel on the hill.",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Brisbane",
+        "Chapel Hill",
+        "suburb names",
+        "churches",
+        "local history"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 1,
+      "approvedSlot": 1
     },
     {
-     "id": "b",
-     "label": "A sandstone chapel carved into the hillside"
-    }
-   ],
-   "answer": "a",
-   "reveal": "A Primitive Methodist chapel was built there in 1875. By the 1880s the district was known as Chapel Hill after the chapel standing on the hill.",
-   "source": {
-    "title": "Chapel Hill Uniting Church (former)",
-    "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2253",
-    "publisher": "Brisbane City Council Heritage Places",
-    "verifierNote": "The Council entry states that the Primitive Methodist Church was built in 1875 and that the district became known as Chapel Hill after the chapel on the hill."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council entry states that the Primitive Methodist Church was built in 1875 and that the district became known as Chapel Hill after the chapel on the hill.",
-   "predictedDifficulty": 1,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Brisbane",
-    "Chapel Hill",
-    "suburb names",
-    "churches",
-    "local history"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 1,
-   "approvedSlot": 1
-  },
-  {
-   "id": "flip-gold-002",
-   "category": "landmark_oddity",
-   "topicKey": "city-hall-clock-size",
-   "prompt": "The face of Brisbane City Hall's clock is closest to which width?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Five metres"
+      "id": "flip-gold-002",
+      "category": "landmark_oddity",
+      "topicKey": "city-hall-clock-size",
+      "prompt": "The face of Brisbane City Hall's clock is closest to which width?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Five metres"
+        },
+        {
+          "id": "b",
+          "label": "Ten metres"
+        }
+      ],
+      "answer": "a",
+      "reveal": "Each City Hall clock face is almost five metres across, with minute hands about three metres long.",
+      "source": {
+        "title": "Brisbane City Hall and King George Square",
+        "url": "https://www.brisbane.qld.gov.au/libraries-venues-and-facilities/venue-and-places/brisbane-city-hall-and-king-george-square",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "The Council page describes the clock faces as almost five metres in diameter and the minute hands as three metres long."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council page describes the clock faces as almost five metres in diameter and the minute hands as three metres long.",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Brisbane City",
+        "City Hall",
+        "clock tower",
+        "landmarks"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 1,
+      "approvedSlot": 2
     },
     {
-     "id": "b",
-     "label": "Ten metres"
-    }
-   ],
-   "answer": "a",
-   "reveal": "Each City Hall clock face is almost five metres across, with minute hands about three metres long.",
-   "source": {
-    "title": "Brisbane City Hall and King George Square",
-    "url": "https://www.brisbane.qld.gov.au/libraries-venues-and-facilities/venue-and-places/brisbane-city-hall-and-king-george-square",
-    "publisher": "Brisbane City Council",
-    "verifierNote": "The Council page describes the clock faces as almost five metres in diameter and the minute hands as three metres long."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council page describes the clock faces as almost five metres in diameter and the minute hands as three metres long.",
-   "predictedDifficulty": 2,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Brisbane City",
-    "City Hall",
-    "clock tower",
-    "landmarks"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 1,
-   "approvedSlot": 2
-  },
-  {
-   "id": "flip-gold-003",
-   "category": "which_came_first",
-   "topicKey": "chermside-before-toombul",
-   "prompt": "Which Brisbane shopping centre opened first?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Chermside Drive-in Shopping Centre"
+      "id": "flip-gold-003",
+      "category": "which_came_first",
+      "topicKey": "chermside-before-toombul",
+      "prompt": "Which Brisbane shopping centre opened first?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Chermside Drive-in Shopping Centre"
+        },
+        {
+          "id": "b",
+          "label": "Toombul Shopping Centre"
+        }
+      ],
+      "answer": "a",
+      "reveal": "Chermside's drive-in shopping centre opened in 1957, ten years before Toombul opened in 1967.",
+      "source": {
+        "title": "Indooroopilly Heritage Trail",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "The Council trail identifies Chermside as opening in 1957 and Toombul in 1967. The unexpected source page still explicitly contains both dated comparisons."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council trail identifies Chermside as opening in 1957 and Toombul in 1967. The unexpected source page still explicitly contains both dated comparisons.",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Chermside",
+        "Toombul",
+        "shopping centres",
+        "Brisbane firsts"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 1,
+      "approvedSlot": 3
     },
     {
-     "id": "b",
-     "label": "Toombul Shopping Centre"
-    }
-   ],
-   "answer": "a",
-   "reveal": "Chermside's drive-in shopping centre opened in 1957, ten years before Toombul opened in 1967.",
-   "source": {
-    "title": "Indooroopilly Heritage Trail",
-    "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
-    "publisher": "Brisbane City Council",
-    "verifierNote": "The Council trail identifies Chermside as opening in 1957 and Toombul in 1967. The unexpected source page still explicitly contains both dated comparisons."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council trail identifies Chermside as opening in 1957 and Toombul in 1967. The unexpected source page still explicitly contains both dated comparisons.",
-   "predictedDifficulty": 1,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Chermside",
-    "Toombul",
-    "shopping centres",
-    "Brisbane firsts"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 1,
-   "approvedSlot": 3
-  },
-  {
-   "id": "flip-gold-004",
-   "category": "homes_lifestyle",
-   "topicKey": "brisbane-terrace-law-1885",
-   "prompt": "Which Brisbane housing style was made much harder to build by an 1885 land-subdivision law?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Rows of terrace houses"
+      "id": "flip-gold-004",
+      "category": "homes_lifestyle",
+      "topicKey": "brisbane-terrace-law-1885",
+      "prompt": "Which Brisbane housing style was made much harder to build by an 1885 land-subdivision law?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Rows of terrace houses"
+        },
+        {
+          "id": "b",
+          "label": "Detached Queenslanders"
+        }
+      ],
+      "answer": "a",
+      "reveal": "The 1885 Undue Subdivision of Land Prevention Act imposed minimum street frontages and effectively stopped most new terrace rows, helping explain why Brisbane has fewer terraces than Sydney or Melbourne.",
+      "source": {
+        "title": "Watson Terrace",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/940",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "The Council entry says the 1885 Act imposed minimum frontages that effectively prevented terrace-house construction."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council entry says the 1885 Act imposed minimum frontages that effectively prevented terrace-house construction.",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "terrace houses",
+        "Queenslanders",
+        "planning law",
+        "Brisbane homes"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 1,
+      "approvedSlot": 4
     },
     {
-     "id": "b",
-     "label": "Detached Queenslanders"
-    }
-   ],
-   "answer": "a",
-   "reveal": "The 1885 Undue Subdivision of Land Prevention Act imposed minimum street frontages and effectively stopped most new terrace rows, helping explain why Brisbane has fewer terraces than Sydney or Melbourne.",
-   "source": {
-    "title": "Watson Terrace",
-    "url": "https://heritage.brisbane.qld.gov.au/heritage-places/940",
-    "publisher": "Brisbane City Council Heritage Places",
-    "verifierNote": "The Council entry says the 1885 Act imposed minimum frontages that effectively prevented terrace-house construction."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council entry says the 1885 Act imposed minimum frontages that effectively prevented terrace-house construction.",
-   "predictedDifficulty": 2,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "terrace houses",
-    "Queenslanders",
-    "planning law",
-    "Brisbane homes"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 1,
-   "approvedSlot": 4
-  },
-  {
-   "id": "flip-gold-005",
-   "category": "wildcard",
-   "topicKey": "old-windmill-first-television",
-   "prompt": "Queensland's first experimental television broadcast was transmitted in 1934 from which Brisbane landmark?",
-   "options": [
-    {
-     "id": "a",
-     "label": "The Old Windmill Tower"
+      "id": "flip-gold-005",
+      "category": "wildcard",
+      "topicKey": "old-windmill-first-television",
+      "prompt": "Queensland's first experimental television broadcast was transmitted in 1934 from which Brisbane landmark?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Old Windmill Tower"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane City Hall's clock tower"
+        }
+      ],
+      "answer": "a",
+      "reveal": "In 1934, Allen Campbell and Thomas Elliott transmitted Queensland's first experimental television broadcast from the Old Windmill Tower.",
+      "source": {
+        "title": "Brisbane City Centre Heritage Place Trail",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-city-centre-heritage-place-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "The Council trail explicitly dates Queensland's first television broadcast to 1934 and locates the transmission at the Old Windmill Tower."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council trail explicitly dates Queensland's first television broadcast to 1934 and locates the transmission at the Old Windmill Tower.",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Spring Hill",
+        "Old Windmill",
+        "television",
+        "Brisbane firsts",
+        "technology"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 1,
+      "approvedSlot": 5
     },
     {
-     "id": "b",
-     "label": "Brisbane City Hall's clock tower"
-    }
-   ],
-   "answer": "a",
-   "reveal": "In 1934, Allen Campbell and Thomas Elliott transmitted Queensland's first experimental television broadcast from the Old Windmill Tower.",
-   "source": {
-    "title": "Brisbane City Centre Heritage Place Trail",
-    "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/brisbane-city-centre-heritage-place-trail",
-    "publisher": "Brisbane City Council",
-    "verifierNote": "The Council trail explicitly dates Queensland's first television broadcast to 1934 and locates the transmission at the Old Windmill Tower."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council trail explicitly dates Queensland's first television broadcast to 1934 and locates the transmission at the Old Windmill Tower.",
-   "predictedDifficulty": 3,
-   "knowledgeOnly": true,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Spring Hill",
-    "Old Windmill",
-    "television",
-    "Brisbane firsts",
-    "technology"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 1,
-   "approvedSlot": 5
-  },
-  {
-   "id": "flip-gold-006",
-   "category": "suburb_story",
-   "topicKey": "stones-corner-james-stone",
-   "prompt": "Stones Corner was named after which of these?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Shopkeeper James Stone"
+      "id": "flip-gold-006",
+      "category": "suburb_story",
+      "topicKey": "stones-corner-james-stone",
+      "prompt": "Stones Corner was named after which of these?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Shopkeeper James Stone"
+        },
+        {
+          "id": "b",
+          "label": "A nearby stone quarry"
+        }
+      ],
+      "answer": "a",
+      "reveal": "James Stone bought land at the corner in 1875 and ran a small refreshment business there. The place became known as Stone's Corner.",
+      "source": {
+        "title": "Stones Corner Library",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/809",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "The Council entry identifies James Stone, his 1875 corner land purchase and his refreshment business as the origin of the place name."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The Council entry identifies James Stone, his 1875 corner land purchase and his refreshment business as the origin of the place name.",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Stones Corner",
+        "suburb names",
+        "local business",
+        "local history"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 2,
+      "approvedSlot": 1
     },
     {
-     "id": "b",
-     "label": "A nearby stone quarry"
-    }
-   ],
-   "answer": "a",
-   "reveal": "James Stone bought land at the corner in 1875 and ran a small refreshment business there. The place became known as Stone's Corner.",
-   "source": {
-    "title": "Stones Corner Library",
-    "url": "https://heritage.brisbane.qld.gov.au/heritage-places/809",
-    "publisher": "Brisbane City Council Heritage Places",
-    "verifierNote": "The Council entry identifies James Stone, his 1875 corner land purchase and his refreshment business as the origin of the place name."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The Council entry identifies James Stone, his 1875 corner land purchase and his refreshment business as the origin of the place name.",
-   "predictedDifficulty": 1,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Stones Corner",
-    "suburb names",
-    "local business",
-    "local history"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 2,
-   "approvedSlot": 1
-  },
-  {
-   "id": "flip-gold-007",
-   "category": "landmark_oddity",
-   "topicKey": "herston-herbert-bramston",
-   "prompt": "The name Herston combines the surnames of which two early Queensland figures?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Robert Herbert and John Bramston"
+      "id": "flip-gold-007",
+      "category": "landmark_oddity",
+      "topicKey": "herston-herbert-bramston",
+      "prompt": "The name Herston combines the surnames of which two early Queensland figures?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Robert Herbert and John Bramston"
+        },
+        {
+          "id": "b",
+          "label": "John Petrie and George Bowen"
+        }
+      ],
+      "answer": "a",
+      "reveal": "Herston blends part of Herbert with part of Bramston. Robert Herbert and John Bramston shared a house in the area called Herston House.",
+      "source": {
+        "title": "Herston",
+        "url": "https://www.slq.qld.gov.au/blog/herston",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "The State Library explains that Herston was formed from the surnames Herbert and Bramston and identifies the two men."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The State Library explains that Herston was formed from the surnames Herbert and Bramston and identifies the two men.",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Herston",
+        "suburb names",
+        "Robert Herbert",
+        "John Bramston",
+        "word origins"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 2,
+      "approvedSlot": 2
     },
     {
-     "id": "b",
-     "label": "John Petrie and George Bowen"
-    }
-   ],
-   "answer": "a",
-   "reveal": "Herston blends part of Herbert with part of Bramston. Robert Herbert and John Bramston shared a house in the area called Herston House.",
-   "source": {
-    "title": "Herston",
-    "url": "https://www.slq.qld.gov.au/blog/herston",
-    "publisher": "State Library of Queensland",
-    "verifierNote": "The State Library explains that Herston was formed from the surnames Herbert and Bramston and identifies the two men."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The State Library explains that Herston was formed from the surnames Herbert and Bramston and identifies the two men.",
-   "predictedDifficulty": 2,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Herston",
-    "suburb names",
-    "Robert Herbert",
-    "John Bramston",
-    "word origins"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 2,
-   "approvedSlot": 2
-  },
-  {
-   "id": "flip-gold-008",
-   "category": "which_came_first",
-   "topicKey": "new-farm-park-before-story-bridge",
-   "prompt": "Which became part of Brisbane life first?",
-   "options": [
-    {
-     "id": "a",
-     "label": "New Farm Park opening as a Council park"
+      "id": "flip-gold-008",
+      "category": "which_came_first",
+      "topicKey": "new-farm-park-before-story-bridge",
+      "prompt": "Which became part of Brisbane life first?",
+      "options": [
+        {
+          "id": "a",
+          "label": "New Farm Park opening as a Council park"
+        },
+        {
+          "id": "b",
+          "label": "The Story Bridge opening"
+        }
+      ],
+      "answer": "a",
+      "reveal": "New Farm Park began operating as a Council park in 1914. The Story Bridge opened in 1940, twenty-six years later.",
+      "source": {
+        "title": "About New Farm Park; Council history",
+        "url": "https://yoursay.brisbane.qld.gov.au/new-farm-park/news_feed/about-new-farm-park",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "The New Farm Park page dates its Council-park use to 1914. Brisbane City Council's history page independently dates the Story Bridge opening to 1940: https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history"
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The New Farm Park page dates its Council-park use to 1914. Brisbane City Council's history page independently dates the Story Bridge opening to 1940: https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "New Farm",
+        "New Farm Park",
+        "Story Bridge",
+        "Brisbane timeline"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 2,
+      "approvedSlot": 3
     },
     {
-     "id": "b",
-     "label": "The Story Bridge opening"
-    }
-   ],
-   "answer": "a",
-   "reveal": "New Farm Park began operating as a Council park in 1914. The Story Bridge opened in 1940, twenty-six years later.",
-   "source": {
-    "title": "About New Farm Park; Council history",
-    "url": "https://yoursay.brisbane.qld.gov.au/new-farm-park/news_feed/about-new-farm-park",
-    "publisher": "Brisbane City Council",
-    "verifierNote": "The New Farm Park page dates its Council-park use to 1914. Brisbane City Council's history page independently dates the Story Bridge opening to 1940: https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history"
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The New Farm Park page dates its Council-park use to 1914. Brisbane City Council's history page independently dates the Story Bridge opening to 1940: https://www.brisbane.qld.gov.au/about-council/news-and-community-updates/council-history",
-   "predictedDifficulty": 1,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "New Farm",
-    "New Farm Park",
-    "Story Bridge",
-    "Brisbane timeline"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 2,
-   "approvedSlot": 3
-  },
-  {
-   "id": "flip-gold-009",
-   "category": "homes_lifestyle",
-   "topicKey": "powerhouse-powered-trams",
-   "prompt": "Before it became an arts venue, Brisbane Powerhouse generated electricity mainly for what?",
-   "options": [
-    {
-     "id": "a",
-     "label": "Brisbane's tram network"
+      "id": "flip-gold-009",
+      "category": "homes_lifestyle",
+      "topicKey": "powerhouse-powered-trams",
+      "prompt": "Before it became an arts venue, Brisbane Powerhouse generated electricity mainly for what?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Brisbane's tram network"
+        },
+        {
+          "id": "b",
+          "label": "Brisbane's river ferries"
+        }
+      ],
+      "answer": "a",
+      "reveal": "The New Farm powerhouse supplied electricity for Brisbane's tram network and also powered lighting in several suburbs before it was decommissioned in 1971.",
+      "source": {
+        "title": "History",
+        "url": "https://brisbanepowerhouse.org/history/",
+        "publisher": "Brisbane Powerhouse",
+        "verifierNote": "The official venue history says the powerhouse generated electricity for the tram network and for lighting in Toowong, Ithaca and Yeerongpilly."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The official venue history says the powerhouse generated electricity for the tram network and for lighting in Toowong, Ithaca and Yeerongpilly.",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "New Farm",
+        "Brisbane Powerhouse",
+        "trams",
+        "electricity",
+        "adaptive reuse"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 2,
+      "approvedSlot": 4
     },
     {
-     "id": "b",
-     "label": "Brisbane's river ferries"
-    }
-   ],
-   "answer": "a",
-   "reveal": "The New Farm powerhouse supplied electricity for Brisbane's tram network and also powered lighting in several suburbs before it was decommissioned in 1971.",
-   "source": {
-    "title": "History",
-    "url": "https://brisbanepowerhouse.org/history/",
-    "publisher": "Brisbane Powerhouse",
-    "verifierNote": "The official venue history says the powerhouse generated electricity for the tram network and for lighting in Toowong, Ithaca and Yeerongpilly."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The official venue history says the powerhouse generated electricity for the tram network and for lighting in Toowong, Ithaca and Yeerongpilly.",
-   "predictedDifficulty": 2,
-   "knowledgeOnly": false,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "New Farm",
-    "Brisbane Powerhouse",
-    "trams",
-    "electricity",
-    "adaptive reuse"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 2,
-   "approvedSlot": 4
-  },
-  {
-   "id": "flip-gold-010",
-   "category": "wildcard",
-   "topicKey": "st-johns-108-year-build",
-   "prompt": "How long did St John's Cathedral take to complete after its foundation stone was laid?",
-   "options": [
-    {
-     "id": "a",
-     "label": "108 years"
+      "id": "flip-gold-010",
+      "category": "wildcard",
+      "topicKey": "st-johns-108-year-build",
+      "prompt": "How long did St John's Cathedral take to complete after its foundation stone was laid?",
+      "options": [
+        {
+          "id": "a",
+          "label": "108 years"
+        },
+        {
+          "id": "b",
+          "label": "58 years"
+        }
+      ],
+      "answer": "a",
+      "reveal": "The foundation stone was laid in 1901 and St John's Cathedral was completed in 2009 — a 108-year build.",
+      "source": {
+        "title": "St John's Cathedral",
+        "url": "https://visit.brisbane.qld.au/things-to-do/inner-city/arts-and-culture/st-johns-cathedral-4ca7",
+        "publisher": "Visit Brisbane",
+        "verifierNote": "The official destination listing states that the foundation stone was laid in 1901 and the cathedral was completed 108 years later in 2009."
+      },
+      "verifiedOn": "2026-08-14",
+      "verifiedBy": "The official destination listing states that the foundation stone was laid in 1901 and the cathedral was completed 108 years later in 2009.",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": true,
+      "observedCorrectRate": null,
+      "answersRecorded": 0,
+      "observedDifficulty": null,
+      "tags": [
+        "Brisbane City",
+        "St John's Cathedral",
+        "architecture",
+        "construction history"
+      ],
+      "status": "verified",
+      "lastUsedOn": null,
+      "useCount": 0,
+      "retiredReason": null,
+      "sourceBankId": "flip-gold-standard-seed-001",
+      "approvedDay": 2,
+      "approvedSlot": 5
     },
     {
-     "id": "b",
-     "label": "58 years"
+      "id": "flip-auto-20260826-001",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "fortitude-valley-named-after-ship",
+      "prompt": "Fortitude Valley got its name from a ship that arrived in Brisbane in 1849. What was that ship called?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Fortitude"
+        },
+        {
+          "id": "b",
+          "label": "The Endeavour"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Scottish immigrants aboard the barque Fortitude arrived at Brisbane in January 1849. Denied promised free land, they camped nearby — and named the area after their ship.",
+      "source": {
+        "title": "Fortitude Valley | Queensland Places",
+        "url": "https://queenslandplaces.com.au/fortitude-valley",
+        "publisher": "Centre for the Government of Queensland",
+        "verifierNote": "Page states 'The first vessel, the Fortitude, arrived at Brisbane in January 1849' and 'The temporary abode gave rise to the name Fortitude Valley.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "fortitude-valley",
+        "ship",
+        "immigration",
+        "1849",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-002",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "indooroopilly-name-meaning-leeches",
+      "prompt": "The suburb name 'Indooroopilly' comes from an Aboriginal word. What does it mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Gully of leeches"
+        },
+        {
+          "id": "b",
+          "label": "Place of magpie larks"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Council's Heritage Trail explains the name comes from an Aboriginal word believed to mean a gully or creek with leeches — a nod to the leech-filled gullies once running to the Brisbane River.",
+      "source": {
+        "title": "Indooroopilly Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'The name Indooroopilly is thought to come from an Aboriginal word. It is believed to mean a gully or creek with leeches.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "indooroopilly",
+        "aboriginal-name",
+        "suburb-name-origin",
+        "language"
+      ]
     }
-   ],
-   "answer": "a",
-   "reveal": "The foundation stone was laid in 1901 and St John's Cathedral was completed in 2009 — a 108-year build.",
-   "source": {
-    "title": "St John's Cathedral",
-    "url": "https://visit.brisbane.qld.au/things-to-do/inner-city/arts-and-culture/st-johns-cathedral-4ca7",
-    "publisher": "Visit Brisbane",
-    "verifierNote": "The official destination listing states that the foundation stone was laid in 1901 and the cathedral was completed 108 years later in 2009."
-   },
-   "verifiedOn": "2026-08-14",
-   "verifiedBy": "The official destination listing states that the foundation stone was laid in 1901 and the cathedral was completed 108 years later in 2009.",
-   "predictedDifficulty": 3,
-   "knowledgeOnly": true,
-   "observedCorrectRate": null,
-   "answersRecorded": 0,
-   "observedDifficulty": null,
-   "tags": [
-    "Brisbane City",
-    "St John's Cathedral",
-    "architecture",
-    "construction history"
-   ],
-   "status": "verified",
-   "lastUsedOn": null,
-   "useCount": 0,
-   "retiredReason": null,
-   "sourceBankId": "flip-gold-standard-seed-001",
-   "approvedDay": 2,
-   "approvedSlot": 5
-  }
- ]
+  ],
+  "updatedAt": "2026-08-26T04:37:58.459Z"
 }

@@ -1,0 +1,111 @@
+{
+  "rejected": [
+    {
+      "id": "flip-auto-20260826-003",
+      "url": "https://piercepipeorgans.com.au/projects/hello-world",
+      "reasons": [
+        "host not on the authoritative allow-list: piercepipeorgans.com.au"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-004",
+      "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
+      "reasons": [
+        "year 1940 never appears near \"jubilee\" on the page",
+        "year 1936 never appears near \"jubilee\" on the page",
+        "source does not distinguish the options (correct 0.50 vs distractor 0.33) - ambiguous or unsupported",
+        "reveal is largely unsupported by the page (5/17 terms)"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": false,
+        "supportCorrect": 0.5,
+        "supportDistractor": 0.33,
+        "revealSupport": 0.29,
+        "notes": [
+          "year 1940 never appears near \"jubilee\" on the page",
+          "year 1936 never appears near \"jubilee\" on the page",
+          "source does not distinguish the options (correct 0.50 vs distractor 0.33) - ambiguous or unsupported",
+          "reveal is largely unsupported by the page (5/17 terms)"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-005",
+      "url": "https://www.slq.qld.gov.au/discover/exhibitions/hornibrook/william-jolly-bridge",
+      "reasons": [
+        "year 1940 never appears near \"william\" on the page",
+        "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.82,
+        "notes": [
+          "year 1940 never appears near \"william\" on the page",
+          "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-006",
+      "url": "https://www.qagoma.qld.gov.au/about/",
+      "reasons": [
+        "host not on the authoritative allow-list: www.qagoma.qld.gov.au"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-007",
+      "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+      "reasons": [
+        "year 1897 never appears near \"1885\" on the page",
+        "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+      ],
+      "detail": {
+        "ok": false,
+        "identityOk": true,
+        "proximityOk": false,
+        "discriminates": false,
+        "supportCorrect": 1,
+        "supportDistractor": 1,
+        "revealSupport": 0.73,
+        "notes": [
+          "year 1897 never appears near \"1885\" on the page",
+          "source does not distinguish the options (correct 1.00 vs distractor 1.00) - ambiguous or unsupported"
+        ]
+      }
+    },
+    {
+      "id": "flip-auto-20260826-008",
+      "url": "https://www.govhouse.qld.gov.au/government-house/about-government-house/the-history",
+      "reasons": [
+        "host not on the authoritative allow-list: www.govhouse.qld.gov.au"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-009",
+      "url": "https://blog.qm.qld.gov.au/2020/07/06/80-years-strong-a-story-bridge-anniversary/",
+      "reasons": [
+        "host not on the authoritative allow-list: blog.qm.qld.gov.au"
+      ],
+      "detail": null
+    },
+    {
+      "id": "flip-auto-20260826-010",
+      "url": "https://www.rna.org.au/about-us/about-the-rna/",
+      "reasons": [
+        "host not on the authoritative allow-list: www.rna.org.au"
+      ],
+      "detail": null
+    }
+  ]
+}

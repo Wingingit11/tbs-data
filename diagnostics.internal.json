@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-26",
+  "repeatWindowDays": 365,
+  "totalRecords": 12,
+  "approvedRecords": 12,
+  "eligibleToday": 2,
+  "byCategory": {
+    "suburb_story": {
+      "approved": 4,
+      "eligibleToday": 2
+    },
+    "landmark_oddity": {
+      "approved": 2,
+      "eligibleToday": 0
+    },
+    "which_came_first": {
+      "approved": 2,
+      "eligibleToday": 0
+    },
+    "homes_lifestyle": {
+      "approved": 2,
+      "eligibleToday": 0
+    },
+    "wildcard": {
+      "approved": 2,
+      "eligibleToday": 0
+    }
+  },
+  "blockedByQuestionIdWindow": 10,
+  "blockedByTopicKeyWindow": 0,
+  "quarantined": [],
+  "quarantinedCount": 0,
+  "placeholderRecordsExcluded": 0,
+  "daysOfSupplyRemaining": 0,
+  "seedBridgeEnabled": false,
+  "plannedFrom": "2026-08-27",
+  "plannedThrough": null,
+  "stoppedAt": {
+    "date": "2026-08-27",
+    "ok": false,
+    "questions": [],
+    "shortfalls": [
+      {
+        "slot": 2,
+        "category": "landmark_oddity",
+        "difficulty": 2,
+        "reason": "no eligible approved record for this category and difficulty"
+      },
+      {
+        "slot": 3,
+        "category": "which_came_first",
+        "difficulty": 1,
+        "reason": "no eligible approved record for this category and difficulty"
+      },
+      {
+        "slot": 4,
+        "category": "homes_lifestyle",
+        "difficulty": 2,
+        "reason": "no eligible approved record for this category and difficulty"
+      },
+      {
+        "slot": 5,
+        "category": "wildcard",
+        "difficulty": 3,
+        "reason": "no eligible approved record for this category and difficulty"
+      }
+    ]
+  },
+  "generatedAt": "2026-08-26T04:37:58.484Z"
+}

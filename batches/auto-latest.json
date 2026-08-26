@@ -1,0 +1,354 @@
+{
+  "_note": "CANDIDATES - unverified. Must pass flip-verify-sources.js then flip-ingest.js.",
+  "generatedAt": "2026-08-26T04:37:51.008Z",
+  "bank": [
+    {
+      "id": "flip-auto-20260826-001",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "fortitude-valley-named-after-ship",
+      "prompt": "Fortitude Valley got its name from a ship that arrived in Brisbane in 1849. What was that ship called?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Fortitude"
+        },
+        {
+          "id": "b",
+          "label": "The Endeavour"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Scottish immigrants aboard the barque Fortitude arrived at Brisbane in January 1849. Denied promised free land, they camped nearby — and named the area after their ship.",
+      "source": {
+        "title": "Fortitude Valley | Queensland Places",
+        "url": "https://queenslandplaces.com.au/fortitude-valley",
+        "publisher": "Centre for the Government of Queensland",
+        "verifierNote": "Page states 'The first vessel, the Fortitude, arrived at Brisbane in January 1849' and 'The temporary abode gave rise to the name Fortitude Valley.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "fortitude-valley",
+        "ship",
+        "immigration",
+        "1849",
+        "suburb-name-origin"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-002",
+      "status": "approved",
+      "category": "suburb_story",
+      "topicKey": "indooroopilly-name-meaning-leeches",
+      "prompt": "The suburb name 'Indooroopilly' comes from an Aboriginal word. What does it mean?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Gully of leeches"
+        },
+        {
+          "id": "b",
+          "label": "Place of magpie larks"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Brisbane City Council's Heritage Trail explains the name comes from an Aboriginal word believed to mean a gully or creek with leeches — a nod to the leech-filled gullies once running to the Brisbane River.",
+      "source": {
+        "title": "Indooroopilly Heritage Trail | Brisbane City Council",
+        "url": "https://www.brisbane.qld.gov.au/events-arts-and-culture/art-and-culture/heritage-trails/indooroopilly-heritage-trail",
+        "publisher": "Brisbane City Council",
+        "verifierNote": "Page states 'The name Indooroopilly is thought to come from an Aboriginal word. It is believed to mean a gully or creek with leeches.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "indooroopilly",
+        "aboriginal-name",
+        "suburb-name-origin",
+        "language"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-003",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "city-hall-organ-original-home",
+      "prompt": "Brisbane City Hall's famous pipe organ was NOT built for City Hall. Where was it originally installed when it arrived in Brisbane in 1892?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Brisbane Exhibition Building, Bowen Park"
+        },
+        {
+          "id": "b",
+          "label": "St John's Anglican Cathedral, Ann Street"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Built by Henry Willis & Sons in 1891–92, the organ first lived at the Exhibition Building in Bowen Park for 35 years before being moved and enlarged for City Hall in 1927.",
+      "source": {
+        "title": "Brisbane City Hall – Pierce Pipe Organs",
+        "url": "https://piercepipeorgans.com.au/projects/hello-world",
+        "publisher": "Pierce Pipe Organs Pty Ltd",
+        "verifierNote": "Page states: 'This instrument was originally built by Henry Willis and Sons in England between 1891-2 and first erected in the Brisbane Exhibition Hall, Bowen Park.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "city-hall",
+        "organ",
+        "music",
+        "exhibition-building",
+        "bowen-hills"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-004",
+      "status": "approved",
+      "category": "landmark_oddity",
+      "topicKey": "story-bridge-construction-name",
+      "prompt": "Brisbane's Story Bridge wasn't always called the Story Bridge. What was it officially known as during construction from 1935?",
+      "options": [
+        {
+          "id": "a",
+          "label": "The Jubilee Bridge"
+        },
+        {
+          "id": "b",
+          "label": "The Kangaroo Point Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Named to honour King George V's Silver Jubilee, it was renamed Story Bridge at its 1940 opening after JD Story, Public Service Commissioner — the King had died in 1936.",
+      "source": {
+        "title": "Story Bridge | Environment, land and water | Queensland Government",
+        "url": "https://apps.des.qld.gov.au/heritage-register/detail/?id=600240",
+        "publisher": "Queensland Heritage Register",
+        "verifierNote": "Page states: 'From mid-1935 to 1940 the bridge was known as the Jubilee Bridge, honouring George V, but when opened on 6 July 1940 it was named after JD Story, the Public Service Commissioner and a member of the Bridge Board.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "story-bridge",
+        "history",
+        "naming",
+        "king-george-v",
+        "kangaroo-point"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-005",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "william-jolly-bridge-before-story-bridge",
+      "prompt": "Which came first: the opening of the William Jolly Bridge or the opening of the Story Bridge?",
+      "options": [
+        {
+          "id": "a",
+          "label": "William Jolly Bridge"
+        },
+        {
+          "id": "b",
+          "label": "Story Bridge"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The William Jolly Bridge (then called Grey Street Bridge) opened 30 March 1932 — nearly eight years before the Story Bridge opened on 6 July 1940.",
+      "source": {
+        "title": "William Jolly Bridge Brisbane | State Library of Queensland",
+        "url": "https://www.slq.qld.gov.au/discover/exhibitions/hornibrook/william-jolly-bridge",
+        "publisher": "State Library of Queensland",
+        "verifierNote": "Page states the William Jolly Bridge was 'the second one built to cross the Brisbane River, opening on 30 March 1932 and nearly eight years before the Story Bridge'."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "bridges",
+        "infrastructure",
+        "1930s",
+        "Brisbane River"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-006",
+      "status": "approved",
+      "category": "which_came_first",
+      "topicKey": "queensland-art-gallery-southbank-before-qpac",
+      "prompt": "Which opened first at Brisbane's South Bank Cultural Centre: the Queensland Art Gallery building or QPAC?",
+      "options": [
+        {
+          "id": "a",
+          "label": "Queensland Art Gallery"
+        },
+        {
+          "id": "b",
+          "label": "QPAC"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The Queensland Art Gallery opened on 21 June 1982 as the first stage of the Cultural Centre. QPAC followed three years later, officially opened on 20 April 1985.",
+      "source": {
+        "title": "About – Queensland Art Gallery | Gallery of Modern Art",
+        "url": "https://www.qagoma.qld.gov.au/about/",
+        "publisher": "Queensland Art Gallery | Gallery of Modern Art (QAGOMA)",
+        "verifierNote": "Official QAGOMA page states QAG 'Opened: 21 June 1982'; QPAC's own official history page (qpac.com.au/corporate/history) states it 'officially opened by His Royal Highness the Duke of Kent on 20 April 1985'."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 1,
+      "knowledgeOnly": false,
+      "tags": [
+        "South Bank",
+        "cultural precinct",
+        "art gallery",
+        "performing arts",
+        "1980s"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-007",
+      "status": "approved",
+      "category": "homes_lifestyle",
+      "topicKey": "brisbane-first-horse-tram-1885",
+      "prompt": "In what year did Brisbane's very first horse-drawn tramcar begin passenger service?",
+      "options": [
+        {
+          "id": "a",
+          "label": "1885"
+        },
+        {
+          "id": "b",
+          "label": "1897"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "The horse-drawn service started on 10 August 1885; electric trams didn't arrive until 1897, often confused as Brisbane's 'first' trams.",
+      "source": {
+        "title": "Tram Pole | Heritage Places",
+        "url": "https://heritage.brisbane.qld.gov.au/heritage-places/2811",
+        "publisher": "Brisbane City Council Heritage Places",
+        "verifierNote": "Page states: 'Construction of the tramway network began in early 1885, and Brisbane's first horse-drawn tramcar operated on 10 August of the same year.' Also states first electric trams arrived in 1897."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "transport",
+        "trams",
+        "1885",
+        "history",
+        "inner-city"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-008",
+      "status": "approved",
+      "category": "homes_lifestyle",
+      "topicKey": "fernberg-government-house-1910",
+      "prompt": "Fernberg — now Queensland's Government House — has been the official home of Queensland Governors since which year?",
+      "options": [
+        {
+          "id": "a",
+          "label": "1910"
+        },
+        {
+          "id": "b",
+          "label": "1865"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "Fernberg was built in 1865 by merchant Johann Heussler, but Queensland Governors only moved in from 1910, after the original Government House became the University of Queensland.",
+      "source": {
+        "title": "The History | Government House Queensland",
+        "url": "https://www.govhouse.qld.gov.au/government-house/about-government-house/the-history",
+        "publisher": "Government House Queensland",
+        "verifierNote": "Page states: ''Fernberg' was one of the first houses built in Brisbane's Paddington area and since 1910, has been the home and workplace of Queensland Governors.' Also references the original merchant-built villa of 1865."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 2,
+      "knowledgeOnly": false,
+      "tags": [
+        "Paddington",
+        "Government-House",
+        "Fernberg",
+        "heritage",
+        "1910"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-009",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "story-bridge-name-origin",
+      "prompt": "The Story Bridge is one of Brisbane's most iconic landmarks — but who was it named after?",
+      "options": [
+        {
+          "id": "a",
+          "label": "A Queensland public servant"
+        },
+        {
+          "id": "b",
+          "label": "The engineer who designed it"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "It honours J.D. Story, Queensland's Public Service Commissioner 1920–39 — not designer John Bradfield, who built Sydney Harbour Bridge.",
+      "source": {
+        "title": "80 years strong – A Story Bridge Anniversary",
+        "url": "https://blog.qm.qld.gov.au/2020/07/06/80-years-strong-a-story-bridge-anniversary/",
+        "publisher": "Queensland Museum",
+        "verifierNote": "Page states the bridge 'was named after J.D. Story, a prominent Queensland public servant who held the position of Public Service Commissioner from 1920 up until 1939' — explicitly distinguishing him from engineer Bradfield."
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "story-bridge",
+        "naming",
+        "public-servant",
+        "john-bradfield",
+        "kangaroo-point"
+      ]
+    },
+    {
+      "id": "flip-auto-20260826-010",
+      "status": "approved",
+      "category": "wildcard",
+      "topicKey": "ekka-royal-prefix-year",
+      "prompt": "Brisbane's beloved Ekka is officially the *Royal* Queensland Show — but in what year did it earn the 'Royal' prefix?",
+      "options": [
+        {
+          "id": "a",
+          "label": "1921"
+        },
+        {
+          "id": "b",
+          "label": "1901"
+        }
+      ],
+      "correctOptionId": "a",
+      "reveal": "King George V granted the 'Royal' prefix by warrant in 1921, 45 years after the very first Exhibition was held at Bowen Park in 1876.",
+      "source": {
+        "title": "About the RNA",
+        "url": "https://www.rna.org.au/about-us/about-the-rna/",
+        "publisher": "Royal National Agricultural and Industrial Association of Queensland (RNA)",
+        "verifierNote": "Page explicitly states: 'The first Royal Show was held in 1921, when the Association was granted the prefix under warrant from His Majesty King George V.'"
+      },
+      "verifiedOn": "2026-08-26",
+      "predictedDifficulty": 3,
+      "knowledgeOnly": false,
+      "tags": [
+        "ekka",
+        "royal-queensland-show",
+        "RNA",
+        "king-george-v",
+        "history"
+      ]
+    }
+  ]
+}
