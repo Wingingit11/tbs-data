@@ -51,6 +51,11 @@ var ALLOW_HOSTS = [
   "www.govhouse.qld.gov.au", "govhouse.qld.gov.au",
   "blogs.archives.qld.gov.au"
 ];
+/* Pages that render client-side. A server fetch returns a shell with no text,
+ * so corroboration can never succeed - reject with a useful reason rather than
+ * a misleading "the page does not state the answer". */
+var JS_RENDERED = ["apps.des.qld.gov.au", "environment.des.qld.gov.au"];
+function isJsRendered(h) { return JS_RENDERED.indexOf((h || "").toLowerCase()) >= 0; }
 function hostAllowed(h) {
   h = (h || "").toLowerCase();
   if (ALLOW_HOSTS.indexOf(h) >= 0) return true;
@@ -68,7 +73,12 @@ function fetchText(url, redirects) {
     var mod;
     try { mod = /^http:$/i.test(new URL(url).protocol) ? http : https; }
     catch (e) { return resolve({ status: 0, text: "", note: "unparseable url" }); }
-    var req = mod.get(url, { headers: { "User-Agent": "flip-source-verifier/1.0" } }, function (res) {
+    var req = mod.get(url, { headers: {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
+        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-AU,en;q=0.9"
+    } }, function (res) {
       if ([301, 302, 303, 307, 308].indexOf(res.statusCode) >= 0 && res.headers.location) {
         res.resume();
         var next = new URL(res.headers.location, url).toString();
@@ -90,7 +100,10 @@ function strip(html) {
     .replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ")
     .replace(/\s+/g, " ").toLowerCase();
 }
-var STOP = /^(the|a|an|of|in|on|at|to|for|and|or|was|were|is|are|by|with|from|its|it|that|this|which|what|who|when|brisbane|queensland)$/;
+var STOP = new RegExp("^(the|a|an|of|in|on|at|to|for|and|or|was|were|is|are|by|with|" +
+  "from|its|it|that|this|which|what|who|when|brisbane|queensland|rather|than|" +
+  "made|built|used|first|also|been|have|had|they|their|there|then|other|" +
+  "would|could|about|more|most|some|only|very|much|many)$", "i");
 function keyTerms(s) {
   return Array.from(new Set((s || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ")
     .split(/\s+/).filter(function (w) { return w.length > 3 && !STOP.test(w); })));
@@ -143,6 +156,12 @@ function supportScore(text, label) {
   var terms = keyTerms(label);
   if (!terms.length) return 0;
   return terms.filter(function (t) { return text.indexOf(t) >= 0; }).length / terms.length;
+}
+
+function revealHighEnough(q, pageText) {
+  var t = keyTerms(q.reveal);
+  if (!t.length) return false;
+  return t.filter(function (x) { return pageText.indexOf(x) >= 0; }).length / t.length >= 0.7;
 }
 
 function corroborate(pageText, pageTitle, rec) {
@@ -200,6 +219,15 @@ function corroborate(pageText, pageTitle, rec) {
    * ordering. */
   var sRight = supportScore(pageText, right.label);
   var sWrong = supportScore(pageText, wrong.label);
+  /* Landmark questions score 1.00 vs 1.00 because both options describe the same
+     building and therefore share nearly all their words. What matters is the
+     DIFFERENCE between them: the page must contain the answer's distinguishing
+     terms and not the distractor's. */
+  var rTerms = wordTerms(right.label), wTerms = wordTerms(wrong.label);
+  var rOnly = rTerms.filter(function (t) { return wTerms.indexOf(t) < 0; });
+  var wOnly = wTerms.filter(function (t) { return rTerms.indexOf(t) < 0; });
+  var rOnlyHit = rOnly.length ? rOnly.filter(function (t) { return pageText.indexOf(t) >= 0; }).length / rOnly.length : 0;
+  var wOnlyHit = wOnly.length ? wOnly.filter(function (t) { return pageText.indexOf(t) >= 0; }).length / wOnly.length : 0;
   var discriminates;
   if (q.category === "which_came_first") {
     var bothPresent = sRight >= 0.5 && sWrong >= 0.5;
@@ -256,12 +284,28 @@ function corroborate(pageText, pageTitle, rec) {
        So require the ANSWER to be strongly supported and to beat the distractor,
        rather than demanding a gap word-overlap cannot deliver. A distractor that
        scores AS HIGH as the answer is still refused - that is real ambiguity. */
-    discriminates = sRight >= 0.8 && sRight > sWrong;
-    if (!discriminates) {
-      notes.push(sRight < 0.8
-        ? "the page does not clearly state the answer (support " + sRight.toFixed(2) + ")"
-        : "the distractor is supported as well as the answer (" + sRight.toFixed(2) +
-          " vs " + sWrong.toFixed(2) + ") - ambiguous");
+    if (sRight >= 0.8 && sRight > sWrong) {
+      discriminates = true;                       // clear-cut, as before
+    } else if (!rOnly.length && !wOnly.length) {
+      /* Tested against the real Tram Pole page: "metal rather than timber" vs
+         "timber rather than metal" are the SAME word set. No bag-of-words test
+         can ever separate them, and pretending otherwise would let a reversed
+         answer through. Refuse, and say what to write instead. */
+      discriminates = false;
+      notes.push("the two options use the same words in a different order - rewrite " +
+        "them so they differ in substance, not word order");
+    } else if (rOnly.length && wOnly.length) {
+      /* Same-subject options: judge on the distinguishing terms alone. */
+      discriminates = rOnlyHit >= 0.5 && rOnlyHit > wOnlyHit && revealHighEnough(q, pageText);
+      if (!discriminates) {
+        notes.push(rOnlyHit < 0.5
+          ? "the page does not state what makes the answer correct (" +
+            rOnly.slice(0, 4).join(", ") + ")"
+          : "the page supports the distractor's specifics just as well - ambiguous");
+      }
+    } else {
+      discriminates = false;
+      notes.push("the page does not clearly state the answer (support " + sRight.toFixed(2) + ")");
     }
   }
 
@@ -290,7 +334,12 @@ function corroborate(pageText, pageTitle, rec) {
     var rec = recs[i], q = engine.normalise(rec), reasons = [], detail = null;
     var host = "";
     try { host = new URL(q.sourceUrl).hostname; } catch (e) { reasons.push("source url malformed"); }
-    if (host && !hostAllowed(host)) reasons.push("host not on the authoritative allow-list: " + host);
+    if (host && isJsRendered(host)) {
+      reasons.push("that site renders its text in the browser, so it cannot be " +
+        "machine-verified - cite the Brisbane City Council heritage-places page instead");
+    } else if (host && !hostAllowed(host)) {
+      reasons.push("host not on the authoritative allow-list: " + host);
+    }
 
     if (!reasons.length) {
       var res;
