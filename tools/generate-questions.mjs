@@ -96,6 +96,13 @@ Preferred sources, in order: Brisbane City Council Heritage Places
 State Library of Queensland, Trove, Queensland Museum, official venue or institution
 history pages, Visit Brisbane.
 
+OPTION WORDING - this one matters most:
+- NEVER make an option a bare number or year. "1897" vs "1885" cannot be verified
+  against a source page, because a page about trams mentions a dozen years.
+- Always word the options. Good: "The Story Bridge" / "The Victoria Bridge",
+  "The 1960s" / "The 1980s", "Rows of terrace houses" / "Detached Queenslanders".
+- Put the dates in the REVEAL, not in the options.
+
 QUALITY: Brisbane-specific; one objectively correct answer; a plausible (not silly)
 distractor; no subjective "best"; no live or unstable statistics; no CBD-distance,
 business-count, school-count or park-count questions; interesting enough to be worth
@@ -112,7 +119,8 @@ async function draftSlot(slot) {
     tools: [{ type: "web_search_20250305", name: "web_search" }],
     messages: [{
       role: "user",
-      content: `Research and draft ${slot.count} question(s) for the "${slot.category}" slot at predictedDifficulty ${slot.difficulty}.
+      content: `CATEGORY: ${slot.category}   (every record you return MUST have "category": "${slot.category}")
+Research and draft ${slot.count} question(s) for the "${slot.category}" slot at predictedDifficulty ${slot.difficulty}.
 knowledgeOnly must be ${slot.category === "wildcard" ? "true or false (your choice)" : "false"}.
 ${slot.category === "which_came_first" ? "This compares two Brisbane events. Verify BOTH dates, citing the stronger source; mention the second date in the reveal only if the cited page states it.\n" : ""}
 Do NOT reuse any of these existing topicKeys or anything factually equivalent:
@@ -151,9 +159,14 @@ const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, "");
 const out = [];
 for (const slot of quota) {
   const drafted = await draftSlot(slot);
-  drafted.forEach((r, i) => {
-    /* Force the fields the pipeline keys on, so a model slip cannot mis-file a
-       record into a slot it was not researched for. */
+  let kept = 0, wrongSlot = 0;
+  drafted.forEach((r) => {
+    /* Run one produced ten suburb_story records because the override below
+       stamped the requested slot onto whatever came back, hiding the fact that
+       the model had ignored the category. Now a record that comes back for the
+       wrong category is DISCARDED rather than relabelled - a mislabelled
+       question is worse than a missing one. */
+    if (r.category && r.category !== slot.category) { wrongSlot++; return; }
     r.id = r.id && !out.some((o) => o.id === r.id) ? r.id
       : `flip-auto-${stamp}-${String(out.length + 1).padStart(3, "0")}`;
     r.category = slot.category;
@@ -162,8 +175,10 @@ for (const slot of quota) {
     r.status = "approved";
     if (r.source && !r.source.verifierNote) r.source.verifierNote = "";
     out.push(r);
+    kept++;
   });
-  console.log(`  ${slot.category}: ${drafted.length} drafted`);
+  console.log(`  ${slot.category}: ${kept} drafted` +
+    (wrongSlot ? `  (${wrongSlot} discarded - returned for the wrong category)` : ""));
 }
 
 /* Cheap pre-filter so obviously duplicated prompts never reach the verifier. */
