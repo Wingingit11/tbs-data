@@ -61,7 +61,11 @@ function seedUrls(n) {
 
 const KEY = process.env.ANTHROPIC_API_KEY;
 if (!KEY) { console.error("ANTHROPIC_API_KEY is not set - refusing to run."); process.exit(2); }
-const MAX = Math.max(1, parseInt(process.env.MAX_PER_RUN || "10", 10));
+/* Search cost is per CALL. Two questions per call meant paying full research
+   overhead for two records; eight per call amortises it. Run with MAX_PER_RUN=40
+   rather than 10 - it is roughly the same number of calls for four times the
+   output. */
+const MAX = Math.max(1, parseInt(process.env.MAX_PER_RUN || "40", 10));
 const MODEL = process.env.FLIP_MODEL || "claude-sonnet-4-6";
 
 const runway = rj("runway.internal.json", null);
@@ -214,6 +218,12 @@ Return the JSON array only.`
 }
 
 const stamp = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+/* Start numbering after the highest flip-auto id already in the bank for today. */
+let nextSeq = 1;
+bank.forEach((q) => {
+  const m = /^flip-auto-\d{8}-(\d+)$/.exec(q.id || "");
+  if (m) nextSeq = Math.max(nextSeq, parseInt(m[1], 10) + 1);
+});
 const out = [];
 for (const slot of quota) {
   const drafted = await draftSlot(slot);
@@ -225,8 +235,11 @@ for (const slot of quota) {
        wrong category is DISCARDED rather than relabelled - a mislabelled
        question is worse than a missing one. */
     if (r.category && r.category !== slot.category) { wrongSlot++; return; }
-    r.id = r.id && !out.some((o) => o.id === r.id) ? r.id
-      : `flip-auto-${stamp}-${String(out.length + 1).padStart(3, "0")}`;
+    /* Never reuse an id the bank already holds, and never trust the model's own.
+       Numbering restarted at 001 each run, so run 2 on the same date collided
+       with run 1 and its candidates were quarantined as duplicates despite
+       verifying cleanly. Continue past whatever is already banked. */
+    r.id = `flip-auto-${stamp}-${String(nextSeq++).padStart(3, "0")}`;
     r.category = slot.category;
     r.predictedDifficulty = slot.difficulty;
     if (slot.category !== "wildcard") r.knowledgeOnly = false;
@@ -240,7 +253,15 @@ for (const slot of quota) {
 }
 
 /* Cheap pre-filter so obviously duplicated prompts never reach the verifier. */
-const fresh = out.filter((r) => !usedPrompts.includes(r.prompt));
+const seenTopic = {}, seenPrompt = {};
+const fresh = out.filter((r) => {
+  const t = (r.topicKey || "").toLowerCase(), p = (r.prompt || "").trim().toLowerCase();
+  if (usedPrompts.includes(r.prompt)) return false;
+  if (seenTopic[t] || seenPrompt[p]) return false;   // repeated by the salvage
+  seenTopic[t] = seenPrompt[p] = true;
+  return true;
+});
+console.log(`  ${out.length - fresh.length} in-batch duplicates dropped before verification`);
 fs.mkdirSync(P("batches"), { recursive: true });
 fs.writeFileSync(P("batches/auto-latest.json"),
   JSON.stringify({ _note: "CANDIDATES - unverified. Must pass flip-verify-sources.js then flip-ingest.js.",
